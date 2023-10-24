@@ -1,0 +1,42 @@
+Trehalose (from Turkish tıgala – a sugar derived from insect cocoons + -ose)[3] is a sugar consisting of two molecules of glucose.  It is also known as mycose or tremalose. Some bacteria, fungi, plants and invertebrate animals synthesize it as a source of energy, and to survive freezing and lack of water.
+
+Extracting trehalose was once a difficult and costly process, but around 2000, the Hayashibara company (Okayama, Japan) discovered an inexpensive extraction technology from starch.[4][5] Trehalose has high water retention capabilities, and is used in food, cosmetics and as a drug. A procedure developed in 2017 using trehalose allows sperm storage at room temperatures.[6]
+
+Trehalose is a disaccharide formed by a 1,1-glycosidic bond between two α-glucose units. It is found in nature as a disaccharide and also as a monomer in some polymers.[7] Two other isomers exist, α,β-trehalose, otherwise known as neotrehalose, and β,β-trehalose (also referred to as isotrehalose). Neotrehalose has not been isolated from a living organism. Isotrehalose is also yet to be isolated from a living organism, but was found in starch hydroisolates.[7]
+
+At least three biological pathways support trehalose biosynthesis.[7] An industrial process can derive trehalose from corn starch.[8]
+
+Trehalose is a nonreducing sugar formed from two glucose units joined by a 1–1 alpha bond, giving it the name α-D-glucopyranosyl-(1→1)-α-D-glucopyranoside. The bonding makes trehalose very resistant to acid hydrolysis, and therefore is stable in solution at high temperatures, even under acidic conditions. The bonding keeps nonreducing sugars in closed-ring form, such that the aldehyde or ketone end groups do not bind to the lysine or arginine residues of proteins (a process called glycation).  Trehalose is less soluble than sucrose, except at high temperatures (>80 °C). Trehalose forms a rhomboid crystal as the dihydrate, and has 90% of the calorific content of sucrose in that form. Anhydrous forms of trehalose readily regain moisture to form the dihydrate. Anhydrous forms of trehalose can show interesting physical properties when heat-treated.
+
+Trehalose aqueous solutions show a concentration-dependent clustering tendency. Owing to their ability to form hydrogen bonds, they self-associate in water to form clusters of various sizes. All-atom molecular dynamics simulations showed that concentrations of 1.5–2.2 molar allow trehalose molecular clusters to percolate and form large and continuous aggregates.[9]
+
+Trehalose directly interacts with nucleic acids, facilitates melting of double stranded DNA and stabilizes single-stranded nucleic acids.[10]
+
+Organisms ranging from bacteria, yeast, fungi, insects, invertebrates, and lower and higher plants have enzymes that can make trehalose.[7]
+In nature, trehalose can be found in plants, and microorganisms.  In animals, trehalose is prevalent in shrimp, and also in insects, including grasshoppers, locusts, butterflies, and bees, in which trehalose serves as blood-sugar.[citation needed] Trehalase genes are found in tardigrades, the microscopic ecdysozoans found worldwide in diverse extreme environments.[11]
+
+Trehalose is the major carbohydrate energy storage molecule used by insects for flight.[citation needed] One possible reason for this is that the glycosidic linkage of trehalose, when acted upon by an insect trehalase, releases two molecules of glucose, which is required for the rapid energy requirements of flight. This is double the efficiency of glucose release from the storage polymer starch, for which cleavage of one glycosidic linkage releases only one glucose molecule.[citation needed]
+
+In plants, trehalose is seen in sunflower seeds, moonwort, Selaginella plants,[12] and sea algae. Within the fungi, it is prevalent in some mushrooms, such as shiitake (Lentinula edodes), oyster, king oyster, and golden needle.[13]
+
+Even within the plant kingdom, Selaginella (sometimes called the resurrection plant), which grows in desert and mountainous areas, may be cracked and dried out, but will turn green again and revive after rain because of the function of trehalose.[12]
+
+The two prevalent theories as to how trehalose works within the organism in the state of cryptobiosis are the vitrification theory, a state that prevents ice formation, or the water displacement theory, whereby water is replaced by trehalose.[11][14]
+
+In bacterial cell wall, trehalose has a structural role in adaptive responses to stress such as osmotic differences and extreme temperature.[15] Yeast uses trehalose as a carbon source in response to abiotic stresses.[16] In humans, the only known function of trehalose is its ability to activate autophagy inducer.[clarification needed]
+
+Trehalose has also been reported for anti-bacterial, anti-biofilm, and anti-inflammatory (in vitro and in vivo) activities, upon its esterification with fatty acids of varying chain lengths.[17]
+
+Trehalose is rapidly broken down into glucose by the enzyme trehalase, which is present in the brush border of the intestinal mucosa of omnivores (including humans) and herbivores.[18]: 135  It causes less of a spike in blood sugar than glucose.[19]  Trehalose has about 45% the sweetness of sucrose at concentrations above 22%, but when the concentration is reduced, its sweetness decreases more quickly than that of sucrose, so that a 2.3% solution tastes 6.5 times less sweet as the equivalent sugar solution.[20]: 444 
+
+It is commonly used in prepared frozen foods, like ice cream, because it lowers the freezing point of foods.[19]
+
+Deficiency of trehalase enzyme is unusual in humans, except in the Greenlandic Inuit, where it occurs in 10–15% of the population.[21]: 197 
+
+Five biosynthesis pathways have been reported for trehalose. The most common pathway is TPS/TPP pathway which is used by organisms that synthesize trehalose using the enzyme trehalose-6-phosphate (T6P) synthase (TPS).[22] Second, trehalose synthase (TS) in certain types of bacteria could produce trehalose by using maltose and another disaccharide with two glucose units as substrates.[23] Third, the TreY-TreZ pathway in some bacteria converts starch that contain maltooligosaccharide or glycogen directly into trehalose.[24] Fourth, in primitive bacteria, trehalose glycisyltransferring synthase (TreT) produces trehalose from ADP-glucose and glucose.[25] Fifth, trehalose phosphorylase (TreP) either hydrolyses trehalose into glucose-1-phosphate and glucose or may act reversibly in certain species.[26] Vertebrates do not have the ability to synthesize or store trehalose.[27] Trehalase in humans is found only in specific location such as the intestinal mucosa, renal brush-border, liver and blood. Expression of this enzyme in vertebrates is initially found during the gestation period that is the highest after weaning. Then, the level of trehalase remained constant in the intestine throughout life.[28] Meanwhile, diets consisting of plants and fungi contain trehalose. Moderate amount of trehalose in diet is essential and having low amount of trehalose could result in diarrhea, or other intestinal symptoms.[29]
+
+Trehalose is an ingredient, along with hyaluronic acid, in an artificial tears product used to treat dry eye.[30][16] Outbreaks of Clostridium difficile were initially associated with trehalose,[19][31][32].  This finding was disputed in 2019.[33]
+
+In 1832, H.A.L. Wiggers discovered trehalose in an ergot of rye,[34]  and in 1859 Marcellin Berthelot isolated it from Trehala manna, a substance made by weevils and named it trehalose.[35]
+
+Trehalose has long been known as an autophagy inducer that acts independently of mTOR.[36] In 2017 research was published showing that trehalose induces autophagy by activating TFEB,[37] a protein that acts as a master regulator of the autophagy-lysosome pathway.[38]

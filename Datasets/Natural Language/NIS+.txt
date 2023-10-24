@@ -1,0 +1,27 @@
+NIS+ is a directory service developed by Sun Microsystems to replace its older 'NIS' (Network Information Service).  It is designed to eliminate the need for duplication across many computers of configuration data such as user accounts, host names and addresses, printer information and NFS disk mounts on individual systems, instead using a central repository on a master server, simplifying system administration.  NIS+ client software has been ported to other Unix and Unix-like platforms.
+
+Prior to the release of Solaris 9 in 2002, Sun announced its intent to remove NIS+ from Solaris in a future release and now recommends that customers instead use an LDAP-based lookup scheme.
+
+NIS+  was present in Solaris 9 and 10 (although both releases include tools to migrate NIS+ data to an LDAP server)[1] and it has been removed from Solaris 11.[2]
+
+NIS and NIS+ are similar only in purpose and name, otherwise, they are completely different implementations. They differ in the following ways:
+
+In the 1970s, when computers were expensive, and networks consisted of a small number of nodes, administering network information was manageable, and a centralized system was not needed.  As computers became cheaper and networks grew larger, it became increasingly difficult to maintain separate copies of network configurations on individual systems.
+
+For example, when a new user was added to the network, the following files would need to be updated on every existing system:
+
+Likewise, /etc/group would have needed updating every time a new group was added and /etc/hosts would have needed updating every time a new computer was added to the network.
+
+If a new user with a new system was added to a network of 20 existing systems, the UNIX administrator would need to modify 5 files on 21 machines - 105 files in all. With NIS+, adding users and machines to the network requires changes only to the NIS+ server's maps and the new host's /etc/nsswitch.conf needs to point to the NIS+ server. When a user logs into any other machine, that host (the NIS+ client), knowing who the NIS+ server is, queries it for the username and password to identify and authenticate the user.
+
+NIS+ also manages several other types of data: NFS mounts (auto_master, auto_home), network booting and other parameters (bootparams, ethers, netmasks, netgroup, networks, protocols, rpc, services), security access (cred), aliases, and time zone.
+
+An installation of NIS+ comes with such table structures predefined. There are facilities available to create other tables as needed.
+
+Other alternative schemes for storing network information exist, such as the LDAP standard maintained by the IETF, including Microsoft's LDAP implementation, Active Directory.  LDAP can be configured to handle more general information, such as corporate employee structures, phone numbers, address, etc. so it requires more thought and planning. Many organizations require all the features of NIS+, LDAP, and Active Directory and run them all simultaneously.[citation needed]
+
+Another alternative that has been popular in certain environments is the Hesiod name service, which is based on the DNS protocols.[citation needed]
+
+Unlike NIS, NIS+ uses a hierarchical structure of multiple domains. A NIS+ domain can, and should, be serviced by multiple servers. The primary server is known as the master server, and backup servers are known as replica servers. Both types hold copies of the NIS+ tables. Changes are first committed to the master server and then propagated to replica servers in increments.
+
+NIS+ table permissions determine a user's level of access to the table's contents.

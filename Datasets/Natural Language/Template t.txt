@@ -1,0 +1,33 @@
+This template was created during this discussion (old diff linked) at Wikipedia talk:WikiProject Essays. It draws together the 4 existing templates ({{Essays on building Wikipedia}}, {{Civility}}, {{Essays on notability}}, {{Humorous essays}}), solves much of the overlap and inconsistency, and creates a more central area for discussion. Hopefully it helps. –Quiddity (talk) 06:18, 15 December 2012 (UTC)Reply[reply]
+
+I've looked at the template, and I noticed it gives conflicting advice - it gives us advice to call a spade a spade, but also gives advice to not call a spade a spade. I'm confused as to which advice to take on this subject. I urge a bit of cleanup in that regard, and I'm siding with the "not spade" option to avoid incivility. Aerospeed (Talk) 18:09, 9 February 2014 (UTC)Reply[reply]
+
+I propose to restore the link to the essay on sham consensus, which was deleted from this template as part of "cull[ing] tangents". No other essay listed in the template appears to overlap the essay's scope. While three other essays are related (on false consensus, wrongful consensus, and procedurally flawed consensus), they're not listed in this template but are linked to from within the sham consensus essay, which is the more comprehensive essay. The Don't drink the consensus Kool-Aid essay (linked to in the template) is quite different. I'll wait a week for any response. Nick Levinson (talk) 02:21, 17 July 2014 (UTC) (After earlier title correction, corrected punctuation: 02:34, 17 July 2014 (UTC))Reply[reply]
+
+I don't really think Wikipedia:Bad Jokes and Other Deleted Unblock Emails is an essay. CamelCase (MyTalk | ConTribs) 01:01, 12 September 2016 (UTC)Reply[reply]
+
+
+
+Please discuss if Wikipedia:Sausages for tasting, a humorous essay concerning Articles for deletion, should or should not be included on this template.  -- 1Wiki8........................... (talk) 07:52, 8 October 2016 (UTC)Reply[reply]
+
+A discussion about WP:BEANS and this template: please see Wikipedia talk:Don't stuff beans up your nose#What type of essay is this?. Thank you. CamelCase (Talk | Contribs) 05:07, 11 October 2016 (UTC)Reply[reply]
+
+
+
+Hello, I (not so) humbly suggest the following essays for addition to the template:
+
+Naturally, I find them to be quite profound!--Paul McDonald (talk) 15:51, 26 October 2016 (UTC)Reply[reply]
+
+added new essay Wikipedia:What_to_include. feel free to look it over, and to comment on the talk page. thanks!! --Sm8900 (talk) 02:00, 13 September 2017 (UTC)Reply[reply]
+
+It's too much to ask that editors adding an essay to this main template also add it to the sub-template to keep them synced. Instead, one should transclude or be excerpted into the other. Sdkb (talk) 07:09, 28 March 2020 (UTC)Reply[reply]
+
+It's been a fee years but I think it's time we go over this again and remove the junk. Getting bloated with useless essays again. WI'll take a look this weekend.--Moxy 🍁 20:51, 26 May 2020 (UTC)Reply[reply]
+
+@TheTVExpert and Primefac: Following the merge discussion, do you think it's better to have e.g. Template:Civility redirect here or wrap {{Wikipedia essays}} so that the civility section will be expanded? I don't have a strong preference either way — the redirects are a cleaner consolidation but the wrappers would better keep what the essays that used the more specialized templates had. Thank you Primefac for carrying out the merge. {{u|Sdkb}} talk 00:41, 3 June 2020 (UTC)Reply[reply]
+
+I propose renaming the segment presently called "Essays on civility" to "Essays on civility and behavior" or just "Essays on behavior". That would help us include essays that are mostly behavioral but not about civility in particular, without trying to shoehorn them into other sections that are only quasi-relevant (e.g. mostly about content or about editing philosophy).  — SMcCandlish ☏ ¢ 😼  17:46, 20 November 2020 (UTC)Reply[reply]
+
+Hi, I came across Wikipedia:Presentism, and I found it interesting. I don't see it listed in the Essays template and I think it could be a good addition. However, before I try to add it, I wanted to ask here: is there a selection criteria for when to add or not add an essay to the template (beyond fulfilling the basic requirements of being an acceptable essay in the first place)? Thank you. Al83tito (talk) 01:37, 27 July 2021 (UTC)Reply[reply]
+
+Please remove * [[Wikipedia:There is such a thing as banana ketchup|There is such a thing as banana ketchup]] from the "humorous essays" section of the template, as it is a deleted page created by blocked user TwentytwoAug (talk · contribs). 2601:647:5800:1A1F:DC52:32D7:10ED:939F (talk) 03:44, 2 March 2022 (UTC)Reply[reply]

@@ -1,0 +1,31 @@
+K Desktop Environment 3 is the third series of releases of the K Desktop Environment (after that called KDE Software Compilation). There are six major releases in this series. After the release of KDE 4, version 3.5 was forked into the Trinity Desktop Environment.
+
+K Desktop Environment 3.0 introduced better support for restricted usage, a feature demanded by certain environments such as kiosks, Internet cafes and enterprise deployments, which disallows the user from having full access to all capabilities of a piece of software.[1] To address these needs, KDE 3.0 included a new lockdown framework, essentially a permissions-based system for altering application configuration options that supplements the standard UNIX permissions system.[2] The KDE panel and the desktop manager were modified to employ this system, but other major desktop components, such as Konqueror and the Control Center, had to wait for subsequent releases.[3]
+
+K Desktop Environment 3.0 debuted a new printing framework, KDEPrint. KDEPrint's modular design enabled it to support different printing engines, such as CUPS, LPRng, and LDP/LPR. In conjunction with CUPS, KDEPrint was able to manage an elaborate enterprise networked printing system. Since KDEPrint provides a command-line interface, its framework, including its GUI configuration elements, is accessible to non-KDE applications, such as OpenOffice.org, the Mozilla Application Suite, and Acrobat Reader.[3]
+
+This release also introduced a new KDE address book library providing a central address book for all KDE applications. The new library is based on the vCard standard and has provisions for being extended by additional backends such as LDAP and database servers.[3]
+
+K Desktop Environment 3.1 introduced new default window (Keramik) and icon (Crystal) styles as well as several feature enhancements.[4]
+
+The update included greatly improved LDAP integration throughout Kontact, enhanced security for KMail (S/MIME, PGP/MIME and X.509v3 support) and Microsoft Exchange 2000 compatibility for KOrganizer. The desktop lockdown framework, introduced in version 3.0, was extended. Other improvements included tabbed browsing in Konqueror; a new download manager, KGet; a new multimedia player plugin, based on Xine, and a desktop sharing framework.[4]
+
+K Desktop Environment 3.2 included new features, such as inline spell checking for web forms and emails, improved e-mail and calendaring support, tabs in Konqueror and support for Microsoft Windows desktop sharing protocol (RDP). Performance and Freedesktop.org standards compliance were improved by lower start up times for applications and strengthened interoperability with other Linux and UNIX software. After the KDE community worked in concert with Apple's Safari web browser team, KDE's web support saw performance boosts and increased compliance with web standards.[6]
+
+KDE Desktop Environment improved usability by reworking many applications, dialogs and control panels to focus on clarity and utility, and by reducing clutter in many menus and toolbars. Hundreds of new icons were created to improve the consistency of the environment, along with changes to the default visual style, including new splash screens, animated progress bars and styled panels. The Plastik style debuted in this release.[6]
+
+New applications included:[6]
+
+K Desktop Environment 3.3 focused on integrating different desktop components. Kontact was integrated with Kolab, a groupware application, and Kpilot. Konqueror was given better support for instant messaging contacts, with the capability to send files to IM contacts and support for IM protocols (e.g., IRC). KMail was given the ability to display the online presence of IM contacts. Juk was given support for burning audio CDs with K3b.[7]
+
+This update also included many small desktop enhancements. Konqueror received tab improvements, an RSS feed viewer sidebar and a searchbar compatible with all keyword searches. KMail was given HTML composition, anti-spam and anti-virus wizards, automatic handling of mailing lists, improved support for cryptography and a quick search bar. Kopete gained support for file transfers with Jabber, aRts gained jack support and KWin gained new buttons to support more features, such as "always on top".[7]
+
+New applications included:[7]
+
+K Desktop Environment 3.4 focused on improving accessibility. The update added a text-to-speech system with support for Konqueror, Kate, KPDF, the standalone application KSayIt and text-to-speech synthesis on the desktop. A new high contrast style and a complete monochrome icon set were added, as well as an icon effect to paint all KDE icons into any two arbitrary colors (third party application icons would be converted into a high contrast monochrome color scheme).[8]
+
+Kontact got support for various groupware servers, and Kopete was integrated into Kontact. KMail gained the ability to store passwords securely in KWallet. KPDF gained the ability to select and copy and paste text and images from PDFs, along with many other improvements. The update added a new application, Akregator, which provides the ability to read news from various RSS-enabled websites all in one application.[8]
+
+The update added DBUS/HAL support to allow dynamic device icons to keep in sync with the state of all devices. Kicker was given an improved visual aesthetic, and the trash system was redesigned to be more flexible. The new desktop environment allows SVG to be used as wallpapers. KHTML was improved standards support, having nearly full support for CSS 2.1 and CSS 3. In addition, KHTML plug-ins were allowed to be activated on a case-by-case basis. There were also improvements to the way Netscape plug-ins are handled.[8]
+
+The K Desktop Environment 3.5 release added SuperKaramba, which provides integrated and simple-to-install widgets to the desktop. Konqueror was given an ad-block feature and became the second web browser to pass the Acid2 CSS test, ahead of Firefox and Internet Explorer. Kopete gained webcam support for the MSN and Yahoo! Messenger protocols. The edutainment module included three new applications, KGeography, Kanagram and blinKen. Kalzium also saw improvements.[9] Upon the release of KDE 4, KDE 3.5 was forked as Trinity Desktop Environment.

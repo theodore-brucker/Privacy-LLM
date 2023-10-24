@@ -1,0 +1,19 @@
+Okular is a multiplatform document viewer developed by the KDE community and based on Qt and KDE Frameworks libraries. It is distributed as part of the KDE Applications bundle. Its origins are from KPDF and it replaces KPDF, KGhostView, KFax, KFaxview and KDVI in KDE 4. Its functionality can be embedded in other applications.
+
+Okular was started for the Google Summer of Code of 2005 by Piotr Szymański.[1][2]  Okular was identified as a success story of the 2007 Season of Usability.[5] In this season, the Okular toolbar mockup was created based on an analysis of other popular document viewers and a usage survey.
+
+When it was ported to Qt 5 in December 2016, the version numbering jumped from 0.26 to 1.0.[6]
+
+Since September 2019, Okular is available in the Windows Store.[7]
+
+In December 2020, the software versioning scheme was changed from sequence-based identifier to CalVer.
+
+In February 2022, Okular was awarded the Blue Angel environmental label award by the German government for sustainable software design.[8][9]
+
+Okular's annotation features include commenting on PDF documents, highlighting and drawing lines, geometric shapes, adding textboxes, and stamps. Annotations are stored separately from the unmodified PDF file, or (since version 0.15 with Poppler 0.20[10]) can be saved in the document as standard PDF annotations.
+
+It is possible to select parts of the document for copying text or image to the clipboard. Other features include reading text aloud using the Qt Speech module part of Qt since Qt 5 (previously using the Jovie,[11][12]), trimming of white page borders and setting of bookmarks.
+
+It supports the following file formats:[13]
+
+The official version obeys the DRM restrictions of PDF files by default, which may prevent copying, printing, or converting some PDF files. This can be turned off in the options under "Obey DRM limitations", however.[15][16][17][18]

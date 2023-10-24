@@ -1,0 +1,7 @@
+Web IDL is an interface description language (IDL) format for describing APIs (application programming interfaces) that are intended to be implemented in web browsers. Its adoption was motivated by the desire to improve the interoperability of web programming interfaces by specifying how languages such as ECMAScript should bind these interfaces.[1]
+
+Web IDL is an IDL variant with:[2]
+
+Web specifications had been specified using OMG IDL since 1998, first with the DOM Level 1 specification.[3] However, interfaces defined using OMG IDL were not able to specify behavior for JavaScript precisely, leading to issues with interoperability.[3][1] WebIDL improved on this status quo by providing data types and binding specifications that make the intended behavior in JavaScript clearer.
+
+The first edition of the Web IDL specification became a Candidate Recommendation on 19 April 2012 and a W3C Recommendation on 15 December 2016.[4] For many years the Editor's Draft of a potential second edition, was what most new web specifications referenced. On 5 October 2021, the Editor's Draft was moved to the WHATWG as the Web IDL Living Standard per an  update to the agreement between the W3C and WHATWG.

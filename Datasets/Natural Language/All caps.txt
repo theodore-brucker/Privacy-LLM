@@ -1,0 +1,68 @@
+
+
+In typography, text or font in all caps (short for "all capitals") contains capital letters without any lowercase letters. For example: THIS TEXT IS IN ALL CAPS. All-caps text can be seen in legal documents, advertisements, newspaper headlines, and the titles on book covers. Short strings of words in capital letters appear bolder and "louder" than mixed case, and this is sometimes referred to as "screaming" or "shouting".[1] All caps can also be used to indicate that a given word is an acronym.
+
+Studies have been conducted on the readability and legibility of all caps text. Scientific testing from the 20th century onward has generally indicated that all caps text is less legible and readable than lower-case text.[2][3] In addition, switching to all caps may make text appear hectoring and obnoxious for cultural reasons, since all-capitals is often used in transcribed speech to indicate that the speaker is shouting.[4] All-caps text is common in comic books, as well as on older teleprinter and radio transmission systems, which often do not indicate letter case at all.[5][6]
+
+In professional documents, a commonly preferred alternative to all caps text is the use of small caps to emphasise key names or acronyms (for example, Text in Small Caps), or the use of italics or (more rarely) bold.[7] In addition, if all caps must be used it is customary to slightly widen the spacing between the letters, by around 10 per cent of the point height. This practice is known as tracking or letterspacing.[8] Some digital fonts contain alternative spacing metrics for this purpose.[9]
+
+Messages typed completely in capital letters are often equated on social media to shouting and other impolite or argumentative behaviors.[10] This became a mainstream interpretation with the advent of networked computers, from the 1980s onward. However, a similar interpretation was already evidenced by written sources that predated the computing era, in some cases by at least a century, and the textual display of shouting or emphasis was still not a settled matter by 1984. The following sources may be relevant to the history of all caps:[11]
+
+Before the development of lower-case letters in the 8th century, texts in the Latin alphabet were written in a single case, which is now considered to be capital letters. Text in all caps is not widely used in body copy. The major exception to this is the so-called fine print in legal documents.
+
+Capital letters have been widely used in printed headlines from the early days of newspapers until the 1950s. In the 1990s, more than three-quarters of newspapers in the western world used lower-case letters in headline text. Discussion regarding the use of all caps for headlines centers on the greater emphasis offered by all caps versus the greater legibility offered by lower-case letters.[2] Colin Wheildon conducted a scientific study with 224 readers who analyzed various headline styles and concluded that "Headlines set in capital letters are significantly less legible than those set in lower case."[15]
+
+All caps typography was common on teletype machines, such as those used by police departments, news, and the United States' then-called Weather Bureau, as well as early computers, such as certain early Apple II models and the ZX81, which had a limited support for lower-case text. This changed as full support of ASCII became standard, allowing lower-case characters.
+
+Some Soviet computers, such as Radio-86RK, Vector-06C, Agat-7, use 7-bit encoding called KOI-7N2, where capital Cyrillic letters replace lower-case Latin letters in the ASCII table, so can display both alphabets, but all caps only. Mikrosha is switchable to KOI-7N1, in this mode, it can display both caps and lower-case, but in Cyrillic only. Other Soviet computers, such as BK0010, MK 85, Corvette and Agat-9, use 8-bit encoding called KOI-8R, they can display both Cyrillic and Latin in caps and lower-case.
+
+Many, but not all NES games use all caps because of tile graphics, where charset and tiles share the same ROM. Game designers often choose to have less characters in favor of more tiles.
+
+
+With the advent of the bulletin board system, or BBS, and later the Internet, typing messages in all caps commonly became closely identified with "shouting" or attention-seeking behavior, and may be considered rude. Its equivalence to shouting traces back to at least 1984 and before the Internet, back to printed typography usage of all capitals to mean shouting.[16]
+
+For this reason, etiquette generally discourages the use of all caps when posting messages online. While all caps can be used as an alternative to rich-text "bolding" for a single word or phrase, to express emphasis, repeated use of all caps can be considered "shouting" or irritating.[17]
+
+Some aspects of Microsoft's Metro design language involves the use of all caps headings and titles. This has received particular attention when menu and ribbon titles appeared in all caps in Visual Studio 2012 and Office 2013, respectively. Critics have compared this to a computer program shouting at its user. Information technology journalist Lee Hutchinson described Microsoft's using the practice as "LITERALLY TERRIBLE ... [it] doesn't so much violate OS X's design conventions as it does take them out behind the shed, pour gasoline on them, and set them on fire."[18]
+
+In programming, writing in all caps (possibly with underscores replacing spaces) is an identifier naming convention in many programming languages that symbolizes that the given identifier represents a constant.
+
+A practice exists (most commonly in Francophone countries)[19] of distinguishing the surname from the rest of a personal name by stylizing the surname only in all caps. This practice is also common among Japanese, when names are spelled using Roman letters.[citation needed]
+
+In April 2013, the U.S. Navy moved away from an all caps-based messaging system, which was begun with 1850s-era teleprinters that had only uppercase letters.[20] The switch to mixed-case communications was estimated to save the Navy $20 million a year and is compliant with current Internet protocol.[20]
+
+An antiquated practice that still remains in use, especially by older American lawyers who grew up before the arrival of computers, is to use all caps text for text that is legally required to be emphasised and clearly readable.[21] The practice dates to the period of typewriters, which generally did not offer bold text, small capitals, or the opportunity to add marginal notes emphasising key points. 
+
+Legal writing expert Bryan A. Garner has described the practice as "ghastly".[22] A 2020 study found that all-caps in legal texts is ineffective and is, in fact, harmful to older readers.[23] In 2002, a US court spoke out against the practice, ruling that simply making text all-capitals has no bearing on whether it is clear and easily readable:
+
+Lawyers who think their caps lock keys are instant "make conspicuous" buttons are deluded. In determining whether a term is conspicuous, we look at more than formatting. A term that appears in capitals can still be inconspicuous if it is hidden on the back of a contract in small type. Terms that are in capitals but also appear in hard-to-read type may flunk the conspicuousness test. A sentence in capitals, buried deep within a long paragraph in capitals will probably not be deemed conspicuous...it is entirely possible for text to be conspicuous without being in capitals.[24]
+Miles Tinker, renowned for his landmark work, Legibility of Print, performed scientific studies on the legibility and readability of all-capital print. His findings were as follows:
+
+ All-capital print greatly retards speed of reading in comparison with lower-case type. Also, most readers judge all capitals to be less legible. Faster reading of the lower-case print is due to the characteristic word forms furnished by this type. This permits reading by word units, while all capitals tend to be read letter by letter. Furthermore, since all-capital printing takes at least one-third more space than lower case, more fixation pauses are required for reading the same amount of material. The use of all capitals should be dispensed with in every printing situation.[25]
+According to Tinker, "As early as 1914, Starch reported that material set in Roman lower case was read somewhat faster than similar material printed in all capitals."[26] Another study in 1928 showed that "all-capital text was read 11.8 percent slower than lower case, or approximately 38 words per minute slower",[27] and that "nine-tenths of adult readers consider lower case more legible than all capitals".[28]
+
+A 1955 study by Miles Tinker showed that "all-capital text retarded speed of reading from 9.5 to 19.0 percent for the 5 and 10-minute time limits, and 13.9 percent for the whole 20-minute period".[29] Tinker concluded that, "Obviously, all-capital printing slows reading to a marked degree in comparison with Roman lower case."[28]
+
+
+Tinker provides the following explanations for why all capital printing is more difficult to read: 
+Text in all capitals covers about 35 percent more printing surface than the same material set in lower case. This would tend to increase the reading time. When this is combined with the difficulty in reading words in all-capital letters as units, the hindrance to rapid reading becomes marked. In the eye-movement study by Tinker and Patterson, the principal difference in oculomotor patterns between lower case and all capitals was the very large increase in number of fixation pauses for reading the all-capital print.[30]
+
+All caps text should be eliminated from most forms of composition, according to Tinker: 
+Considering the evidence that all-capital printing retards speed of reading to a striking degree in comparison with lower case and is not liked by readers, it would seem wise to eliminate such printing whenever rapid reading and consumer (reader) views are of importance. Examples of this would include any continuous reading material, posters, bus cards, billboards, magazine advertising copy, headings in books, business forms and records, titles of articles, books and book chapters, and newspaper headlines.[31]
+Colin Wheildon stated that there is an "apparent consensus" that lower-case text is more legible, but that some editors continue to use all caps in text regardless. In his studies of all caps in headlines, he states that, "Editors who favor capitals claim that they give greater emphasis. Those who prefer lower case claim their preferences gives greater legibility." Wheildon, who informs us that "When a person reads a line of type, the eye recognizes letters by the shapes of their upper halves", asserts that recognizing words in all caps "becomes a task instead of a natural process".[32] His conclusions, based on scientific testing in 1982–1990, are: "Headlines set in capital letters are significantly less legible than those set in lower case."[33]
+
+John Ryder, in the Case for Legibility, stated that "Printing with capital letters can be done sufficiently well to arouse interest and, with short lines, reading at a slowed speed is possible – but in principle too many factors of low legibility are involved."[34]
+
+Other critics are of the opinion that all caps letters in text are often "too tightly packed against each other".[35]
+
+Besides the aforementioned speed of reading, all caps is constitutionally prone to character-based ambiguities.
+
+Namely, the upper-case letters are globally simpler than their lower-case counterpart. For example, they lack ascenders and descenders.
+Since they are built from fewer positional and building elements (e.g. a smaller grid pertaining to minimalist digital fonts), they are more fragile to small changes.
+
+These variations, generally involuntary but sometimes induced on purpose, are caused by a misinterpretation (the information is transferred) or by a deterioration (the data is lost, in the analysis wording). They can occur horizontally and/or vertically, while misreading (without this extra effort or time), or during a delicate scanning of characters (from a damaged image that needs further contextual text correction).
+
+Depending on the typeface, these similarities accidentally create various duplicates (even quite briefly and without realizing it when reading).
+E.g. H/A, F/E or I/T by adding a bar; P/R, O/Q, even C/G from similar errors; V/U, D/O, even B/S while rounding the shape; and more deformations implying mixings.
+
+Adding digits in all caps styled texts may multiply these confusions, which is one aim of Leet (intentional pseudo duplicates) and can provide simple means of concealing messages (often numbers).

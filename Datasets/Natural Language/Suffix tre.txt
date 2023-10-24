@@ -1,0 +1,648 @@
+In computer science, a suffix tree (also called PAT tree or, in an earlier form, position tree) is a compressed trie containing all the suffixes of the given text as their keys and positions in the text as their values. Suffix trees allow particularly fast implementations of many important string operations.
+
+The construction of such a tree for the string 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ takes time and space linear in the length of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. Once constructed, several operations can be performed quickly, for instance locating a substring in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+, locating a substring if a certain number of mistakes are allowed, locating matches for a regular expression pattern etc. Suffix trees also provided one of the first linear-time solutions for the longest common substring problem.[2] These speedups come at a cost: storing a string's suffix tree typically requires significantly more space than storing the string itself.
+
+The concept was first introduced by Weiner (1973).
+Rather than the suffix 
+
+
+
+S
+[
+i
+.
+.
+n
+]
+
+
+{\displaystyle S[i..n]}
+
+, Weiner stored in his trie[3] the prefix identifier for each position, that is, the shortest string starting at 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ and occurring only once in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. His Algorithm D takes an uncompressed[4] trie for 
+
+
+
+S
+[
+k
++
+1..
+n
+]
+
+
+{\displaystyle S[k+1..n]}
+
+ and extends it into a trie for 
+
+
+
+S
+[
+k
+.
+.
+n
+]
+
+
+{\displaystyle S[k..n]}
+
+. This way, starting from the trivial trie for 
+
+
+
+S
+[
+n
+.
+.
+n
+]
+
+
+{\displaystyle S[n..n]}
+
+, a trie for 
+
+
+
+S
+[
+1..
+n
+]
+
+
+{\displaystyle S[1..n]}
+
+ can be built by 
+
+
+
+n
+−
+1
+
+
+{\displaystyle n-1}
+
+ successive calls to Algorithm D; however, the overall run time is 
+
+
+
+O
+(
+
+n
+
+2
+
+
+)
+
+
+{\displaystyle O(n^{2})}
+
+. Weiner's Algorithm B maintains several auxiliary data structures, to achieve an over all run time linear in the size of the constructed trie. The latter can still be 
+
+
+
+O
+(
+
+n
+
+2
+
+
+)
+
+
+{\displaystyle O(n^{2})}
+
+ nodes, e.g. for 
+
+
+
+S
+=
+
+a
+
+n
+
+
+
+b
+
+n
+
+
+
+a
+
+n
+
+
+
+b
+
+n
+
+
+$
+.
+
+
+{\displaystyle S=a^{n}b^{n}a^{n}b^{n}\$.}
+
+ Weiner's Algorithm C finally uses compressed tries to achieve linear overall storage size and run time.[5]
+Donald Knuth subsequently characterized the latter as "Algorithm of the Year 1973".[citation needed] 
+The text book Aho, Hopcroft & Ullman (1974, Sect.9.5) reproduced Weiner's results in a simplified and more elegant form, introducing the term position tree.
+
+McCreight (1976) was the first to build a (compressed) trie of all suffixes of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. Although the suffix starting at 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ is usually longer than the prefix identifier, their path representations in a compressed trie do not differ in size. On the other hand, McCreight could dispense with most of Weiner's auxiliary data structures; only suffix links remained.
+
+Ukkonen (1995) further simplified the construction.[6] He provided the first online-construction of suffix trees, now known as Ukkonen's algorithm, with running time that matched the then fastest algorithms.
+These algorithms are all linear-time for a constant-size alphabet, and have worst-case running time of 
+
+
+
+O
+(
+n
+log
+⁡
+n
+)
+
+
+{\displaystyle O(n\log n)}
+
+ in general.
+
+Farach (1997) gave the first suffix tree construction algorithm that is optimal for all alphabets.  In particular, this is the first linear-time algorithm 
+for strings drawn from an alphabet of integers in a polynomial range.  Farach's algorithm has become the basis for new algorithms for constructing both suffix trees and suffix arrays, for example, in external memory, compressed, succinct, etc.
+
+The suffix tree for the string 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of length 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is defined as a tree such that:[7]
+
+Since such a tree does not exist for all strings, 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is padded with a terminal symbol not seen in the string (usually denoted $). This ensures that no suffix is a prefix of another, and that there will be 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ leaf nodes, one for each of the 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ suffixes of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. Since all internal non-root nodes are branching, there can be at most n −  1 such nodes, and n + (n − 1) + 1 = 2n nodes in total (n leaves, n − 1 internal non-root nodes, 1 root).
+
+Suffix links are a key feature for older linear-time construction algorithms, although most newer algorithms, which are based on Farach's algorithm, dispense with suffix links. In a complete suffix tree, all internal non-root nodes have a suffix link to another internal node. If the path from the root to a node spells the string 
+
+
+
+χ
+α
+
+
+{\displaystyle \chi \alpha }
+
+, where 
+
+
+
+χ
+
+
+{\displaystyle \chi }
+
+ is a single character and 
+
+
+
+α
+
+
+{\displaystyle \alpha }
+
+ is a string (possibly empty), it has a suffix link to the internal node representing 
+
+
+
+α
+
+
+{\displaystyle \alpha }
+
+. See for example the suffix link from the node for ANA to the node for NA in the figure above. Suffix links are also used in some algorithms running on the tree.
+
+A generalized suffix tree is a suffix tree made for a set of strings instead of a single string. It represents all suffixes from this set of strings. Each string must be terminated by a different termination symbol.
+
+A suffix tree for a string 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of length 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ can be built in 
+
+
+
+Θ
+(
+n
+)
+
+
+{\displaystyle \Theta (n)}
+
+ time, if the letters come from an alphabet of integers in a polynomial range (in particular, this is true for constant-sized alphabets).[8]
+For larger alphabets, the running time is dominated by first sorting the letters to bring them into a range of size 
+
+
+
+O
+(
+n
+)
+
+
+{\displaystyle O(n)}
+
+; in general, this takes 
+
+
+
+O
+(
+n
+log
+⁡
+n
+)
+
+
+{\displaystyle O(n\log n)}
+
+ time.
+The costs below are given under the assumption that the alphabet is constant.
+
+Assume that a suffix tree has been built for the string 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of length 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, or that a generalised suffix tree has been built for the set of strings 
+
+
+
+D
+=
+{
+
+S
+
+1
+
+
+,
+
+S
+
+2
+
+
+,
+…
+,
+
+S
+
+K
+
+
+}
+
+
+{\displaystyle D=\{S_{1},S_{2},\dots ,S_{K}\}}
+
+ of total length 
+
+
+
+n
+=
+
+n
+
+1
+
+
++
+
+n
+
+2
+
+
++
+⋯
++
+
+n
+
+K
+
+
+
+
+{\displaystyle n=n_{1}+n_{2}+\cdots +n_{K}}
+
+.
+You can:
+
+The suffix tree can be prepared for constant time lowest common ancestor retrieval between nodes in 
+
+
+
+Θ
+(
+n
+)
+
+
+{\displaystyle \Theta (n)}
+
+ time.[16] One can then also:
+
+Suffix trees can be used to solve a large number of string problems that occur in text-editing, free-text search, computational biology and other application areas.[24] Primary applications include:[24]
+
+Suffix trees are often used in bioinformatics applications, searching for patterns in DNA or protein sequences (which can be viewed as long strings of characters). The ability to search efficiently with mismatches might be considered their greatest strength. Suffix trees are also used in data compression; they can be used to find repeated data, and can be used for the sorting stage of the Burrows–Wheeler transform. Variants of the LZW compression schemes use suffix trees (LZSS). A suffix tree is also used in suffix tree clustering, a data clustering algorithm used in some search engines.[25]
+
+If each node and edge can be represented in 
+
+
+
+Θ
+(
+1
+)
+
+
+{\displaystyle \Theta (1)}
+
+ space, the entire tree can be represented in 
+
+
+
+Θ
+(
+n
+)
+
+
+{\displaystyle \Theta (n)}
+
+ space. The total length of all the strings on all of the edges in the tree is 
+
+
+
+O
+(
+
+n
+
+2
+
+
+)
+
+
+{\displaystyle O(n^{2})}
+
+, but each edge can be stored as the position and length of a substring of S, giving a total space usage of 
+
+
+
+Θ
+(
+n
+)
+
+
+{\displaystyle \Theta (n)}
+
+ computer words. The worst-case space usage of a suffix tree is seen with a fibonacci word, giving the full 
+
+
+
+2
+n
+
+
+{\displaystyle 2n}
+
+ nodes.
+
+An important choice when making a suffix tree implementation is the parent-child relationships between nodes. The most common is using linked lists called sibling lists. Each node has a pointer to its first child, and to the next node in the child list it is a part of. Other implementations with efficient running time properties use hash maps, sorted or unsorted arrays (with array doubling), or balanced search trees. We are interested in:
+
+Let σ be the size of the alphabet. Then you have the following costs:
+
+The insertion cost is amortised, and that the costs for hashing are given for perfect hashing.
+
+The large amount of information in each edge and node makes the suffix tree very expensive, consuming about 10 to 20 times the memory size of the source text in good implementations. The suffix array reduces this requirement to a factor of 8 (for array including LCP values built within 32-bit address space and 8-bit characters.) This factor depends on the properties and may reach 2 with usage of 4-byte wide characters (needed to contain any symbol in some UNIX-like systems, see wchar_t) on 32-bit systems. Researchers have continued to find smaller indexing structures.
+
+Various parallel algorithms to speed up suffix tree construction have been proposed.[26][27][28][29][30]
+Recently, a practical parallel algorithm for suffix tree construction with 
+
+
+
+O
+(
+n
+)
+
+
+{\displaystyle O(n)}
+
+ work (sequential time) and 
+
+
+
+O
+(
+
+log
+
+2
+
+
+⁡
+n
+)
+
+
+{\displaystyle O(\log ^{2}n)}
+
+ span has been developed. The algorithm achieves good parallel scalability on shared-memory multicore machines and can index the human genome – approximately 3GB – in under 3 minutes using a 40-core machine.[31]
+
+Though linear, the memory usage of a suffix tree is significantly higher
+than the actual size of the sequence collection.  For a large text,
+construction may require external memory approaches.
+
+There are theoretical results for constructing suffix trees in external
+memory.
+The algorithm by Farach-Colton, Ferragina & Muthukrishnan (2000)
+is theoretically optimal, with an I/O complexity equal to that of sorting.
+However the overall intricacy of this algorithm has prevented, so far, its
+practical implementation.[32]
+
+On the other hand, there have been practical works for constructing
+disk-based suffix trees
+which scale to (few) GB/hours.
+The state of the art methods are TDD,[33]
+TRELLIS,[34]
+DiGeST,[35]
+and
+B2ST.[36]
+
+TDD and TRELLIS scale up to the entire human genome resulting in a disk-based suffix tree of a size in the tens of gigabytes.[33][34] However, these methods cannot handle efficiently collections of sequences exceeding 3GB.[35]  DiGeST performs significantly better and is able to handle collections of sequences in the order of 6GB in about 6 hours.[35]
+
+All these methods can efficiently build suffix trees for the case when the
+tree does not fit in main memory,
+but the input does.
+The most recent method, B2ST,[36] scales to handle
+inputs that do not fit in main memory. ERA  is a recent parallel suffix tree construction method that is significantly faster. ERA can index the entire human genome in 19 minutes on an 8-core desktop computer with 16GB RAM. On a simple Linux cluster with 16 nodes (4GB RAM per node), ERA can index the entire human genome in less than 9 minutes.[37]

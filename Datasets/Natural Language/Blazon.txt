@@ -1,0 +1,70 @@
+
+
+In heraldry and heraldic vexillology, a blazon is a formal description of a coat of arms, flag or similar emblem, from which the reader can reconstruct the appropriate image. The verb to blazon means to create such a description. The visual depiction of a coat of arms or flag has traditionally had considerable latitude in design, but a verbal blazon specifies the essentially distinctive elements. A coat of arms or flag is therefore primarily defined not by a picture but rather by the wording of its blazon (though in modern usage flags are often additionally and more precisely defined using geometrical specifications). Blazon is also the specialized language in which a blazon is written, and, as a verb, the act of writing such a description. Blazonry is the art, craft or practice of creating a blazon. The language employed in blazonry has its own vocabulary, grammar and syntax, which becomes essential for comprehension when blazoning a complex coat of arms.
+
+Other armorial objects and devices – such as badges, banners, and seals – may also be described in blazon.
+
+The noun and verb blazon (referring to a verbal description) are not to be confused with the noun emblazonment, or the verb to emblazon, both of which relate to the graphic representation of a coat of arms or heraldic device.
+
+The word blazon is derived from French blason, "shield". It is found in English by the end of the 14th century.[1]
+
+Formerly, heraldic authorities believed that the word was related to the German verb blasen, "to blow (a horn)".[2][3] Present-day lexicographers reject this theory as conjectural and disproved.[1]
+
+Blazon is generally designed to eliminate ambiguity of interpretation, to be as concise as possible, and to avoid repetition and extraneous punctuation. English antiquarian Charles Boutell stated in 1864: 
+
+Heraldic language is most concise, and it is always minutely exact, definite, and explicit; all unnecessary words are omitted, and all repetitions are carefully avoided; and, at the same time, every detail is specified with absolute precision. The nomenclature is equally significant, and its aim is to combine definitive exactness with a brevity that is indeed laconic.[4]
+However, John Brooke-Little, Norroy and Ulster King of Arms, wrote in 1985: "Although there are certain conventions as to how arms shall be blazoned ... many of the supposedly hard and fast rules laid down in heraldic manuals [including those by heralds] are often ignored."[5]
+
+A given coat of arms may be drawn in many different ways, all considered equivalent and faithful to the blazon, just as the letter "A" may be printed in many different fonts while still being the same letter. For example, the shape of the escutcheon is almost always immaterial, with very limited exceptions (e.g., the coat of arms of Nunavut, for which a round shield is specified).
+
+The main conventions of blazon are as follows:
+
+Azure, a bend or. A coat made famous by the medieval court case Scrope v. Grosvenor.
+
+Party per pale argent and vert, a tree eradicated counterchanged. Arms of Behnsdorf.
+
+Argent, an eagle displayed gules armed and wings charged with trefoils Or. Arms of Brandenburg.
+
+Quarterly 1st and 4th Sable a lion rampant on a canton Argent a cross Gules; 2nd and 3rd quarterly Argent and Gules in the 2nd and 3rd quarters a fret Or overall on a bend Sable three escallops of the first and as an augmentation in chief an inescutcheon, Argent a cross Gules and thereon an inescutcheon Azure, three fleurs-de-lis Or. Arms of Churchill.[8]
+
+Because heraldry developed at a time when English clerks wrote in Anglo-Norman French, many terms in English heraldry are of French origin. Some of the details of the syntax of blazon also follow French practice: thus, adjectives are normally placed after nouns rather than before. 
+
+A number of heraldic adjectives may be given in either a French or an anglicised form: for example, a cross pattée or a cross patty; a cross fitchée or a cross fitchy. In modern English blazons, the anglicised form tends to be preferred.[6]
+
+Where the French form is used, a problem may arise as to the appropriate adjectival ending, determined in normal French usage by gender and number.
+
+"To describe two hands as appaumées, because the word main is feminine in French, savours somewhat of pedantry. A person may be a good armorist, and a tolerable French scholar, and still be uncertain whether an escallop-shell covered with bezants should be blazoned as bezanté or bezantée".
+The usual convention in English heraldry is to adhere to the feminine singular form, for example: a chief undée and  a saltire undée, even though the French nouns chef and sautoir are in fact masculine. Efforts have been made to ignore grammatical correctness, for example by J. E. Cussans, who suggested that all French adjectives should be expressed in the masculine singular, without regard to the gender and number of the nouns they qualify, thus a chief undé and a saltire undé.[9]
+
+Full descriptions of shields range in complexity, from a single word to a convoluted series describing compound shields:
+
+Quarterly I. Azure three Lions' Heads affronté Crowned Or (for Dalmatia); II. chequy Argent and Gules (for Croatia); III. Azure a River in Fess Gules bordered Argent thereon a Marten proper beneath a six-pointed star Or (for Slavonia); IV. per Fess Azure and Or over all a Bar Gules in the Chief a demi-Eagle Sable displayed addextré of the Sun-in-splendour and senestré of a Crescent Argent in the Base seven Towers three and four Gules (for Transylvania); enté en point Gules a double-headed Eagle proper on a Peninsula Vert holding a Vase pouring Water into the Sea Argent beneath a Crown proper with bands Azure (for Fiume); over all an escutcheon Barry of eight Gules and Argent impaling Gules on a Mount Vert a Crown Or issuant therefrom a double-Cross Argent (for Hungary).[10]
+Arms of Brittany
+
+Arms of Östergötland
+
+Arms of Hungary (1867)
+
+The field of a shield in heraldry can be divided into more than one tincture, as can the various heraldic charges. Many coats of arms consist simply of a division of the field into two contrasting tinctures. These are considered divisions of a shield, so the rule of tincture can be ignored. For example, a shield divided azure and gules would be perfectly acceptable. A line of partition may be straight or it may be varied. The variations of partition lines can be wavy, indented, embattled, engrailed, nebuly, or made into myriad other forms; see Line (heraldry).[11]
+
+In the early days of heraldry, very simple bold rectilinear shapes were painted on shields. These could be easily recognized at a long distance and could be easily remembered. They therefore served the main purpose of heraldry: identification.[12] As more complicated shields came into use, these bold shapes were set apart in a separate class as the "honorable ordinaries". They act as charges and are always written first in blazon. Unless otherwise specified they extend to the edges of the field. Though ordinaries are not easily defined, they are generally described as including the cross, the fess, the pale, the bend, the chevron, the saltire, and the pall.[13]
+
+There is a separate class of charges called sub-ordinaries which are of a geometrical shape subordinate to the ordinary. According to Friar, they are distinguished by their order in blazon. The sub-ordinaries include the inescutcheon, the orle, the tressure, the double tressure, the bordure, the chief, the canton, the label, and flaunches.[14]
+
+Ordinaries may appear in parallel series, in which case blazons in English give them different names such as pallets, bars, bendlets, and chevronels. French blazon makes no such distinction between these diminutives and the ordinaries when borne singly. Unless otherwise specified an ordinary is drawn with straight lines, but each may be indented, embattled, wavy, engrailed, or otherwise have their lines varied.[15]
+
+A charge is any object or figure placed on a heraldic shield or on any other object of an armorial composition.[16] Any object found in nature or technology may appear as a heraldic charge in armory. Charges can be animals, objects, or geometric shapes. Apart from the ordinaries, the most frequent charges are the cross – with its hundreds of variations – and the lion and eagle. Other common animals are stags, wild boars, martlets, and fish. Dragons, bats, unicorns, griffins, and more exotic monsters appear as charges and as supporters.
+
+Animals are found in various stereotyped positions or attitudes. Quadrupeds can often be found rampant (standing on the left hind foot). Another frequent position is passant, or walking, like the lions of the coat of arms of England. Eagles are almost always shown with their wings spread, or displayed. A pair of wings conjoined is called a vol.
+
+In English heraldry the crescent, mullet, martlet, annulet, fleur-de-lis, and rose may be added to a shield to distinguish cadet branches of a family from the senior line. These cadency marks are usually shown smaller than normal charges, but it still does not follow that a shield containing such a charge belongs to a cadet branch. All of these charges occur frequently in basic undifferenced coats of arms.[17]
+
+To marshal two or more coats of arms is to combine them in one shield. This can be done in a number of ways, of which the simplest is impalement: dividing the field per pale and putting one whole coat in each half. Impalement replaced the earlier dimidiation –  combining the dexter half of one coat with the sinister half of another –  because dimidiation can create ambiguity. 
+
+A more versatile method is quartering, division of the field by both vertical and horizontal lines. As the name implies, the usual number of divisions is four, but the principle has been extended to very large numbers of "quarters".
+
+The third common mode of marshalling is with an inescutcheon, a small shield placed in front of the main shield.
+
+The field of a shield, or less often a charge or crest, is sometimes made up of a pattern of colours, or variation. A pattern of horizontal (barwise) stripes, for example, is called barry, while a pattern of vertical (palewise) stripes is called paly. A pattern of diagonal stripes may be called bendy or bendy sinister, depending on the direction of the stripes. Other variations include chevrony, gyronny and chequy. Wave shaped stripes are termed undy. For further variations, these are sometimes combined to produce patterns of barry-bendy, paly-bendy, lozengy and fusilly. Semés, or patterns of repeated charges, are also considered variations of the field.[18] The Rule of tincture applies to all semés and variations of the field.
+
+Cadency is any systematic way to distinguish arms displayed by descendants of the holder of a coat of arms when those family members have not been granted arms in their own right.  Cadency is necessary in heraldic systems in which a given design may be owned by only one person at any time, generally the head of the senior line of a particular family.  As an armiger's arms may be used 'by courtesy', either by children or spouses, while they are still living, some form of differencing may be required so as not to confuse them with the original undifferenced or "plain coat" arms. Historically, arms were only heritable by males and therefore cadency marks had no relevance to daughters; in the modern era, Canadian and Irish heraldry include daughters in cadency. These differences are formed by adding to the arms small and inconspicuous marks called brisures, similar to charges but smaller. They are placed on the fess-point, or in-chief in the case of the label.[19] Brisures are generally exempt from the rule of tincture. One of the best examples of usage from the medieval period is shown on the seven Beauchamp cadets in the stained-glass windows of St Mary's Church, Warwick.[19]

@@ -1,0 +1,11 @@
+
+
+ISO 19092-1 Financial Services - Biometrics - Part 1: Security framework, is an ISO standard and describes the adequate information management security controls and the proper procedures for using biometrics as an authentication mechanism for secure remote electronic access or local physical access controls for the financial and other critical infrastructure industries.
+
+The standard also provides a useful tutorial on biometric systems and technology, describes the physical security requirements of biometric devices, the minimal content for Biometric Policy (BP) and Biometric Practice Statements (BPS), and secure event journal content for review and audit of biometric systems.
+
+It is followed by ISO 19092 Financial Services - Biometrics - Part 2: Message syntax and cryptographic requirements.
+
+
+
+This standards- or measurement-related article is a stub. You can help Wikipedia by expanding it.

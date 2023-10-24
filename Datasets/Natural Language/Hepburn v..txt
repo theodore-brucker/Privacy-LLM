@@ -1,0 +1,15 @@
+
+
+Hepburn v. Griswold, 75 U.S. (8 Wall.) 603 (1870), was a United States Supreme Court case in which the Chief Justice of the United States, Salmon P. Chase, speaking for the Court, declared certain parts of the Legal Tender Acts to be unconstitutional. Specifically, making United States Notes legal tender was unconstitutional.
+
+The lawsuit originated when one Mrs. Hepburn attempted to pay a debt to Henry Griswold on a promissory note, which was made five days prior to the issuance of United States Notes that the case questioned.  Griswold sued Hepburn in the Louisville Chancery Court on the note and refused Hepburn's tender of United States Notes to satisfy his claim. She then tendered the notes into the Chancery Court, which declared her debt satisfied.
+
+The Court of Errors of Kentucky reversed the chancery court's judgment, and Hepburn appealed to the Supreme Court, which affirmed the judgment of the Court of Errors.
+
+The Supreme Court found that the US federal government was authorized to coin money, but that power was distinct from the power to make paper legal tender, which was not authorized under the US Constitution. It also found that the treatment of notes as legal tender represented an impairment to enforcing the obligations of contracts. The Constitution prohibits the several states from impairing the obligations of contracts. The Court found no similar constraint upon the federal government, but it held that such an impairment would violate the spirit of the Constitution.
+
+The dissenting opinion argued that the government was threatened by the war and that making the notes legal tender provided the government with the necessary supplies to continue to fight the war.
+
+The majority opinion affirmed that the government holds the power to wage war but that making notes legal tender was not a necessary consequence of that power. It continued that making United States Notes legal tender was unnecessary to fighting a war. All that the federal government needed to do was to make them "receivable for government dues". That argument is similar to the theory of chartalism.
+
+The majority opinion was explicitly overruled by Knox v. Lee and other Legal Tender Cases, 79 U.S. (Wall. 12) 457 (1871), in which Chase dissented.

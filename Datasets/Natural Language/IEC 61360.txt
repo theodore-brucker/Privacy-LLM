@@ -1,0 +1,19 @@
+IEC 61360, with the title "Standard data element types with associated classification scheme", is a series of standard documents defining a general purpose vocabulary in terms of a reference dictionary published by the International Electrotechnical Commission.
+
+The vocabulary specified in IEC 61360 may be used to define ontologies for use in the field of electrotechnology, electronics and related domains.[1]
+
+The IEC 61360 series is structured into different parts:
+
+IEC 61360-1 provides a detailed introduction to the structure of the dictionary and its use.[1] 
+IEC 61360-2 specifies the detailed dictionary data model and IEC 61360-6 stipulates quality criteria for the content of the dictionary.[1]
+The data model defined in IEC 61360-2 is also published in ISO 13584-42.[2]
+
+The IEC provides a technical dictionary for the use in the electro-technical and electronic domain which is published as IEC 61360-4. This dictionary is called IEC Common Data Dictionary (IEC CDD) and can be accessed as a web page (https://cdd.iec.ch).
+
+IEC 61360 also defines the base for other product taxonomies like eCl@ss.
+
+Industrie 4.0 uses product property description based on IEC 61360.[3]
+
+
+
+This standards- or measurement-related article is a stub. You can help Wikipedia by expanding it.

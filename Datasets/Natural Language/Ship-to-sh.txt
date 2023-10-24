@@ -1,0 +1,34 @@
+ship-to-ship (STS) transfer operation is the transfer of cargo between seagoing ships positioned alongside each other, either while stationary or underway. Cargoes typically transferred via STS methods include crude oil, liquefied gas (LPG or LNG), bulk cargo, and petroleum products.  The nomenclature STS transfer should be used in reference to techniques used by civilian merchant vessels, as differentiated from underway replenishment which is the term used by the US Navy for similar, but usually far more complicated, operations between naval vessels while underway.
+
+Most of cargo operations take place between a ship and a land-based terminal. Nevertheless, it sometimes can be useful to transfer cargo from one ship to another in the open sea and this is called a ship-to-ship operation. One vessel will act as the terminal whilst the other one will moor. The receiving ship is called the daughter vessel and the delivering vessel is called STBL (Ship to be lightered) or Mother vessel.
+
+Ship-to-ship transfer operations take place at open sea or at OPL (outer port limit). The involved parties are the 2 participating vessels and the Service Provider who provides the STS equipment and the qualified Mooring Master (Person in Overall Advisory Control, POAC). There is no direct contractual relationship among those parties and both Masters are responsible for ensuring safety. Thus the prudent exercise of due diligence prior to commencement of the STS Operation is the only feasible way[1] that will allow the Masters and their ship operators in ensuring safety.
+
+Due diligence should take place in the following phases of the Ship-to-Ship operation:
+
+The level of due diligence exercised by technical operators and Masters is mainly governed by SOLAS chapter IX (the ISM Code) which mandates the assessment of "objective evidence" towards actions that will ensure safety. "Objective evidence" consists of past assessments of STS records, crew experience, lessons learned from past near misses/ incidents, past performance data of vessels, STS Service Providers, Mooring Masters (POAC), best industry practices, etc. There are relevant services that provided access to such data, some of the open-source. 
+
+Although the term "due diligence" is vague, its application will be challenged either during an incident investigation, or relevant litigation. Technical operators should have the means to prove that they are in compliance with both commercial guidelines and statutory requirements.
+
+It is not easy to close two moving objects smoothly and safely. One should account prevailing weather conditions and most important the interaction forces exerted during approaching. Therefore, seafarers have established a few procedures which will be used regarding the sizes and maneuverabilities of the vessels involved.
+
+We can consider three configurations
+
+ This manoeuvre is designed for a vessel with a high maneuverability which approaches such a big vessel that it can be considered as a reference on its own. At that moment the mother vessel can maintain her course and slightly decrease her speed to reduce her bow-wave and the small vessel will approach to finally get on a parallel track.
+
+When the maneuverability of the berthing vessel is not really high it is often less dangerous for her to approach a vessel stopped in the water so that there will be a protected side from the waves and wind and there will also not be any bow wave. At that moment the vessel approaches on the quarter of the mother ship and gets on a parallel heading at slow speed. In that case an artificial type wave can be created which can prevent the ship from stopping.
+
+It is of huge importance to maintain the heading of the “terminal” and this is not possible with stopped vessels. That's why we will not consider a static reference system but one in translation because a ship needs some speed to maintain her heading.
+The biggest vessel will act has a terminal heading on a steady course at maneuvering speed. Then the second ship will come closer in the same direction but a bit faster. When the vessels are navigating side to side, they can be moored. First of all, the spring lines will be tensioned to maintain the vessels at the same speed. Then the breast lines will keep the vessels as close as possible. It is also possible to add head and stern lines to prevent any longitudinal motion.
+
+Vessels on a same course prior closing and exchanging lines
+
+First step of the mooring operation, securing the fore spring
+
+Passing the connecting hose prior cargo operation
+
+STS Operations are part of vessel's operation. Until 2009 there were no international regulations that explicitly prescribe how these operations should take place. These operations are carried out in accordance with guidelines set out by the latest Oil Companies International Marine Forum and the International Chamber of Shipping (ICS), with the strictest adherence to safety regulations. These are the industry guidelines which are part of the contractual commitment between the ship owner and the STS Organizer (Charterer, Cargo owner, Oil Major etc.)
+
+According to International Maritime Organization regulations vessels transferring OIL CARGO must have an approved STS operational manual that describes the procedure.[2]
+
+According to IMO MEPC 186(59) records of STS Operations should be retained for 3 years. Although the records consist on STS checklists and Risk Assessment procedure those should be assessed after the completion of the STS Operation and the outcome of the assessment should be utilized in the Due diligence process.

@@ -1,0 +1,2084 @@
+In computer science, the longest common prefix array (LCP array) is an auxiliary data structure to the suffix array. It stores the lengths of the longest common prefixes (LCPs) between all pairs of consecutive suffixes in a sorted suffix array.
+
+For example, if A := [aab, ab, abaab, b, baab] is a suffix array, the longest common prefix between A[1] = aab and A[2] = ab is a which has length 1, so H[2] = 1 in the LCP array H. Likewise, the LCP of A[2] = ab and A[3] = abaab is ab, so H[3] = 2.
+
+Augmenting the suffix array with the LCP array allows one to efficiently simulate top-down and bottom-up traversals of the suffix tree,[1][2] speeds up pattern matching on the suffix array[3] and is a prerequisite for compressed suffix trees.[4]
+
+The LCP array was introduced in 1993, by Udi Manber and Gene Myers alongside the suffix array in order to improve the running time of their string search algorithm.[3]
+
+Let 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ be the suffix array of the string 
+
+
+
+S
+=
+
+s
+
+1
+
+
+,
+
+s
+
+2
+
+
+,
+…
+
+s
+
+n
+−
+1
+
+
+$
+
+
+{\displaystyle S=s_{1},s_{2},\ldots s_{n-1}\$}
+
+ of length 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, where 
+
+
+
+$
+
+
+{\displaystyle \$}
+
+ is a sentinel letter that is unique and lexicographically smaller than any other character. Let 
+
+
+
+S
+[
+i
+,
+j
+]
+
+
+{\displaystyle S[i,j]}
+
+ denote the substring of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ ranging from 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ to 
+
+
+
+j
+
+
+{\displaystyle j}
+
+. Thus, 
+
+
+
+S
+[
+A
+[
+i
+]
+,
+n
+]
+
+
+{\displaystyle S[A[i],n]}
+
+ is the 
+
+
+
+i
+
+
+{\displaystyle i}
+
+th smallest suffix of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+.
+
+Let 
+
+
+
+lcp
+⁡
+(
+v
+,
+w
+)
+
+
+{\displaystyle \operatorname {lcp} (v,w)}
+
+ denote the length of the longest common prefix between two strings 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ and 
+
+
+
+w
+
+
+{\displaystyle w}
+
+. Then the LCP array 
+
+
+
+H
+[
+1
+,
+n
+]
+
+
+{\displaystyle H[1,n]}
+
+ is an integer array of size 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ such that 
+
+
+
+H
+[
+1
+]
+
+
+{\displaystyle H[1]}
+
+ is undefined and 
+
+
+
+H
+[
+i
+]
+=
+lcp
+⁡
+(
+S
+[
+A
+[
+i
+−
+1
+]
+,
+n
+]
+,
+S
+[
+A
+[
+i
+]
+,
+n
+]
+)
+
+
+{\displaystyle H[i]=\operatorname {lcp} (S[A[i-1],n],S[A[i],n])}
+
+ for every 
+
+
+
+1
+<
+i
+≤
+n
+
+
+{\displaystyle 1<i\leq n}
+
+. Thus 
+
+
+
+H
+[
+i
+]
+
+
+{\displaystyle H[i]}
+
+ stores the length of longest common prefix of the lexicographically 
+
+
+
+i
+
+
+{\displaystyle i}
+
+th smallest suffix and its predecessor in the suffix array.
+
+Difference between LCP array and suffix array:
+
+Consider the string 
+
+
+
+S
+=
+
+
+banana$
+
+
+
+
+{\displaystyle S={\textrm {banana\$}}}
+
+:
+
+and its corresponding sorted suffix array 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ :
+
+Suffix array with suffixes written out underneath vertically:
+
+Then the LCP array 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is constructed by comparing lexicographically consecutive suffixes to determine their longest common prefix:
+
+So, for example, 
+
+
+
+H
+[
+4
+]
+=
+3
+
+
+{\displaystyle H[4]=3}
+
+ is the length of the longest common prefix 
+
+
+
+
+ana
+
+
+
+{\displaystyle {\text{ana}}}
+
+ shared by the suffixes 
+
+
+
+A
+[
+3
+]
+=
+S
+[
+4
+,
+7
+]
+=
+
+
+ana$
+
+
+
+
+{\displaystyle A[3]=S[4,7]={\textrm {ana\$}}}
+
+ and 
+
+
+
+A
+[
+4
+]
+=
+S
+[
+2
+,
+7
+]
+=
+
+
+anana$
+
+
+
+
+{\displaystyle A[4]=S[2,7]={\textrm {anana\$}}}
+
+. Note that 
+
+
+
+H
+[
+1
+]
+
+
+{\displaystyle H[1]}
+
+ is undefined, since there is no lexicographically smaller suffix.
+
+LCP array construction algorithms can be divided into two different categories: algorithms that compute the LCP array as a byproduct to the suffix array and algorithms that use an already constructed suffix array in order to compute the LCP values.
+
+Manber & Myers (1993) provide an algorithm to compute the LCP array alongside the suffix array in 
+
+
+
+O
+(
+n
+log
+⁡
+n
+)
+
+
+{\displaystyle O(n\log n)}
+
+ time. Kärkkäinen & Sanders (2003) show that it is also possible to modify their 
+
+
+
+O
+(
+n
+)
+
+
+{\displaystyle O(n)}
+
+ time algorithm such that it computes the LCP array as well.  Kasai et al. (2001) present the first 
+
+
+
+O
+(
+n
+)
+
+
+{\displaystyle O(n)}
+
+ time algorithm (FLAAP) that computes the LCP array given the text and the suffix array.
+
+Assuming that each text symbol takes one byte and each entry of the suffix or LCP array takes 4 bytes, the major drawback of their algorithm is a large space occupancy of 
+
+
+
+13
+n
+
+
+{\displaystyle 13n}
+
+ bytes, while the original output (text, suffix array, LCP array) only occupies 
+
+
+
+9
+n
+
+
+{\displaystyle 9n}
+
+ bytes. Therefore, Manzini (2004) created a refined version of the algorithm of Kasai et al. (2001) (lcp9) and reduced the space occupancy to 
+
+
+
+9
+n
+
+
+{\displaystyle 9n}
+
+ bytes. Kärkkäinen, Manzini & Puglisi (2009) provide another refinement of Kasai's algorithm (
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+-algorithm) that improves the running time. Rather than the actual LCP array, this algorithm builds the permuted LCP (PLCP) array, in which the values appear in text order rather than lexicographical order.
+
+Gog & Ohlebusch (2011) provide two algorithms that although being theoretically slow (
+
+
+
+O
+(
+
+n
+
+2
+
+
+)
+
+
+{\displaystyle O(n^{2})}
+
+) were faster than the above-mentioned algorithms in practice.
+
+As of 2012[update], the currently fastest linear-time LCP array construction algorithm is due to Fischer (2011), which in turn is based on one of the fastest suffix array construction algorithms (SA-IS) by Nong, Zhang & Chan (2009). Fischer & Kurpicz (2017) based on Yuta Mori's DivSufSort is even faster.
+
+As noted by Abouelhoda, Kurtz & Ohlebusch (2004) several string processing problems can be solved by the following kinds of tree traversals:
+
+Kasai et al. (2001) show how to simulate a bottom-up traversal of the suffix tree using only the suffix array and LCP array. Abouelhoda, Kurtz & Ohlebusch (2004) enhance the suffix array with the LCP array and additional data structures and describe how this enhanced suffix array can be used to simulate all three kinds of suffix tree traversals. Fischer & Heun (2007) reduce the space requirements of the enhanced suffix array by preprocessing the LCP array for range minimum queries. Thus,  every problem that can be solved by suffix tree algorithms can also be solved using the enhanced suffix array.[2]
+
+Deciding if a pattern 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ of length 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ is a substring of a string 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of length 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ takes 
+
+
+
+O
+(
+m
+log
+⁡
+n
+)
+
+
+{\displaystyle O(m\log n)}
+
+ time if only the suffix array is used. By additionally using the LCP information, this bound can be improved to 
+
+
+
+O
+(
+m
++
+log
+⁡
+n
+)
+
+
+{\displaystyle O(m+\log n)}
+
+ time.[3] Abouelhoda, Kurtz & Ohlebusch (2004) show how to improve this running time even further to achieve optimal 
+
+
+
+O
+(
+m
+)
+
+
+{\displaystyle O(m)}
+
+ time. Thus, using suffix array and LCP array information, the decision query can be answered as fast as using the suffix tree.
+
+The LCP array is also an essential part of compressed suffix trees which provide full suffix tree functionality like suffix links and lowest common ancestor queries.[5][6] Furthermore, it can be used together with the suffix array to compute the Lempel-Ziv LZ77 factorization in 
+
+
+
+O
+(
+n
+)
+
+
+{\displaystyle O(n)}
+
+ time.[2][7][8][9]
+
+The longest repeated substring problem for a string 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of length 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ can be solved in 
+
+
+
+Θ
+(
+n
+)
+
+
+{\displaystyle \Theta (n)}
+
+ time using both the suffix array 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and the LCP array. It is sufficient to perform a linear scan through the LCP array in order to find its maximum value 
+
+
+
+
+v
+
+m
+a
+x
+
+
+
+
+{\displaystyle v_{max}}
+
+ and the corresponding index 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ where 
+
+
+
+
+v
+
+m
+a
+x
+
+
+
+
+{\displaystyle v_{max}}
+
+ is stored. The longest substring that occurs at least twice is then given by 
+
+
+
+S
+[
+A
+[
+i
+]
+,
+A
+[
+i
+]
++
+
+v
+
+m
+a
+x
+
+
+−
+1
+]
+
+
+{\displaystyle S[A[i],A[i]+v_{max}-1]}
+
+.
+
+The remainder of this section explains two applications of the LCP array in more detail: How the suffix array and the LCP array of a string can be used to construct the corresponding suffix tree and how it is possible to answer LCP queries for arbitrary suffixes using range minimum queries on the LCP array.
+
+In order to find the number of occurrences of a given string 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ (length 
+
+
+
+m
+
+
+{\displaystyle m}
+
+) in a text 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ (length 
+
+
+
+N
+
+
+{\displaystyle N}
+
+),[3]
+
+The issue with using standard binary search (without the LCP information) is that in each of the 
+
+
+
+O
+(
+log
+⁡
+N
+)
+
+
+{\displaystyle O(\log N)}
+
+ comparisons needed to be made, we compare P to the current entry of the suffix array, which means a full string comparison of up to m characters. So the complexity is 
+
+
+
+O
+(
+m
+log
+⁡
+N
+)
+
+
+{\displaystyle O(m\log N)}
+
+.
+
+The LCP-LR array helps improve this to 
+
+
+
+O
+(
+m
++
+log
+⁡
+N
+)
+
+
+{\displaystyle O(m+\log N)}
+
+, in the following way:
+
+At any point during the binary search algorithm, we consider, as usual, a range 
+
+
+
+(
+L
+,
+…
+,
+R
+)
+
+
+{\displaystyle (L,\dots ,R)}
+
+ of the suffix array and its central point 
+
+
+
+M
+
+
+{\displaystyle M}
+
+, and decide whether we continue our search in the left sub-range 
+
+
+
+(
+L
+,
+…
+,
+M
+)
+
+
+{\displaystyle (L,\dots ,M)}
+
+ or in the right sub-range 
+
+
+
+(
+M
+,
+…
+,
+R
+)
+
+
+{\displaystyle (M,\dots ,R)}
+
+.  In order to make the decision, we compare 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ to the string at 
+
+
+
+M
+
+
+{\displaystyle M}
+
+. If 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is identical to 
+
+
+
+M
+
+
+{\displaystyle M}
+
+, our search is complete. But if not, we have already compared the first 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ characters of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ and then decided whether 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is lexicographically smaller or larger than 
+
+
+
+M
+
+
+{\displaystyle M}
+
+. Let's assume the outcome is that 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is larger than 
+
+
+
+M
+
+
+{\displaystyle M}
+
+.  So, in the next step, we consider 
+
+
+
+(
+M
+,
+…
+,
+R
+)
+
+
+{\displaystyle (M,\dots ,R)}
+
+ and a new central point 
+
+
+
+
+M
+′
+
+
+
+{\displaystyle M'}
+
+ in the middle:
+
+The trick now is that LCP-LR is precomputed such that an 
+
+
+
+O
+(
+1
+)
+
+
+{\displaystyle O(1)}
+
+-lookup tells us the longest common prefix of 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ and 
+
+
+
+
+M
+′
+
+
+
+{\displaystyle M'}
+
+, 
+
+
+
+
+l
+c
+p
+
+(
+M
+,
+
+M
+′
+
+)
+
+
+{\displaystyle \mathrm {lcp} (M,M')}
+
+.
+
+We already know (from the previous step) that 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ itself has a prefix of 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ characters in common with 
+
+
+
+P
+
+
+{\displaystyle P}
+
+: 
+
+
+
+
+l
+c
+p
+
+(
+P
+,
+M
+)
+=
+k
+
+
+{\displaystyle \mathrm {lcp} (P,M)=k}
+
+. Now there are three possibilities:
+
+The overall effect is that no character of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is compared to any character of the text more than once. The total number of character comparisons is bounded by 
+
+
+
+m
+
+
+{\displaystyle m}
+
+, so the total complexity is indeed 
+
+
+
+O
+(
+m
++
+log
+⁡
+N
+)
+
+
+{\displaystyle O(m+\log N)}
+
+.
+
+We still need to precompute LCP-LR so it is able to tell us in 
+
+
+
+O
+(
+1
+)
+
+
+{\displaystyle O(1)}
+
+ time the lcp between any two entries of the suffix array. We know the standard LCP array gives us the lcp of consecutive entries only, i.e. 
+
+
+
+
+l
+c
+p
+
+(
+i
+−
+1
+,
+i
+)
+
+
+{\displaystyle \mathrm {lcp} (i-1,i)}
+
+ for any 
+
+
+
+i
+
+
+{\displaystyle i}
+
+. However, 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ and 
+
+
+
+
+M
+′
+
+
+
+{\displaystyle M'}
+
+ in the description above are not necessarily consecutive entries.
+
+The key to this is to realize that only certain ranges 
+
+
+
+(
+L
+,
+…
+,
+R
+)
+
+
+{\displaystyle (L,\dots ,R)}
+
+ will ever occur during the binary search: It always starts with 
+
+
+
+(
+0
+,
+…
+,
+N
+)
+
+
+{\displaystyle (0,\dots ,N)}
+
+ and divides that at the center, and then continues either left or right and divide that half again and so forth. Another way of looking at it is : every entry of the suffix array occurs as central point of exactly one possible range during binary search. So there are exactly N distinct ranges 
+
+
+
+(
+L
+…
+M
+…
+R
+)
+
+
+{\displaystyle (L\dots M\dots R)}
+
+ that can possibly play a role during binary search, and it suffices to precompute 
+
+
+
+
+l
+c
+p
+
+(
+L
+,
+M
+)
+
+
+{\displaystyle \mathrm {lcp} (L,M)}
+
+ and 
+
+
+
+
+l
+c
+p
+
+(
+M
+,
+R
+)
+
+
+{\displaystyle \mathrm {lcp} (M,R)}
+
+ for those 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ possible ranges. So that is 
+
+
+
+2
+N
+
+
+{\displaystyle 2N}
+
+ distinct precomputed values, hence LCP-LR is 
+
+
+
+O
+(
+N
+)
+
+
+{\displaystyle O(N)}
+
+ in size.
+
+Moreover, there is a straightforward recursive algorithm to compute the 
+
+
+
+2
+N
+
+
+{\displaystyle 2N}
+
+ values of LCP-LR in 
+
+
+
+O
+(
+N
+)
+
+
+{\displaystyle O(N)}
+
+ time from the standard LCP array.
+
+To sum up:
+
+Given the suffix array 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and the LCP array 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ of a string 
+
+
+
+S
+=
+
+s
+
+1
+
+
+,
+
+s
+
+2
+
+
+,
+…
+
+s
+
+n
+
+
+$
+
+
+{\displaystyle S=s_{1},s_{2},\ldots s_{n}\$}
+
+ of length 
+
+
+
+n
++
+1
+
+
+{\displaystyle n+1}
+
+, its suffix tree 
+
+
+
+S
+T
+
+
+{\displaystyle ST}
+
+ can be constructed in 
+
+
+
+O
+(
+n
+)
+
+
+{\displaystyle O(n)}
+
+ time based on the following idea: Start with the partial suffix tree for the lexicographically smallest suffix and repeatedly insert the other suffixes in the order given by the suffix array.
+
+Let 
+
+
+
+S
+
+T
+
+i
+
+
+
+
+{\displaystyle ST_{i}}
+
+ be the partial suffix tree for 
+
+
+
+0
+≤
+i
+≤
+n
+
+
+{\displaystyle 0\leq i\leq n}
+
+. Further let 
+
+
+
+d
+(
+v
+)
+
+
+{\displaystyle d(v)}
+
+ be the length of the concatenation of all path labels from the root of 
+
+
+
+S
+
+T
+
+i
+
+
+
+
+{\displaystyle ST_{i}}
+
+ to node 
+
+
+
+v
+
+
+{\displaystyle v}
+
+.
+
+Start with 
+
+
+
+S
+
+T
+
+0
+
+
+
+
+{\displaystyle ST_{0}}
+
+, the tree consisting only of the root. To insert 
+
+
+
+A
+[
+i
++
+1
+]
+
+
+{\displaystyle A[i+1]}
+
+ into 
+
+
+
+S
+
+T
+
+i
+
+
+
+
+{\displaystyle ST_{i}}
+
+, walk up the rightmost path beginning at the recently inserted leaf 
+
+
+
+A
+[
+i
+]
+
+
+{\displaystyle A[i]}
+
+ to the root, until the deepest node 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ with 
+
+
+
+d
+(
+v
+)
+≤
+H
+[
+i
++
+1
+]
+
+
+{\displaystyle d(v)\leq H[i+1]}
+
+ is reached.
+
+We need to distinguish two cases:
+
+A simple amortization argument shows that the running time of this algorithm is bounded by 
+
+
+
+O
+(
+n
+)
+
+
+{\displaystyle O(n)}
+
+:
+
+The nodes that are traversed in step 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ by walking up the rightmost path of 
+
+
+
+S
+
+T
+
+i
+
+
+
+
+{\displaystyle ST_{i}}
+
+ (apart from the last node 
+
+
+
+v
+
+
+{\displaystyle v}
+
+) are removed from the rightmost path, when 
+
+
+
+A
+[
+i
++
+1
+]
+
+
+{\displaystyle A[i+1]}
+
+ is added to the tree as a new leaf. These nodes will never be traversed again for all subsequent steps 
+
+
+
+j
+>
+i
+
+
+{\displaystyle j>i}
+
+. Therefore, at most 
+
+
+
+2
+n
+
+
+{\displaystyle 2n}
+
+ nodes will be traversed in total.
+
+The LCP array 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ only contains the length of the longest common prefix of every pair of consecutive suffixes in the suffix array 
+
+
+
+A
+
+
+{\displaystyle A}
+
+. However, with the help of the inverse suffix array 
+
+
+
+
+A
+
+−
+1
+
+
+
+
+{\displaystyle A^{-1}}
+
+ (
+
+
+
+A
+[
+i
+]
+=
+j
+⇔
+
+A
+
+−
+1
+
+
+[
+j
+]
+=
+i
+
+
+{\displaystyle A[i]=j\Leftrightarrow A^{-1}[j]=i}
+
+, i.e. the suffix 
+
+
+
+S
+[
+j
+,
+n
+]
+
+
+{\displaystyle S[j,n]}
+
+ that starts at position 
+
+
+
+j
+
+
+{\displaystyle j}
+
+ in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is stored in position 
+
+
+
+
+A
+
+−
+1
+
+
+[
+j
+]
+
+
+{\displaystyle A^{-1}[j]}
+
+ in 
+
+
+
+A
+
+
+{\displaystyle A}
+
+) and constant-time range minimum queries on 
+
+
+
+H
+
+
+{\displaystyle H}
+
+, it is possible to determine the length of the longest common prefix of arbitrary suffixes in 
+
+
+
+O
+(
+1
+)
+
+
+{\displaystyle O(1)}
+
+ time.
+
+Because of the lexicographic order of the suffix array, every common prefix of the suffixes 
+
+
+
+S
+[
+i
+,
+n
+]
+
+
+{\displaystyle S[i,n]}
+
+ and 
+
+
+
+S
+[
+j
+,
+n
+]
+
+
+{\displaystyle S[j,n]}
+
+ has to be a common prefix of all suffixes between 
+
+
+
+i
+
+
+{\displaystyle i}
+
+'s position in the suffix array 
+
+
+
+
+A
+
+−
+1
+
+
+[
+i
+]
+
+
+{\displaystyle A^{-1}[i]}
+
+ and 
+
+
+
+j
+
+
+{\displaystyle j}
+
+'s position in the suffix array 
+
+
+
+
+A
+
+−
+1
+
+
+[
+j
+]
+
+
+{\displaystyle A^{-1}[j]}
+
+. Therefore, the length of the longest prefix that is shared by all of these suffixes is the minimum value in the interval 
+
+
+
+H
+[
+
+A
+
+−
+1
+
+
+[
+i
+]
++
+1
+,
+
+A
+
+−
+1
+
+
+[
+j
+]
+]
+
+
+{\displaystyle H[A^{-1}[i]+1,A^{-1}[j]]}
+
+. This value can be found in constant time if 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is preprocessed for range minimum queries.
+
+Thus given a string 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of length 
+
+
+
+n
+
+
+{\displaystyle n}
+
+  and two arbitrary positions  
+
+
+
+i
+,
+j
+
+
+{\displaystyle i,j}
+
+ in the string 
+
+
+
+S
+
+
+{\displaystyle S}
+
+  with 
+
+
+
+
+A
+
+−
+1
+
+
+[
+i
+]
+<
+
+A
+
+−
+1
+
+
+[
+j
+]
+
+
+{\displaystyle A^{-1}[i]<A^{-1}[j]}
+
+, the length of the longest common prefix of the suffixes 
+
+
+
+S
+[
+i
+,
+n
+]
+
+
+{\displaystyle S[i,n]}
+
+ and 
+
+
+
+S
+[
+j
+,
+n
+]
+
+
+{\displaystyle S[j,n]}
+
+ can be computed as follows: 
+
+
+
+LCP
+⁡
+(
+i
+,
+j
+)
+=
+H
+[
+
+RMQ
+
+H
+
+
+⁡
+(
+
+A
+
+−
+1
+
+
+[
+i
+]
++
+1
+,
+
+A
+
+−
+1
+
+
+[
+j
+]
+)
+]
+
+
+{\displaystyle \operatorname {LCP} (i,j)=H[\operatorname {RMQ} _{H}(A^{-1}[i]+1,A^{-1}[j])]}
+
+.

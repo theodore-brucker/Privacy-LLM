@@ -1,0 +1,33 @@
+In the United States, a valid patent provides its proprietor with the right to exclude others from practicing the invention claimed in that patent. A person who practices that invention without the permission of the patent holder infringes that patent.
+
+More specifically, an infringement occurs where the defendant has made, used, sold, offered to sell, or imported an infringing invention or its equivalent.[1]
+
+No infringement action may be started until the patent is issued. However, pre-grant protection is available under 35 U.S.C. § 154(d), which allows a patent owner to obtain reasonable royalty damages for certain infringing activities that occurred before patent's date of issuance.  This right to obtain provisional damages requires a patent holder to show that (1) the infringing activities occurred after the publication of the patent application, (2) the patented claims are substantially identical to the claims in the published application, and (3) the infringer had "actual notice" of the published patent application.
+
+In 2015, 45% of all patent cases were filed in the Eastern District of Texas in Marshall, and 28% of all patent cases were filed before James Rodney Gilstrap, as this court was known for favoring plaintiffs and for its expertise in patent suits.[2]
+
+A person directly infringes a patent by making, using, offering to sell, selling, or importing into the US any patented invention, without authority, during the term of the patent.[3]
+
+While the United States Patent Act does not directly distinguish "direct" and "indirect" infringement, it has become customary to describe infringement under 35 U.S.C. § 271(a) as direct infringement, while grouping 35 U.S.C. § 271(b) and 35 U.S.C. § 271(c) together as "indirect" ways of infringing a patent.[4] Unlike direct infringement, which does not require knowledge of the patent or any intent to infringe, indirect infringement can only arise when the accused indirect infringer has at least some knowledge and intent regarding the patent and the infringement.[4]
+
+35 U.S.C. § 271(b) creates a type of indirect infringement described as "active inducement of infringement," while 35 U.S.C. § 271(c) creates liability for those who have contributed to the infringement of a patent. Both types of indirect infringement can only occur when there has actually been a direct infringement of the patent.[5] Courts can find that there has been direct infringement, however, merely from circumstantial evidence that there must have been at least one instance where the inducement or contribution resulted in the practice of the patented art.[6]
+
+35 U.S.C. § 271(b) covers situations where one actively induces the infringement of a patent by encouraging, aiding, or otherwise causing another person or entity to infringe a patent. A potential inducer must actually be aware of the patent and intend for their actions to result in a third party infringing that patent.[4]
+
+35 U.S.C. § 271(c), or "contributory infringement," is triggered when a seller provides a part or component that, while not itself infringing of any patent, has a particular use as part of some other machine or composition that is covered by a patent.[4] If there are other valid uses for the product, however, or it is "a staple article or commodity of commerce suitable for substantial noninfringing use," the seller has likely not contributed to a third party's infringement under 35 U.S.C. § 271(c).
+
+The two most common defenses to a claim for patent infringement are non-infringement and invalidity.  The defense of non-infringement is that at least one element of an asserted claim is not present in the accused product (or in the case of a method claim, that at least one step has not been performed).  The defense of invalidity is a counter-attack on the patent itself., i.e., the validity of the patent or of the allegedly infringed claims. Case law provides other defenses, such as the first-sale doctrine, the right to repair, and unenforceability because of inequitable conduct.
+
+In the case of a medical procedure patent issued after 1996, a U.S. infringer may also raise a statutory safe harbor defense to infringement.
+
+There is safe harbor  for research conducted for "purely philosophical" inquiry, but research directed to commercial purposes has no safe harbor - unless the research is directed toward obtaining approval of the Food and Drug Administration (FDA) for introduction of a generic version of a patented drug (see Research exemption and Hatch-Waxman Act).[7]
+
+Under 35 U.S.C. § 284, a patent owner is entitled to "damages adequate to compensate for the infringement, but in no event less than a reasonable royalty."[8] Lost profits that result from infringement of their patent are also compensable.  Reasonableness is determined by the standard practices of the particular industry most relevant to the invention, as well as any other relevant or similar royalty history of the patentee.  Lost profits are determined by a "but for" analysis.  (e.g. "My client would have made X dollars in profit but for the infringement of his/her patent.")
+
+If an infringer is found to have deliberately infringed a patent (i.e., "willful" infringement), then "enhanced" damages can be awarded of up to three times the damages found or assessed.  Legal fees can also be assessed, under 35 U.S.C. § 285, if the case is deemed "exceptional." Willfulness is determined from "the knowledge of the actor at the time of the challenged conduct." On appeal, the standard of review is abuse of discretion.[9]
+
+An infringer can also be enjoined from further infringement of the patent, even to the point of being forced to remove an infringing product from the market.
+
+Until the 2006 Supreme Court case of eBay v. MercExchange,[10] plaintiffs routinely sought, and were granted, injunctions prohibiting infringement of their patents.  After 2006, injunctions were much harder to obtain, leaving plaintiffs to pursue remedies only for damages.  Because patents last for many years, it is common for lawsuits to conclude before the patent term has ended.  This has opened up the question of whether and to what extent a court should craft a remedy that includes a royalty for infringing activity that has not yet occurred, but which likely will occur in the immediate future if the infringer continues his infringing activity.  According to a 2009 article in the Federal Lawyer,[11] courts have been willing to grant such remedies in appropriate cases.
+
+See Glossary of patent law terms for articles on various legal aspects of patents, including special types of patents and patent applications.

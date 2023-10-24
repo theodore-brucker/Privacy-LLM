@@ -1,0 +1,7 @@
+Konversation is an Internet Relay Chat (IRC) client built on the KDE Platform[3] and is free software released under the terms of the GNU GPL-2.0-or-later.[4] Konversation is currently maintained in the KDE Extragear Network module,[5] which means that it has its own release cycle which is independent from the main KDE applications.[6] It is the default IRC client in many prominent Linux distributions, such as openSUSE,[7] the KDE spin of Fedora, and Kubuntu.
+
+Konversation supports IPv6 connections, offers SSL server support,[8] and supports Blowfish encryption. It also supports identity management with multiple server connections using separate identities for different servers[8][9] and can display multiple servers and channels in one window.[8] Konversation features automatic UTF-8 detection[8] and can support different encodings in different channels.[8] It also features an optional on-screen display (OSD) for message notifications[10] and can save bookmarks for channels and servers. Konversation supports colors, text decorations, and themable nicklist icons.[8] Konversation is also scriptable using shell scripts[11] via D-BUS and includes support for aliases and an action system for automatic events. It also identifies different users in the conversation window by choosing a random color for each user.
+
+
+
+This Internet Relay Chat-related article is a stub. You can help Wikipedia by expanding it.

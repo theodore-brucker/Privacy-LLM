@@ -1,0 +1,33 @@
+The Linux kernel provides several interfaces to user-space applications that are used for different purposes and that have different properties by design. There are two types of application programming interface (API) in the Linux kernel that are not to be confused: the "kernel–user space" API and the "kernel internal" API.
+
+The Linux API is the kernel–user space API, which allows programs in user space to access system resources and services of the Linux kernel.[3] It is composed out of the System Call Interface of the Linux kernel and the subroutines in the GNU C Library (glibc). The focus of the development of the Linux API has been to provide the usable features of the specifications defined in POSIX in a way which is reasonably compatible, robust and performant, and to provide additional useful features not defined in POSIX, just as the kernel–user space APIs of other systems implementing the POSIX API also provide additional features not defined in POSIX.
+
+The Linux API, by choice, has been kept stable over the decades through a policy of not introducing breaking changes; this stability guarantees the portability of source code.[4] At the same time, Linux kernel developers have historically been conservative and meticulous about introducing new system calls.[citation needed]
+
+Much available free and open-source software is written for the POSIX API. Since so much more development flows into the Linux kernel as compared to the other POSIX-compliant combinations of kernel and C standard library,[citation needed] the Linux kernel and its API have been augmented with additional features. As far as these additional features provide a technical advantage, programming for the Linux API is preferred over the POSIX-API. Well-known current examples are udev, systemd and Weston.[5] People such as Lennart Poettering openly advocate to prefer the Linux API over the POSIX API, where this offers advantages.[6]
+
+At FOSDEM 2016, Michael Kerrisk explained some of the perceived issues with the Linux kernel's user-space API, describing that it contains multiple design errors by being non-extensible, unmaintainable, overly complex, of limited purpose, in violation of standards, and inconsistent. Most of those mistakes cannot be fixed because doing so would break the ABI that the kernel presents to the user space.[7]
+
+System Call Interface is the denomination for the entirety of all implemented and available system calls in a kernel. Various subsystems, such as the Direct Rendering Manager (DRM), define their own system calls and the entirety is called System Call Interface.
+
+Various issues with the organization of the Linux kernel system calls are being publicly discussed. Issues have been pointed out by Andy Lutomirski, Michael Kerrisk and others.[8][9][10][11]
+
+A C standard library is a wrapper around the system calls of the Linux kernel; the combination of the Linux kernel System Call Interface and a C standard library is what builds the Linux API. Some popular implementations of the C standard library are
+
+As in other Unix-like systems, additional capabilities of the Linux kernel exist that are not part of POSIX:
+
+DRM has been paramount for the development and implementations of well-defined and performant free and open-source graphics device drivers without which no rendering acceleration would be available at all, only the 2D drivers would be available in the X.Org Server. DRM was developed for Linux, and since has been ported to other operating systems as well.[14]
+
+The term Linux ABI refers to a kernel–user space ABI. The application binary interface refers to the compiled binaries, in machine code. Any such ABI is therefore bound to the instruction set. Defining a useful ABI and keeping it stable is less the responsibility of the Linux kernel developers or of the developers of the GNU C Library, and more the task for Linux distributions and independent software vendors (ISVs) who wish to sell and provide support for their proprietary software as binaries only for such a single Linux ABI, as opposed to supporting multiple Linux ABIs.
+
+An ABI has to be defined for every instruction set, such as x86, x86-64, MIPS, ARMv7-A (32-Bit), ARMv8-A (64-Bit), etc. with the endianness, if both are supported.
+
+It should be able to compile the software with different compilers against the definitions specified in the ABI and achieve full binary compatibility. Compilers that are free and open-source software are e.g. GNU Compiler Collection, LLVM/Clang.
+
+There are a lot of kernel-internal APIs for all the subsystems to interface with one another. These are being kept fairly stable, but there is no guarantee for stability. In case new research or insights make a change seem favorable, an API is changed, all necessary rewrite and testing have to be done by the author.
+
+The Linux kernel is a monolithic kernel, hence device drivers are kernel components. To ease the burden of companies maintaining their (proprietary) device drivers out-of-tree, stable APIs for the device drivers have been repeatedly requested. The Linux kernel developers have repeatedly denied guaranteeing stable in-kernel APIs for device drivers. Guaranteeing such would have faltered the development of the Linux kernel in the past and would still in the future and, due to the nature of free and open-source software, are not necessary. Ergo, by choice, the Linux kernel has no stable in-kernel API.[15]
+
+Since there are no stable in-kernel APIs, there cannot be stable in-kernel ABIs.[16]
+
+For several use cases, the Linux API is considered too low-level and higher abstraction APIs are used. Such of course still need to work on top of the low-level Linux APIs. Examples:

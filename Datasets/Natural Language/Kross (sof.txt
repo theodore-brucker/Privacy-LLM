@@ -1,0 +1,9 @@
+Kross is a scripting framework for KDE Frameworks. Originally Kross was designed for use in KOffice but eventually became the official scripting framework in KDE Software Compilation 4. Kross is designed to provide full scripting power for users of KDE applications, with a language of their own choice; and make it easy for developers targeting the KDE platform to enable their application with support for multiple scripting languages (without themselves needing to be proficient in any of them).
+
+The Kross scripting framework is not a scripting language itself. It merely serves to plug into KDE the support for other, already existing scripting languages. Currently supported are: Python, Ruby, and JavaScript and the Falcon Programming Language. Addition of other scripting languages is made easy by the modular architecture of the framework.
+
+Kross provides the following advantages over other approaches to enable scripting for desktop applications or desktop environments:
+
+Compared to AppleScript's Open Scripting Architecture (OSA):
+
+Kross does not currently have any provision for running untrusted scripts, i.e. does not allow restricting what scripts can do. Kross developer Sauer[3] suggests either using a language with good sandbox support (such as by using the experimental Java plugin) or using approaches to increase the trust in scripts, such as using signed scripts.[4]

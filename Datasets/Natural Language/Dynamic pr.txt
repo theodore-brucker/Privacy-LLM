@@ -1,0 +1,25 @@
+Dynamic program analysis is analysis of computer software that involves executing the program in question (as opposed to static program analysis, which does not). Dynamic program analysis includes familiar techniques from software engineering such as unit testing, debugging, and measuring code coverage, but also includes lesser-known techniques like program slicing and invariant inference. Dynamic program analysis is widely applied in security in the form of runtime memory error detection, fuzzing, dynamic symbolic execution, and taint tracking.
+
+For dynamic program analysis to be effective, the target program must be executed with sufficient test inputs[1] to cover almost all possible outputs. Use of software testing measures such as code coverage helps increase the chance that an adequate slice of the program's set of possible behaviors has been observed.[why?] Also, care must be taken to minimize the effect that instrumentation has on the execution (including temporal properties) of the target program.[why?][needs context] Dynamic analysis is in contrast to static program analysis. Unit tests, integration tests, system tests and acceptance tests use dynamic testing.[2]
+
+Computing the code coverage according to a test suite or a workload is a standard dynamic analysis technique.
+
+Dynamic testing involves executing a program on a set of test cases.
+
+Fuzzing is a testing technique that involves executing a program on a wide variety of inputs; often these inputs are randomly generated (at least in part). Gray-box fuzzers use code coverage to guide input generation.
+
+Dynamic symbolic execution (also known as DSE or concolic execution) involves executing a test program on a concrete input, collecting the path constraints associated with the execution, and using a constraint solver (generally, an SMT solver) to generate new inputs that would cause the program to take a different control-flow path, thus increasing code coverage of the test suite.[3] DSE can considered a type of fuzzing ("white-box" fuzzing).
+
+Dynamic data-flow analysis tracks the flow of information from sources to sinks. Forms of dynamic data-flow analysis include dynamic taint analysis and even dynamic symbolic execution.[4][5]
+
+Daikon is an implementation of dynamic invariant detection. Daikon runs a program, observes the values that
+the program computes, and then reports properties that were true over the observed executions, and thus likely true over all executions.
+
+Dynamic analysis can be used to detect security problems.
+
+For a given subset of a program’s behavior, program slicing consists of reducing the program to the minimum form that still produces the selected behavior. The reduced program is called a “slice” and is a faithful representation of the original program within the domain of the specified behavior subset.
+Generally, finding a slice is an unsolvable problem, but by specifying the target behavior subset by the values of a set of variables, it is possible to obtain approximate slices using a data-flow algorithm. These slices are usually used by developers during debugging to locate the source of errors.
+
+Most performance analysis tools use dynamic program analysis techniques.[citation needed]
+
+Most dynamic analysis techniques are based on some kind of code instrumentation or transformation.

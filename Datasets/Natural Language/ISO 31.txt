@@ -1,0 +1,7 @@
+ISO 31 (Quantities and units, International Organization for Standardization, 1992) is a superseded international standard concerning physical quantities, units of measurement, their interrelationships and their presentation.[1] It was revised and replaced by ISO/IEC 80000.
+
+The standard comes in 14 parts:
+
+A second international standard on quantities and units was IEC 60027[citation needed]. The ISO 31 and IEC 60027 Standards were revised by the two standardization organizations in collaboration ([1], [2]) to integrate both standards into a joint standard ISO/IEC 80000 - Quantities and Units in which the quantities and equations used with SI are to be referred as the International System of Quantities (ISQ). ISO/IEC 80000 supersedes both ISO 31 and part of IEC 60027.
+
+ISO 31-0 introduced several new words into the English language that are direct spelling-calques from the French.[2] Some of these words have been used in scientific literature.[3][4]

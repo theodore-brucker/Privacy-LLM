@@ -1,0 +1,65 @@
+
+
+Plan S is an initiative for open-access science publishing launched in 2018[1][2] by "cOAlition S",[3] a consortium of national research agencies and funders from twelve European countries. The plan requires scientists and researchers who benefit from state-funded research organisations and institutions to publish their work in open repositories or in journals that are available to all by 2021.[4] The "S" stands for "shock".[5]
+
+Per 2017 figures, the mandate of Plan S will cover about 6% of worldwide research articles, including about one third of articles in Nature and Science. Major publishers have been planning to accommodate this mandate by offering (or allowing) open access options to authors.[6]
+
+The plan, launched in 2018, was structured around ten principles.[3] The key principle states that by 2021, research funded by public or private grants must be published in open-access journals or platforms, or made immediately available in open access repositories without an embargo. The ten principles are:
+
+A task force of Science Europe, led by John-Arne Røttingen (RCN) and David Sweeney (UKRI), has developed a specific implementation guidance on the Plan S principles, released on 27 November 2018.[8] The development of the implementation guidance also drew on input from interested parties such as research institutions, researchers, universities, funders, charities, publishers, and civil society.[9]
+
+During a transition period, it will remain permissible to publish in so-called transformative journals, defined as hybrid journals that are covered by an agreement to become a full open-access venue.[10] The contracts of such transformative agreements need to be made publicly available (including costs), and may not last beyond 2023.[8]
+
+Publishing in any journal will continue to be permissible subject to the condition that a copy of the manuscript accepted by the journal, or the final published article, will be deposited in an approved open-access repository (green open access) with no embargo on access and with a CC BY licence.[10]
+As part of the Rights retention strategy, Coalition S plans to override journal policies that would forbid this.[11][12] As of October 2021, this was done for over 500 works published in various venues.[13]
+
+To re-use scholarly content, proper attribution needs to be given to the authors, and publications need to be granted a worldwide, royalty-free, non-exclusive, irrevocable license to share and adapt the work for any purpose, including commercially. Scholarly articles must be published under a Creative Commons Attribution license CC BY 4.0, or alternatively CC BY-SA 4.0 Share-alike or CC0 Public Domain.[8]
+In particular, this allows them to be used in Wikipedia.[13]
+
+Open access journals and platforms need to meet the following criteria to be compliant with Plan S:
+
+Mirror journals, with one part being subscription based and the other part being open access, are considered to be de facto hybrid journals. Mirror journals are not compliant with Plan S unless they are a part of a transformative agreement.
+
+The implementation guidance was open for general feedback until 8 February 2019.[14] On 31 May 2019 the cOAlition S published an updated version of their implementation guidance in light of the feedback received during the consultation.[15]
+
+Some commentators have suggested that the adoption of Plan S in one region would encourage its adoption in other regions.[16]
+
+As of October 2018[update], organisations in the coalition behind Plan S included:[17]
+
+International organizations that are members:
+
+Plan S is also supported by:
+
+Robert-Jan Smits stepped down in March 2019[40] and later wrote a book about Plan S.[41] Johan Rooryck of Leiden University was appointed Open Access Champion by cOAlition S on 28 August 2019;[42]
+
+In October 2018 the Office of Science and Technology Policy (OSTP) made it clear that US federal funders would not be signing up to Plan S. In an interview with the American Institute of Physics published 30 April 2019, OSTP Director Kelvin Droegemeier stated with regard to Plan S: "One of the things this government will not do is to tell researchers where they have to publish their papers. That is absolutely up to the scholar who's doing the publication. There's just no question about that."[43]
+
+In 2018 Swedish Riksbank's Jubileee Fond (RJ) used to be a member,[44] but left the coalition in 2019 after concerns about the timelines of Plan S.[45]
+
+On 25 October 2019, Vijay Raghavan announced that India would not be joining cOAlition S,[46] despite his supportive comments earlier in the same year.[25]
+
+The European Research Council initially supported Coalition S in 2018,[47] 
+but withdrew support in July 2020.[48]
+
+The following institutional statements of support were issued:
+
+Reactions included an Open Letter, signed by more than 1790 researchers, expressing their concerns about perceived unintended outcomes of the Plan if implemented as stated before the publication of the specific implementation guidance.[82] Another Open Letter in support of mandatory open access was issued after the publication of the specific implementation guide, and had been signed by over 1,900 researchers by the end of 2018. However, it did not reference Plan S specifically.[83][84]
+
+Stephen Curry, a structural biologist and open access advocate at Imperial College London, called the policy a "significant shift" and "a very powerful declaration".[85] Ralf Schimmer, head of the Scientific Information Provision at the Max Planck Digital Library, told The Scientist that "This will put increased pressure on publishers and on the consciousness of individual researchers that an ecosystem change is possible ... There has been enough nice language and waiting and hoping and saying please. Research communities just aren't willing to tolerate procrastination anymore."[86] Political activist George Monbiot – while acknowledging that the plan was "not perfect" – wrote in The Guardian that the publishers' responses to Plan S was "ballistic", and argued that Elsevier's response regarding Wikipedia "inadvertently remind[ed] us of what happened to the commercial encyclopedias".[87] He said that, until Plan S is implemented, "The ethical choice is to read the stolen material published by Sci-Hub."[87]
+Herpetologist Malcolm L. McCallum suggested that science requires a diversity of publishing types to serve the needs of the entire scientific community.[88]
+
+Individual Plan S policies have also received a mixed reception from academics. For example, the Rights Retention Strategy has been enthusiastically promoted by Cambridge neuroscientist Stephen Eglen because it can be used by anyone to make their work open access.[89] In contrast, computational biochemist Lynn Kamerlin criticized the Rights Retention Strategy because, while it would create obligations for grantees it was unclear whether it would create legal obligations for publishers.[90] Similarly, Shaun Khoo has argued that the Rights Retention Strategy is a complex approach that creates an unrealistic burden for authors and may produce legal risk for authors, institutions and readers.[91]
+
+The plan was initially met with opposition from a number of publishers of non-open access journals, as well as from learned societies.[92] Springer Nature "urge[d] research funding agencies to align rather than act in small groups in ways that are incompatible with each other, and for policymakers to also take this global view into account", adding that removing publishing options from researchers "fails to take this into account and potentially undermines the whole research publishing system".[85] The AAAS, publisher of the journal Science, argued that Plan S "will not support high-quality peer-review, research publication and dissemination", and that its implementation "would disrupt scholarly communications, be a disservice to researchers, and impinge academic freedom" and "would also be unsustainable for the Science family of journals".[85][86] Tom Reller of Elsevier said, "if you think that information should be free of charge, go to Wikipedia".[93]
+
+On 12 September 2018 UBS repeated their "sell" advice on Elsevier (RELX) stocks.[94] Elsevier's share price fell by 13% between 28 Aug and 19 September 2018.[95]
+
+According to the Open Access Scholarly Publishers Association (OASPA), whose aim is to transform the business model of the largest publishers (by supporting projects like Project DEAL), Plan S puts smaller and emerging fully open access publishers at a competitive disadvantage, and potentially harms their prospects. Pure "gold" open access publishers may be put out of business by incentivizing authors to publish with large publishers which have the market power to negotiate their transition plans with funders, while no incentives are provided to authors to publish with smaller fully open access publishers and scholarly societies.[96]
+
+On 28 November 2018 the journal Epidemiology and Infection published by Cambridge University Press announced that it would convert to the open access model of publication from 1 January 2019, citing changed funder policies and Plan S.[97]
+
+On 8 April 2020, Springer Nature announced that many of its journals, including Nature, would become compatible with Plan S by publishing open access articles from 2021 and committing to an eventual transition to full open access.[98][99]
+
+On 15 January 2021, the AAAS, which publishes Science, announced a trial OA policy that accommodates Plan S's green open access rules.[100] This policy allows the distribution of an article's accepted version under a free license, without embargo and without charge. However, this is only permitted to authors who are under mandates by their Coalition S funders.
+
+In February 2021, more than 50 publishers, including Elsevier, Wiley and Springer Nature, announced their opposition to the rights retention strategy of Coalition S. More specifically, Springer Nature announced their intention to override that strategy by making authors sign a license to that effect.[101][102]

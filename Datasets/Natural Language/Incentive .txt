@@ -1,0 +1,13 @@
+A mechanism is called incentive-compatible (IC) if every participant can achieve the best outcome to themselves just by acting according to their true preferences.[1]: 225 [2] For example, there is incentive compatibility if high-risk clients are better off in identifying themselves as high-risk to insurance firms, who only sell discounted insurance to high-risk clients. Likewise, they would be worse off if they pretend to be low-risk. Low-risk clients who pretend to be high-risk would also be worse off.[3]
+
+There are several different degrees of incentive-compatibility:[4]
+
+Every DSIC mechanism is also BNIC, but a BNIC mechanism may exist even if no DSIC mechanism exists.
+
+Typical examples of DSIC mechanisms are majority voting between two alternatives, and second-price auction.
+
+Typical examples of a mechanisms that are not DSIC are plurality voting between three or more alternatives and first-price auction.
+
+A randomized mechanism is a probability-distribution on deterministic mechanisms. There are two ways to define incentive-compatibility of randomized mechanisms:[1]: 231–232 
+
+The revelation principle comes in two variants corresponding to the two flavors of incentive-compatibility:

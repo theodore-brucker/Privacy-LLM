@@ -1,0 +1,75 @@
+
+robots.txt is the filename used for implementing the Robots Exclusion Protocol, a standard used by websites to indicate to visiting web crawlers and other web robots which portions of the website they are allowed to visit.
+
+This relies on voluntary compliance. Not all robots comply with the standard; indeed, email harvesters, spambots, malware and robots that scan for security vulnerabilities may very well start with the portions of the website they have been asked (by the Robots Exclusion Protocol) to stay out of.
+
+The "robots.txt" file can be used in conjunction with sitemaps, another robot inclusion standard for websites.
+
+The standard was proposed by Martijn Koster,[1][2] when working for Nexor[3] in February 1994[4] on the www-talk mailing list, the main communication channel for WWW-related activities at the time. Charles Stross claims to have provoked Koster to suggest robots.txt, after he wrote a badly-behaved web crawler that inadvertently caused a denial-of-service attack on Koster's server.[5]
+
+It quickly became a de facto standard that present and future web crawlers were expected to follow; most complied, including those operated by search engines such as WebCrawler, Lycos, and AltaVista.[6]
+
+On July 1, 2019, Google announced the proposal of the Robots Exclusion Protocol as an official standard under Internet Engineering Task Force.[7] A proposed standard[8] was published in September 2022 as RFC 9309.
+
+When a site owner wishes to give instructions to web robots they place a text file called robots.txt in the root of the web site hierarchy (e.g. https://www.example.com/robots.txt). This text file contains the instructions in a specific format (see examples below). Robots that choose to follow the instructions try to fetch this file and read the instructions before fetching any other file from the website. If this file does not exist, web robots assume that the website owner does not wish to place any limitations on crawling the entire site.
+
+A robots.txt file contains instructions for bots indicating which web pages they can and cannot access. Robots.txt files are particularly important for web crawlers from search engines such as Google.
+
+A robots.txt file on a website will function as a request that specified robots ignore specified files or directories when crawling a site. This might be, for example, out of a preference for privacy from search engine results, or the belief that the content of the selected directories might be misleading or irrelevant to the categorization of the site as a whole, or out of a desire that an application only operates on certain data. Links to pages listed in robots.txt can still appear in search results if they are linked to from a page that is crawled.[9]
+
+A robots.txt file covers one origin. For websites with multiple subdomains, each subdomain must have its own robots.txt file. If example.com had a robots.txt file but a.example.com did not, the rules that would apply for example.com would not apply to a.example.com. In addition, each protocol and port needs its own robots.txt file; http://example.com/robots.txt does not apply to pages under http://example.com:8080/ or https://example.com/.
+
+Some major search engines following this standard include Ask,[10] AOL,[11] Baidu,[12]  DuckDuckGo,[13] Google,[14] Yahoo!,[15] and Yandex.[16] Bing[17] is still[when?] not fully compatible with the standard as it cannot inherit settings from the wildcard character (*).[18]
+
+The volunteering group Archive Team explicitly ignores robots.txt directives, using it instead for discovering more links, such as sitemaps.[19] The group views it as an obsolete standard that hinders web archival efforts. According to project leader Jason Scott, "unchecked, and left alone, the robots.txt file ensures no mirroring or reference for items that may have general use and meaning beyond the website's context."[20]
+
+For some years, the Internet Archive did not crawl sites with robots.txt, but in April 2017, it announced that it would no longer honour directives in the robots.txt files.[21] "Over time we have observed that the robots.txt files that are geared toward search engine crawlers do not necessarily serve our archival purposes".[22] This was in response to entire domains being tagged with robots.txt when the content became obsolete.[22]
+
+Despite the use of the terms "allow" and "disallow", the protocol is purely advisory and relies on the compliance of the web robot; it cannot enforce any of what is states in the file. [23] Malicious web robots are unlikely to honor robots.txt; some may even use the robots.txt as a guide to find disallowed links and go straight to them. While this is sometimes claimed to be a security risk,[24] this sort of security through obscurity is discouraged by standards bodies. The National Institute of Standards and Technology (NIST) in the United States specifically recommends against this practice: "System security should not depend on the secrecy of the implementation or its components."[25] In the context of robots.txt files, security through obscurity is not recommended as a security technique.[26]
+
+Many robots also pass a special user-agent to the web server when fetching content.[27] A web administrator could also configure the server to automatically return failure (or pass alternative content) when it detects a connection using one of the robots.[28][29]
+
+Some sites, such as Google, host a humans.txt file that displays information meant for humans to read.[30] Some sites such as GitHub redirect humans.txt to an About page.[31]
+
+Previously, Google had a joke file hosted at /killer-robots.txt instructing the Terminator not to kill the company founders Larry Page and Sergey Brin.[32][33]
+
+This example tells all robots that they can visit all files because the wildcard * stands for all robots and the Disallow directive has no value, meaning no pages are disallowed.
+
+The same result can be accomplished with an empty or missing robots.txt file.
+
+This example tells all robots to stay out of a website:
+
+This example tells all robots not to enter three directories:
+
+This example tells all robots to stay away from one specific file:
+
+All other files in the specified directory will be processed.
+
+This example tells two specific robots not to enter one specific directory:
+
+Example demonstrating how comments can be used:
+
+It is also possible to list multiple robots with their own rules. The actual robot string is defined by the crawler. A few robot operators, such as Google, support several user-agent strings that allow the operator to deny access to a subset of their services by using specific user-agent strings.[14]
+
+Example demonstrating multiple user-agents:
+
+The crawl-delay value is supported by some crawlers to throttle their visits to the host. Since this value is not part of the standard, its interpretation is dependent on the crawler reading it. It is used when the multiple burst of visits from bots is slowing down the host. Yandex interprets the value as the number of seconds to wait between subsequent visits.[16] Bing defines crawl-delay as the size of a time window (from 1 to 30 seconds) during which BingBot will access a web site only once.[34] Google provides an interface in its search console for webmasters, to control the Googlebot's subsequent visits.[35]
+
+Some crawlers support a Sitemap directive, allowing multiple Sitemaps in the same robots.txt in the form Sitemap: full-url:[36]
+
+Some crawlers (Yandex) support a Host directive, allowing websites with multiple mirrors to specify their preferred domain:[37]
+
+This is not supported by all crawlers.
+
+The Robot Exclusion Standard does not mention the "*" character in the Disallow: statement.[38]
+
+In addition to root-level robots.txt files, robots exclusion directives can be applied at a more granular level through the use of Robots meta tags and X-Robots-Tag HTTP headers. The robots meta tag cannot be used for non-HTML files such as images, text files, or PDF documents. On the other hand, the X-Robots-Tag can be added to non-HTML files by using .htaccess and httpd.conf files.[39]
+
+The X-Robots-Tag is only effective after the page has been requested and the server responds, and the robots meta tag is only effective after the page has loaded, whereas robots.txt is effective before the page is requested. Thus if a page is excluded by a robots.txt file, any robots meta tags or X-Robots-Tag headers are effectively ignored because the robot will not see them in the first place.[39]
+
+
+Maximum size of a robots.txt file
+
+The Robots Exclusion Protocol requires crawlers to parse at least 500 kibibytes (KiB) of robots.txt files,[40] which Google maintains as a 500 kibibyte file size restriction for robots.txt files .[41]
+
+

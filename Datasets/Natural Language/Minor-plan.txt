@@ -1,0 +1,53 @@
+
+
+A minor-planet moon is an astronomical object that orbits a minor planet as its natural satellite. As of January 2022[update], there are 457 minor planets known or suspected to have moons.[1] Discoveries of minor-planet moons (and binary objects, in general) are important because the determination of their orbits provides estimates on the mass and density of the primary, allowing insights into their physical properties that are generally not otherwise accessible.[2]
+
+Several of the moons are quite large compared to their primaries: 90 Antiope, Mors–Somnus and Sila–Nunam (95%), Patroclus–Menoetius, Altjira and Lempo–Hiisi (90%, with Lempo–Paha at 50%). The largest known minor-planet moon in absolute size is Pluto's largest moon Charon, which itself has about half the diameter of Pluto.
+
+The first modern era mention of the possibility of an asteroid satellite was in connection with an occultation of the bright star Gamma Ceti by the asteroid 6 Hebe in 1977. The observer, amateur astronomer Paul D. Maley, detected an unmistakable 0.5 second disappearance of this naked eye star from a site near Victoria, Texas. Many hours later, several observations were reported in Mexico attributed to the occultation by 6 Hebe itself. Although not confirmed, this documents the first formally documented case of a suspected companion of an asteroid.[3]
+
+There are also several known ring systems around distant objects (see: rings of Chariklo and Chiron).
+
+In addition to the terms satellite and moon, the term "binary" (binary minor planet) is sometimes used for minor planets with moons, and "triple" for minor planets with two moons. If one object is much bigger it can be referred to as the primary and its companion as secondary. The term double asteroid is sometimes used for systems in which the asteroid and its moon are roughly the same size, while binary tends to be used independently from the relative sizes of the components. When binary minor planets are similar in size, the Minor Planet Center (MPC) refers to them as "binary companions" instead of referring to the smaller body as a satellite.[4] A good example of a true binary is the 90 Antiope system, identified in August 2000.[5] Small satellites are often referred to as moonlets.[2][6]
+
+Prior to the era of the Hubble Space Telescope and space probes reaching the outer Solar System, attempts to detect satellites around asteroids were limited to optical observations from Earth. For example, in 1978, stellar occultation observations were claimed as evidence of a satellite for the asteroid 532 Herculina.[7] However, later more-detailed imaging by the Hubble Telescope did not reveal a satellite, and the current consensus is that Herculina does not have a significant satellite.[8] There were other similar reports of asteroids having companions (usually referred to as satellites) in the following years. A letter by astronomer Thomas Hamilton in the Sky & Telescope magazine at this time pointed to apparently simultaneous impact craters on Earth (for example, the Clearwater Lakes in Quebec), suggesting that these craters were caused by pairs of gravitationally bound objects.[9]
+
+Also in 1978, Pluto's largest moon Charon was discovered; however, at the time Pluto was still considered to be one of the major planets.
+
+In 1993, the first asteroid moon was confirmed when the Galileo probe discovered the small Dactyl orbiting 243 Ida in the asteroid belt. The second was discovered around 45 Eugenia in 1998.[10] In 2001, 617 Patroclus and its same-sized companion Menoetius became the first known binary asteroids in the Jupiter trojans.[11] The first trans-Neptunian binary after Pluto–Charon, 1998 WW31, was optically resolved in 2002.[12]
+
+In 2005, the asteroid 87 Sylvia was discovered to have two satellites, making it the first known triple system (also called trinary minor planets).[13] This was followed by the discovery of a second moon orbiting 45 Eugenia.[14] Also in 2005, the dwarf planet Haumea was discovered to have two moons, making it the second trans-Neptunian object after Pluto known to have more than one moon.[15] Additionally, 216 Kleopatra[16] and 93 Minerva[17] were discovered to be trinary asteroids in 2008 and 2009 respectively. Since the first few triple minor planets were discovered, more continue to be discovered at a rate of about one a year. Most recently discovered were two moons orbiting large near-earth asteroid 3122 Florence, bringing the number of known trinary systems in the Solar System up to 16 (including the Pluto system).
+
+The following table lists all satellites of triple systems (or higher multiplicities) chronologically by their discovery date, starting with Charon, discovered in 1978. The highest known multiplicities are for Pluto (a sextuple system) and 130 Elektra (a quadruple system).
+
+The data about the populations of binary objects are still patchy. In addition to the inevitable observational bias (dependence on the distance from Earth, size, albedo and separation of the components) the frequency appears to be different among different categories of objects. Among asteroids, an estimated 2% would have satellites. Among trans-Neptunian objects (TNOs), an estimated 11% are thought to be binary or multiple objects, and the majority of the large TNOs have at least one satellite, including all four IAU-listed dwarf planets.
+
+More than 50 binaries are known in each of the main groupings: near-Earth asteroids, belt asteroids, and trans-Neptunian objects, not including numerous claims based solely on light-curve variation.
+
+Two binaries have been found so far among centaurs with semi-major axes smaller than Neptune.[18] Both are double ring systems around 2060 Chiron and 10199 Chariklo, discovered in 1993–2011 and 2013 respectively.
+
+The origin of minor-planet moons is not currently known with certainty, and a variety of theories exist. A widely accepted theory is that minor-planet moons are formed from debris knocked off the primary by an impact. Other pairings may be formed when a small object is captured by the gravity of a larger one.
+
+Formation by collision is constrained by the angular momentum of the components, i.e. by the masses and their separation. Close binaries fit this model (e.g. Pluto–Charon). Distant binaries however, with components of comparable size, are unlikely to have followed this scenario, unless considerable mass has been lost in the event.
+
+The distances of the components for the known binaries vary from a few hundreds of kilometres (243 Ida, 3749 Balam) to more than 3000 km (379 Huenna) for the asteroids. Among TNOs, the known separations vary from 3,000 to 50,000 km.[18]
+
+What is "typical" for a binary system tends to depend on its location in the Solar System (presumably because of different modes of origin and lifetimes of such systems in different populations of minor planets).[19]
+
+As of January 2022[update], there are 457 minor planets (systems) with 477 known companions.[1] The following table is a listing of the total number of these systems by orbital class:
+
+This is a list of near-Earth asteroids with companions.[1] Candidate binaries with an unconfirmed status are displayed on a dark background.[22] For an overview, see summary and introduction.
+
+This is a list of Mars-crossing asteroids with companions.[1] Candidate binaries with an unconfirmed status are displayed on a dark background.[22] For an overview, see summary and introduction.
+
+This is a list of main-belt asteroids with companions.[1] Candidate binaries with an unconfirmed status are displayed on a dark background.[22] For an overview, see summary and introduction.
+
+The following binaries are double asteroids, with similarly sized components, and a barycenter outside of the larger object.
+
+In addition, these bodies might be double asteroids, but due to errors in their size and orbit, it is uncertain.
+
+This is a list of Jupiter trojans with companions.[1] Candidate binaries with an unconfirmed status are displayed on a dark background.[22] For an overview, see summary and introduction.
+
+This is a list of trans-Neptunian objects with companions.[1] Candidate binaries with an unconfirmed status are displayed on a dark background.[22] This list gives the companion's orbital period (Ps) in days rather than hours. For an overview, see summary and introduction.
+
+Solar System → Local Interstellar Cloud → Local Bubble → Gould Belt → Orion Arm → Milky Way → Milky Way subgroup → Local Group → Local Sheet → Virgo Supercluster → Laniakea Supercluster → KBC Void → Observable universe → UniverseEach arrow (→) may be read as "within" or "part of".

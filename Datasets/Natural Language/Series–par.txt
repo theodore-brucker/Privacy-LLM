@@ -1,0 +1,37 @@
+In graph theory, series–parallel graphs are graphs with two distinguished vertices called terminals, formed recursively by two simple composition operations. They can be used to model series and parallel electric circuits.
+
+In this context, the term graph means multigraph.
+
+There are several ways to define series–parallel graphs. The following definition basically follows the one used by David Eppstein.[1]
+
+A two-terminal graph (TTG) is a graph with two distinguished vertices, s and t called source and sink, respectively.
+
+The parallel composition Pc = Pc(X,Y) of two TTGs X and Y is a TTG created from the  disjoint union of graphs X and Y by merging the sources of X and Y to create the source of Pc and merging the sinks of X and Y to create the sink of Pc.
+
+The series composition Sc = Sc(X,Y) of two TTGs X and Y is a TTG created from the  disjoint union of graphs X and Y by merging the sink of X with the source of Y. The source of X becomes the source of Sc and the sink of Y becomes the sink of Sc.
+
+A two-terminal series–parallel graph (TTSPG) is a graph that may be constructed by a sequence of  series and parallel compositions starting from a set of copies of a single-edge graph K2 with assigned terminals.
+
+Definition 1. Finally, a graph is called series–parallel (SP-graph), if it is a TTSPG when some two of its vertices are regarded as source and sink.
+
+In a similar way one may define series–parallel digraphs, constructed from copies of single-arc graphs, with arcs directed from the source to the sink.
+
+The following definition specifies the same class of graphs.[2]
+
+Definition 2. A graph is an SP-graph, if it may be turned into K2 by a sequence of the following operations:
+
+Every series–parallel graph has treewidth at most 2 and branchwidth at most 2.[3]  Indeed, a graph has treewidth at most 2 if and only if it has branchwidth at most 2, if and only if every biconnected component is a series–parallel graph.[4][5] The maximal series–parallel graphs, graphs to which no additional edges can be added without destroying their series–parallel structure, are exactly the 2-trees.
+
+2-connected series–parallel graphs are characterised by having no subgraph homeomorphic to K4.[3]
+
+Series parallel graphs may also be characterized by their ear decompositions.[1]
+
+SP-graphs may be recognized in linear time[6] and their series–parallel decomposition may be constructed in linear time as well.
+
+Besides being a model of certain types of electric networks, these graphs are of interest in computational complexity theory, because a number of standard graph problems are solvable in linear time on SP-graphs,[7] including finding of the maximum matching, maximum independent set, minimum dominating set and Hamiltonian completion. Some of these problems are NP-complete for general graphs. The solution capitalizes on the fact that if the answers for one of these problems are known for two SP-graphs, then one can quickly find the answer for their series and parallel compositions.
+
+The generalized series–parallel graphs (GSP-graphs) are an extension of the SP-graphs[8] with the same algorithmic efficiency for the mentioned problems. The class of GSP-graphs include the classes of SP-graphs and outerplanar graphs.
+
+GSP graphs may be specified by Definition 2 augmented with the third operation of deletion of a dangling vertex (vertex of degree 1). Alternatively, Definition 1 may be augmented with the following operation.
+
+An SPQR tree is a tree structure that can be defined for an arbitrary 2-vertex-connected graph. It has S-nodes, which are analogous to the series composition operations in series–parallel graphs, P-nodes, which are analogous to the parallel composition operations in series–parallel graphs, and R-nodes, which do not correspond to series–parallel composition operations. A 2-connected graph is series–parallel if and only if there are no R-nodes in its SPQR tree.

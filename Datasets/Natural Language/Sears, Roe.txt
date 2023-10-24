@@ -1,0 +1,31 @@
+
+
+Sears, Roebuck & Co. v. Stiffel Co., 376 U.S. 225 (1964), was a United States Supreme Court case that limited state law on unfair competition when it prevents the copying of an item that is not covered by a patent.[1]
+
+Justice Hugo Black wrote for a unanimous Court that the US Constitution reserved power over intellectual property such as patents to the federal government exclusively. Since the trial court had found Stiffel's patent invalid as insufficiently inventive, its product design was thus in the public domain and no state law could be used to prevent Sears from copying it.
+
+The Supreme Court made a similar ruling in a companion case decided the same day, Compco Corp. v. Day-Brite Lighting, Inc..[2]
+
+The two cases were the first decisions of the Supreme Court that the Supremacy Clause of the Constitution prevents from states passing their own patent or patent-like laws. The issue had been raised but not decided in Gibbons v. Ogden,[3] in which Attorney General Wirt argued on behalf of the United States[4] for federal patent preemption of New York's grant of a steamboat patent to Robert Fulton.[5]
+
+Stiffel Co. was a lamp manufacturer that had created a "pole lamp," a vertical tube standing upright between the floor and ceiling of a room with lamp fixtures along the outside of the tube.  Stiffel Co. had secured a mechanical patent and a design patent, granted in 1957, on the pole lamp, and the lamp proved a "decided commercial success," according to the Supreme Court decision.[6]
+
+Soon after Stiffel had brought the pole lamp to market, the Sears, Roebuck & Co. department store put on the market copies of the lamp. Stiffel Co. brought suit against Sears, for patent infringement and for unfair competition under Illinois law, the latter claim based on Sears' allegedly causing confusion in the trade as to the source of the lamps.
+
+The United States District Court for the Northern District of Illinois held the patents invalid for "want of invention" but ruled Sears to be guilty of unfair competition because the lamps were "confusingly similar." It enjoined Sears from selling the identical lamps and ordered an award of monetary damages to Stiffel Co.[6]
+
+The United States Court of Appeals for the Seventh Circuit affirmed by holding that under Illinois law, Stiffel had to prove only that there was a "likelihood of confusion as to the source of the products" due to the identical appearance of the lamps.[7]  The US Supreme Court granted certiorari to consider whether this use of a state's unfair competition law was compatible with U.S. patent law.[6]
+
+Justice Black, in the Court's opinion, reviewed the history of the patent monopoly in English and US law and wrote that when a patent expires or when an item is unpatentable, the item "is in the public domain and may be made and sold by whoever chooses to do so.".[8] The lower courts had erred by using Illinois unfair competition law to effectively give Stiffel Co. a patent monopoly on its unpatented lamp.[9]
+
+The Court continued that "mere inability of the public to tell two identical articles apart is not enough to support an injunction against copying or an award of damages for copying that which the federal patent laws permit to be copied,"[10] but it noted that a state may require that goods be labeled in order to prevent consumers from being misled as to the source of an article, but that is a trade dress issue, and that such state laws may not go so far as to prohibit the copying of the goods themselves: "What Sears did was to copy Stiffel's design and to sell lamps almost identical to those sold by Stiffel. This it had every right to do under the federal patent laws. That Stiffel originated the pole lamp and made it popular is immaterial."[11]
+
+Justice Harlan concurred in the result but opined that states should be able to prohibit copying if the main purpose of the prohibition is to prevent "palming off" one company's goods as those of another.[12]
+
+Stiffel was reaffirmed in Bonito Boats, Inc. v. Thunder Craft Boats, Inc.[13]
+
+Stiffel Co. survived the setback of its loss in the case and continued its business until 2000, when it failed after 68 years in business. It was described as "the last full-line cast zinc lamp maker in the United States."[14] However, Stiffel Lamps appears to be doing business as recently as April 20, 2021 with the website http://stiffel.com/, where it reports to have been founded in 1932.[15]
+
+A Symposium issue of the Columbia Law Review, Product Simulation: A Right or a Wrong, 64 Columb. L. Rev. 1178 (1964) was published containing articles on Sears and Compco after "the Editors of the Columbia Law Review [] invited several eminent scholars to comment upon the opinions."
+
+Stiffel is widely cited for pre-emption of state product protection by the federal patent laws.[16]

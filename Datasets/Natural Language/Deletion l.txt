@@ -1,0 +1,5 @@
+Below is a list of recent deletions and restorations.
+
+If a page you created or a file you uploaded has been deleted, and you wish to know why, see Wikipedia:Why was the page I created deleted?
+
+Administrators can search for partial titles at Special:Undelete. Others can request help with {{Admin help}}.

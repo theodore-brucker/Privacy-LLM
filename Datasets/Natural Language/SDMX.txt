@@ -1,0 +1,9 @@
+SDMX, which stands for Statistical Data and Metadata eXchange, is an international initiative that aims at standardising and modernising ("industrialising") the mechanisms and processes for the exchange of statistical data and metadata among international organisations and their member countries.[1]
+
+The SDMX sponsoring institutions are the Bank for International Settlements (BIS), the European Central Bank (ECB), Eurostat (the statistical office of the European Union), the International Monetary Fund (IMF), the Organisation for Economic Co-operation and Development (OECD), the United Nations Statistics Division (UNSD), and the World Bank.
+
+These organisations are the main players at world and regional levels in the collection of official statistics in a large variety of domains (agriculture statistics, economic and financial statistics, social statistics, environment statistics etc.).
+
+The latest version of the SDMX – SDMX 2.1 – was released in May 2011,[2] and was approved by ISO as International Standard (ISO 17369:2013)[3]  in 2013.
+
+SDMX message formats have two basic expressions, SDMX-ML (using XML syntax) and SDMX-EDI (using EDIFACT syntax and based on the GESMES/TS statistical message). The standards also include additional specifications (e.g. registry specification, web services). Version 1.0 of the SDMX standard has been recognised as an ISO standard in 2005.[4] The RDF Data Cube vocabulary implements the cube model underlying SDMX as Linked Data.[5]

@@ -1,0 +1,16 @@
+
+A number of notable software packages were developed for, or are maintained by, the Free Software Foundation as part of the GNU Project.
+
+Summarising the situation in 2013, Richard Stallman identified nine aspects which generally apply to being a GNU package,[1] but he noted that exceptions and flexibility are possible when there are good reasons:[2]
+
+There is no official "base system" of the GNU operating system.  GNU was designed to be a replacement for Unix operating systems of the 1980s and used the POSIX standards as a guide, but either definition would give a much larger "base system".  The following list is instead a small set of GNU packages which seem closer to being "core" packages than being in any of the further down sections.  Inclusions (such as plotutils) and exclusions (such as the C standard library) are of course debatable.
+
+The software listed below is generally useful to software developers and other computer programmers.
+
+The following libraries and software frameworks are often used in combination with the basic toolchain tools above to build software. (For libraries specifically designed to implement GUI desktops, see Graphical desktop.)
+
+The following packages provide compilers and interpreters for programming languages beyond those included in the GNU Compiler Collection.
+
+The software listed below is generally useful to users not specifically engaged in software development.
+
+The following packages provide GUI desktop environments, window managers, and associated graphics libraries.

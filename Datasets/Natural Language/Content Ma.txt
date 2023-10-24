@@ -1,0 +1,41 @@
+Content Management Interoperability Services (CMIS) is an open standard that allows different content management systems to inter-operate over the Internet.[1] Specifically, CMIS defines an abstraction layer for controlling diverse document management systems and repositories using web protocols.
+
+CMIS defines a domain model plus bindings that can be used by applications to manipulate content stored in a repository.
+
+CMIS provides a common data model covering typed files and folders with generic properties that can be set or read. There is a set of services for adding and retrieving documents ('objects'). There may be an access control system, a checkout and version control facility, and the ability to define generic relations. Three protocol bindings are defined, one using WSDL and SOAP, another using AtomPub,[2] and a last browser-friendly one using JSON. The model is based on common architectures of document management systems.
+
+The CMIS specification provides an API that is programming language-agnostic, as REST and SOAP are implemented in many languages.
+
+Many of the original contributors to the specification believed 
+[3]
+a simplified and standardized way to access unstructured content across all vendors would increase the adoption of ECM products, but only if the standard could remain compatible with existing deployed systems, much the way that ODBC Open Database Connectivity did for the relational database market in the 1990s.
+
+The initial work of developing the momentum and use cases that led to the CMIS proposal was conducted by the iECM Initiative[4]
+sponsored by AIIM. This ongoing project[5] to foster interoperability[6] among ECM systems is supported by the collaborative efforts of governmental, commercial, vendor, and consulting organizations.
+
+Although initiated by AIIM, CMIS is now administered by OASIS, a web standards consortium. Participants in the process include Adobe Systems Incorporated, Alfresco, EMC, eXo, FatWire, HP, IBM, ISIS Papyrus, Liferay, Microsoft, Nuxeo, OpenText, Oracle, Newgen OmniDocs and SAP. The standard is available for public comment at OASIS.[7]
+
+OASIS approved CMIS as an OASIS Specification on May 1, 2010.[8]  CMIS 1.1 has been approved as an OASIS specification on December 12, 2012.[9]
+
+The specification is currently approved as OASIS CMIS v1.1 standard.[9]
+
+There are public discussion lists.[10]
+
+The Technical Committee (TC) includes the following organizations:
+Adobe Systems Incorporated, AIIM, Alfresco Software, ASG Software Solutions, Booz Allen Hamilton, Content Technologies, dotCMS, Ektron, EMC Corporation, Entropysoft, Exalead, Inc., FatWire, Fidelity Investments, GX Software, HP, IBM, ISIS Papyrus, Microsoft Corporation, Nuxeo, Open Text Corporation, Oracle Corporation, Quark, Pearson PLC, SAP AG, Sun Microsystems, Wells Fargo, WeWebU Software AG and Zia Consulting.
+
+The TC was closed on May 9, 2017, and is no longer active.[11]
+
+There is some discussion on the name of CMIS. Some blogs and authors say that it should be named "DMIS",[12][13] with D for Document since it is more targeted on ECM.
+
+From the CMIS Specification 1.1, page:[14] "[...] this data model does not cover all the concepts that a full-function ECM repository [...] transient entities (such as programming interface objects), administrative entities (such as user profiles), and extended concepts (such as compound or virtual document, work flow and business process, event and subscription) are not included."
+
+A CMIS server stores content, and offers access via the CMIS protocol. Some servers also allow access via other protocols.
+
+Each CMIS server declares a set of capabilities. For instance, servers that allow documents to be filed in different places declare the capability "Multifiling". This mechanism allows clients to interact differently with servers that support or don't support a particular operation.
+
+Some server products allow certain capabilities to be disabled or enabled by configuration. the table below lists maximum capabilities.
+
+A CMIS server library allows developers to create CMIS server applications.
+
+A CMIS client application typically allows users to browse, read and modify content.

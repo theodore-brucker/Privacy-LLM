@@ -1,0 +1,55 @@
+I have completely rewritten the list. One of the things was to put it into a single sentence; this sounded like a good idea at first, but some; sentences; now; read; rather; awkwardly. Another was to condense and reorder several scattered but related points in rough order of importance, but now each point seems too verbose and any ordering I devise is fair game for contention.
+
+Er, in fact, I don't quite like my new version at all, come to think of it. If y'all feel the same way too, I guess the only thing to do is to revert the article to another wrong version. ~ Jafet Speaker of many words 16:08, 10 June 2008 (UTC)Reply[reply]
+
+[moved form my talk page - Andy Mabbett ]
+
+I reverted this edit:
+
+I see the logic in the approach of treating certain goals as ideals for the perfect article, but I see potential problems here:
+1. Per WP:Policy, for policy pages and probably this guideline too, changes like this have to be discussed on the talk page and gain consensus first, and I'm not aware of any discussion, here or at WT:ACCESS#WCAG 2.0 ... is the discussion somewhere else?
+2. We never incorporate other manuals into the Wikipedian guidelines "by reference", we discuss the sentences we want to import from another manual, one by one.
+3. I don't know what "technically sound" means.  I wouldn't have guessed that it referred to list bullets or {{lang}}. 
+4. We've never used WP:Perfect before as kind of a "backup" page for ideas that might be good but haven't gained consensus in other guidelines yet.  If we did start using the page that way, I'd suggest removing it from CAT:GEN.
+5. And most important: the first 3 recommendations I see at the link given at WT:ACCESS#WCAG 2.0 aren't appropriate for Wikipedia:
+
+- Dan Dank55 (send/receive) 21:13, 3 January 2009 (UTC)Reply[reply]
+
+What should the wording on accessibility be? The recently- removed text says:
+
+How can it be improved, or should it be reinstated as is? Andy Mabbett (User:Pigsonthewing); Andy's talk; Andy's edits 18:35, 4 January 2009 (UTC)Reply[reply]
+
+What should the wording on adherence to valid and semantically-meaningful mark-up be? The recently- removed text says:
+
+How can it be improved, or should it be reinstated as is? Andy Mabbett (User:Pigsonthewing); Andy's talk; Andy's edits 18:35, 4 January 2009 (UTC)Reply[reply]
+
+1.  Shows a clear structure to aid comprehension, not a "laundry list". (note present article does not follow this).
+
+2.  Has scholarship:
+
+72.82.33.250 (talk) 10:03, 21 November 2010 (UTC)Reply[reply]
+
+Artworks, seriously? Why don't we just change it to the conventional artwork and try to ignore the fact that English plurals are not consistent. (Maybe I'm just ignorant.) PatheticCopyEditor (talk) 08:33, 23 February 2012 (UTC)Reply[reply]
+
+Concerning this passage:
+
+Includes informative, relevant images—including maps, portraits, artwork, and photographs—that add to a reader's interest or understanding of the text, but not so many as to detract from it. Each image should have an explanatory caption and ALT text.
+I believe that it would better reflect "perfection" if it also mentioned other sorts of media content:
+
+Includes informative, relevant media content—including maps, portraits, artwork, photographs, audio tracks (recorded voice, speeches etc), video tracks (silent films and animations etc), and audiovisual media—that add to a reader's interest or understanding of the text, but not so many as to detract from it. Each media should have an explanatory caption and ALT text.
+I've already read What Wikipedia is not and to me it's clear that it's not forbidden to make these articles have a more "multimedia" look & feel: actually, it should be stimulated, since it tends to catch more of the reader's attention. We just need to be careful not to call too much of the reader's attention, since it can make the reader stop reading (getting distracted by the audio, visual, and audiovisual contents) and never resume reading the rest of the article. That aside, other media contents can provide information that sometimes can't be so efficiently or completely (or shortly) explained by spelled words (typed or written text).
+
+PS: I had previously removed the word "portraits", since a human-made portrait is always a form of artwork (more frequently, a photograph, but can also be a painting or a drawing. Actually, using the word "artwork" sort of encompasses all forms of humam-made portraits and photographs). However, we can't say the same when it comes to non-human-made artwork, like those made by machines: machines can also take photos and portraits (e.g. surveillance cameras and photobooths). That's why I ended up not removing the word "portraits", neither "photographs", on my proposed text above.►Sampayu 16:17, 15 December 2012 (UTC)Reply[reply]
+
+The original paragraph reads:
+
+At first glance, "Is completely neutral and unbiased [...] pointing out all sides without favoring particular viewpoints" seems contradictory with "The most factual and accepted views are emphasized", but that has always been a difficult issue to express without more context, and which is commonly misinterpreted.  My impression is that reading more on the context of "neutral point of view", and the inclusion of WP:NOTABLE helps greatly to understand what "neutral and unbiased", "all sides", "emphasized" and "lower priority" really mean.  I will not modify this article myself without first getting approval, as my interpretation could be erroneous, but would suggest something like:
+
+The "neutral", "unbiased" and "pointing out all sides", without a mention of notability and reliable source, or without understanding NPOV (especially in the context of scientific topics), is otherwise often interpreted as encouraging the collection of trivia and fringe ideas (recent example).  I guess, however, that the perfect sentence also May not be attainable :)  Thanks, PaleoNeonate (talk) 07:19, 17 February 2017 (UTC)Reply[reply]
+
+This would be good to merge with essay WP:Readers first. NewsAndEventsGuy (talk) 15:42, 12 July 2017 (UTC)Reply[reply]
+
+I suggest that the appropriate length for every encyclopedic article aim for 1 printed page (say 12pt).  If it is longer than that, you probably haven't architected the article well, or are not sufficiently adept on the topic in order to understand how it (the knowledge you're trying to convey) breaks down into parseable nuggets.  Most of these wikipedia pages, while nicely formatted with headers, don't give the reader a sense of authority because they're so strung out.  User:Dreamer — Preceding unsigned comment added by 65.39.112.9 (talk) 22:14, 23 February 2020 (UTC)Reply[reply]
+
+
+A discussion is taking place to address the redirect Wikipedia:TPA. The discussion will occur at Wikipedia:Redirects for discussion/Log/2021 January 8#Wikipedia:TPA until a consensus is reached, and readers of this page are welcome to contribute to the discussion.  –MJL ‐Talk‐☖ 19:25, 8 January 2021 (UTC)Reply[reply]

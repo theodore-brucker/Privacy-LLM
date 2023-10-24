@@ -1,0 +1,48 @@
+In bookkeeping, accounting, and financial accounting, net sales are operating revenues earned by a company for selling its products or rendering its services. Also referred to as revenue, they are reported directly on the income statement  as Sales or Net sales. 
+
+In financial ratios that use income statement sales values, "sales" refers to net sales, not gross sales. Sales are the unique transactions that occur in professional selling or during marketing initiatives.
+
+Revenue is earned when goods are delivered or services are rendered.[1] The term sales in a marketing, advertising or a general business context often refers to a free in which a buyer has agreed to purchase some products at a set time in the future. From an accounting standpoint, sales do not occur until the product is delivered. "Outstanding orders" refers to sales orders that have not been filled.
+
+A sale is a transfer of property for money or credit.[2] In double-entry bookkeeping, a sale of merchandise is recorded in the general journal as a debit to cash or accounts receivable and a credit to the sales account.[3] The amount recorded is the actual monetary value of the transaction, not the list price of the merchandise. A discount from list price might be noted if it applies to the sale.
+
+Fees for services are recorded separately from sales of merchandise, but the bookkeeping transactions for recording "sales" of services are similar to those for recording sales of tangible goods.[citation needed]
+
+
+
+
+
+
+
+
+Net sales
+
+=
+
+Gross sales
+
+−
+
+(Customer discounts, returns, allowances)
+
+
+
+{\displaystyle {\text{Net sales}}={\text{Gross sales}}-{\text{(Customer discounts, returns, allowances)}}}
+
+
+
+Gross sales are the sum of all sales during a time period. Net sales are gross sales minus sales returns, sales allowances, and sales discounts. Gross sales do not normally appear on an income statement. The sales figures reported on an income statement are net sales.[4]
+
+input vat - output vat
+
+sales of portfolio items and capital gains taxes
+
+
+Sales Returns and Allowances and Sales Discounts are contra-revenue accounts.
+
+In a survey of nearly 200 senior marketing managers, 70 percent responded that they found the "sales total" metric very useful.[5]
+
+
+Revenue or Sales reported on the income statement are net sales after deducting Sales Returns and Allowances and Sales Discounts.
+
+When the US government reports wholesale sales, this includes excise taxes on certain products.[6]

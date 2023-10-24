@@ -1,0 +1,60 @@
+
+
+Mahāvīra (or Mahaviracharya, "Mahavira the Teacher") was a 9th-century Jain mathematician possibly born in Mysore, in India.[1][2][3] He authored Gaṇita-sāra-saṅgraha (Ganita Sara Sangraha) or the Compendium on the gist of Mathematics in 850 AD.[4] He was patronised by the Rashtrakuta king Amoghavarsha.[4] He separated astrology from mathematics. It is the earliest Indian text entirely devoted to mathematics.[5] He expounded on the same subjects on which Aryabhata and Brahmagupta contended, but he expressed them more clearly. His work is a highly syncopated approach to algebra and the emphasis in much of his text is on developing the techniques necessary to solve algebraic problems.[6]  He is highly respected among Indian mathematicians, because of his establishment of terminology for concepts such as equilateral, and isosceles triangle; rhombus; circle and semicircle.[7] Mahāvīra's eminence spread throughout South India and his books proved inspirational to other mathematicians in Southern India.[8] It was translated into the Telugu language by Pavuluri Mallana as Saara Sangraha Ganitamu.[9]
+
+He discovered algebraic identities like a3 = a (a + b) (a − b) + b2 (a − b) + b3.[3] He also found out the formula for nCr as [n (n − 1) (n − 2) ... (n − r + 1)] / [r (r − 1) (r − 2) ... 2 * 1].[10] He devised a formula which approximated the area and perimeters of ellipses and found methods to calculate the square of a number and cube roots of a number.[11] He asserted that the square root of a negative number does not exist.[12]
+
+Mahāvīra's Gaṇita-sāra-saṅgraha gave systematic rules for expressing a fraction as the sum of unit fractions.[13] This follows the use of unit fractions in Indian mathematics in the Vedic period, and the Śulba Sūtras' giving an approximation of √2 equivalent to 
+
+
+
+1
++
+
+
+
+1
+3
+
+
+
++
+
+
+
+1
+
+3
+⋅
+4
+
+
+
+
+−
+
+
+
+1
+
+3
+⋅
+4
+⋅
+34
+
+
+
+
+
+
+{\displaystyle 1+{\tfrac {1}{3}}+{\tfrac {1}{3\cdot 4}}-{\tfrac {1}{3\cdot 4\cdot 34}}}
+
+.[13]
+
+In the Gaṇita-sāra-saṅgraha (GSS), the second section of the chapter on arithmetic is named kalā-savarṇa-vyavahāra (lit. "the operation of the reduction of fractions"). In this, the bhāgajāti section (verses 55–98) gives rules for the following:[13]
+
+rūpāṃśakarāśīnāṃ rūpādyās triguṇitā harāḥ kramaśaḥ /
+dvidvitryaṃśābhyastāv ādimacaramau phale rūpe //
+When the result is one, the denominators of the quantities having one as numerators are [the numbers] beginning with one and multiplied by three, in order. The first and the last are multiplied by two and two-thirds [respectively].
+Some further rules were given in the Gaṇita-kaumudi of Nārāyaṇa in the 14th century.[13]

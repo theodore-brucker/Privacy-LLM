@@ -1,0 +1,11 @@
+Open Network Computing (ONC) Remote Procedure Call (RPC), commonly known as Sun RPC is a remote procedure call system. ONC was originally developed by Sun Microsystems in the 1980s as part of their Network File System project.
+
+ONC is based on calling conventions used in Unix and the C programming language. It serializes data using the External Data Representation (XDR), which has also found some use to encode and decode data in files that are to be accessed on more than one platform. ONC then delivers the XDR payload using either UDP or TCP. Access to RPC services on a machine are provided via a port mapper that listens for queries on a well-known port (number 111) over UDP and TCP.
+
+ONC RPC was described in RFC 1831, published in 1995. RFC 5531, published in 2009, is the current version. Authentication mechanisms used by ONC RPC are described in RFC 2695, RFC 2203, and RFC 2623.
+
+Implementations of ONC RPC exist in most Unix-like systems. Microsoft supplies an implementation for Windows in their Microsoft Windows Services for UNIX product; in addition, a number of third-party implementation of ONC RPC for Windows exist, including versions for C/C++, Java, and .NET (see external links).
+
+In 2009, Sun relicensed the ONC RPC code under the standard 3-clause BSD license[1] and then reconfirmed by Oracle Corporation in 2010 following confusion about the scope of the relicensing.[2]
+
+ONC is considered "lean and mean", but has limited appeal as a generalized RPC system for WANs or heterogeneous environments[citation needed]. Systems such as DCE, CORBA and SOAP are generally used in this wider role[citation needed].

@@ -1,0 +1,3 @@
+KDE Image Plugin Interface (usually abbreviated to Kipi or KIPI) is an API that allows creation of application-independent image processing plugins in the KDE project.[1]
+
+This KDE-related article is a stub. You can help Wikipedia by expanding it.

@@ -1,0 +1,9 @@
+Calligra Plan (formerly KPlato) is a project management application that can create Gantt-style charts and is part of Calligra Suite – formerly included with KOffice.
+
+Work on Plan was started in 2004 under the name KPlato (K PLAnning TOol). The first release was in April 2004 as part of KOffice 1.5. In 2010 KPlato 2.2 was released with KOffice 2.2. Among its new features was the possibility to use Kexi's new Report Designer that replaces KOffice 1.6's Kugar application.[3][4] Later that year, the software changed its name from KPlato to Plan and migrated from KOffice to Calligra. On 11 April 2012 Calligra Suite 2.4 along with the first release under the Calligra Plan branding was made available.[5]
+
+After the 2.4 release, optional Java-based file format converters for Microsoft Project and other formats were added.[2]
+
+
+
+This free and open-source software article is a stub. You can help Wikipedia by expanding it.

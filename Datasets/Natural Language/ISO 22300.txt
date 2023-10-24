@@ -1,0 +1,3 @@
+ISO 22300:2021, Security and resilience – Vocabulary, is an international standard developed by ISO/TC 292 Security and resilience. This document defines terms used in security and resilience standards and includes 360 terms and definitions.[1][2][3] This edition was published in the beginning of 2021 and replaces the second edition from 2018.[4][5]
+
+ISO 22300:2018 contains definitions for the following terms:[6]

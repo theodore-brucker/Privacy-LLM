@@ -1,0 +1,11 @@
+IBrowse is a MUI-based web browser for the Amiga range of computers, and was a rewritten follow-on to Amiga Mosaic, one of the first web browsers for the Amiga Computer.[2] IBrowse was originally developed for a company called Omnipresence, now defunct. The original author has since continued development of IBrowse.
+
+IBrowse supports some HTML 4, JavaScript, frames, SSL, and various other standards. It was one of the first browsers to include tabbed browsing as early as 1999 with IBrowse².[3][4] However, it does not support CSS.[5]
+
+A limited OEM version of IBrowse 2.4 is included with AmigaOS 4.
+
+Between April 2007 and August 2019, IBrowse was not available for sale to new customers since its distributor had quit the Amiga market,[6] although existing v2.x users could download and install the demo version over their existing installation in order to access all functionality. Starting with IBrowse 2.5, new purchases can be made directly from the developer's website.
+
+
+
+This Web-software-related article is a stub. You can help Wikipedia by expanding it.

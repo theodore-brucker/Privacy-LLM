@@ -1,0 +1,1595 @@
+Congestion games (CG) are a class of games in game theory. They represent situations which commonly occur in roads, communication networks, oligopoly markets and natural habitats. There is a set of resources (e.g. roads or communication links); there are several players who need resources (e.g. drivers or network users); each player chooses a subset of these resources (e.g. a path in the network); the delay in each resource is determined by the number of players choosing a subset that contains this resource. The cost of each player is the sum of delays among all resources he chooses. Naturally, each player wants to minimize his own delay; however, each player's choices impose a negative externality on the other players, which may lead to inefficient outcomes.  
+
+The research of congestion games was initiated by the American economist Robert W. Rosenthal in 1973.[1] He proved that every congestion game has a Nash equilibrium in pure strategies (aka pure Nash equilibrium, PNE). During the proof, he in fact proved that every congestion game is an exact potential game. Later, Monderer and Shapley[2] proved a converse result: any game with an exact potential function is equivalent to some congestion game. Later research focused on questions such as: 
+
+Consider a traffic net where two players originate at point 
+
+
+
+O
+
+
+{\displaystyle O}
+
+ and need to get to point 
+
+
+
+T
+
+
+{\displaystyle T}
+
+. Suppose that node 
+
+
+
+O
+
+
+{\displaystyle O}
+
+ is connected to node 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ via two paths: 
+
+
+
+O
+
+
+{\displaystyle O}
+
+-
+
+
+
+A
+
+
+{\displaystyle A}
+
+-
+
+
+
+T
+
+
+{\displaystyle T}
+
+ and 
+
+
+
+O
+
+
+{\displaystyle O}
+
+-
+
+
+
+B
+
+
+{\displaystyle B}
+
+-
+
+
+
+T
+
+
+{\displaystyle T}
+
+, where 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is a little closer than 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ (i.e. 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is more likely to be chosen by each player), as in the picture at the right.
+
+The roads from both connection points to 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ get easily congested, meaning the more players pass through a point, the greater the delay of each player becomes, so having both players go through the same connection point causes extra delay. Formally, the delay in each of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+
+
+
+
+T
+
+
+{\displaystyle T}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+
+
+
+
+T
+
+
+{\displaystyle T}
+
+ when 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ players go there is 
+
+
+
+
+x
+
+2
+
+
+
+
+{\displaystyle x^{2}}
+
+.
+
+Good outcome in this game will be for the two players to "coordinate" and pass through different connection points.  Can such outcome be achieved?  
+
+The following matrix expresses the costs of the players in terms of delays depending on their choices:
+
+The pure Nash equilibria in this game are (OAT,OBT) and (OBT,OAT): any unilateral change by one of the players increases the cost of this player (note that the values in the table are costs, so players prefer them to be smaller). In this example, the Nash equilibrium is efficient - the players choose different lanes and the sum of costs is minimal.
+
+In contrast, suppose the delay in each of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+
+
+
+
+T
+
+
+{\displaystyle T}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+
+
+
+
+T
+
+
+{\displaystyle T}
+
+ when 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ players go there is 
+
+
+
+0.8
+x
+
+
+{\displaystyle 0.8x}
+
+. Then the cost matrix is:
+
+Now, the only pure Nash equilibrium is (OAT,OAT): any player switching to OBT increases his cost from 2.6 to 2.8. An equilibrium still exists, but it is not effiicent: the sum of costs is 5.2, while the sum of cost in (OAT,OBT) and (OBT,OAT) is 4.6. 
+
+The basic definition of a CG has the following components.
+
+Every CG has a Nash equilibrium in pure strategies. This can be shown by constructing a potential function that assigns a value to each outcome.[1] Moreover, this construction will also show that iterated best response finds a Nash equilibrium. Define 
+
+
+
+
+Φ
+=
+
+∑
+
+e
+∈
+E
+
+
+
+∑
+
+k
+=
+1
+
+
+
+x
+
+e
+
+
+
+
+
+d
+
+e
+
+
+(
+k
+)
+
+
+
+{\displaystyle \textstyle \Phi =\sum _{e\in E}\sum _{k=1}^{x_{e}}d_{e}(k)}
+
+. Note that this function is not the social welfare 
+
+
+
+
+
+∑
+
+e
+∈
+E
+
+
+
+x
+
+e
+
+
+
+d
+
+e
+
+
+(
+
+x
+
+e
+
+
+)
+
+
+
+{\displaystyle \textstyle \sum _{e\in E}x_{e}d_{e}(x_{e})}
+
+, but rather a discrete integral of sorts. The critical property of a potential function for a congestion game is that if one player switches strategy, the change in his delay is equal to the change in the potential function.
+
+Consider the case when player 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ switches from 
+
+
+
+
+P
+
+i
+
+
+
+
+{\displaystyle P_{i}}
+
+ to 
+
+
+
+
+Q
+
+i
+
+
+
+
+{\displaystyle Q_{i}}
+
+. Elements that are in both of the strategies
+remain unaffected, elements that the player leaves (i.e. 
+
+
+
+e
+∈
+
+P
+
+i
+
+
+−
+
+Q
+
+i
+
+
+
+
+{\displaystyle e\in P_{i}-Q_{i}}
+
+) decrease the potential by 
+
+
+
+
+d
+
+e
+
+
+(
+
+x
+
+e
+
+
+)
+
+
+{\displaystyle d_{e}(x_{e})}
+
+, and the elements the player joins (i.e. 
+
+
+
+e
+∈
+
+Q
+
+i
+
+
+−
+
+P
+
+i
+
+
+
+
+{\displaystyle e\in Q_{i}-P_{i}}
+
+) increase the potential by 
+
+
+
+
+d
+
+e
+
+
+(
+
+x
+
+e
+
+
++
+1
+)
+
+
+{\displaystyle d_{e}(x_{e}+1)}
+
+. This change in potential is precisely the change in delay for player 
+
+
+
+i
+
+
+{\displaystyle i}
+
+, so 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ is in fact a potential function.
+
+Now observe that any minimum of 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ is a pure Nash equilibrium. Fixing all but one player, any improvement in strategy by that player corresponds to decreasing 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+, which cannot happen at a minimum. Now since there are a finite number of configurations and each 
+
+
+
+
+d
+
+e
+
+
+
+
+{\displaystyle d_{e}}
+
+ is monotone, there exists an equilibrium.
+
+The existence of a potential function has an additional implication, called the finite improvement property (FIP). If we start with any strategy-vector, pick a player arbitrarily, and let him change his strategy to a better strategy for him, and repeat, then the sequence of improvements must be finite (that is, the sequence will not cycle). This is because each such improvement strictly increases the potential.
+
+Below we present various extensions and variations on the basic CG model.
+
+A nonatomic (aka continuous) CG is the limit of a standard CG with n players, as 
+
+
+
+n
+→
+∞
+
+
+{\displaystyle n\rightarrow \infty }
+
+. There is a continuum of players, the  players are considered "infinitesimally small", and each individual player has a negligible effect on the congestion. Nonatomic CGs were studied by Milchtaich,[3] Friedman[4] and Blonsky.[5][6]
+
+Strategies are now collections of strategy profiles 
+
+
+
+
+f
+
+P
+
+
+
+
+{\displaystyle f_{P}}
+
+. For a strategy set 
+
+
+
+
+S
+
+i
+
+
+
+
+{\displaystyle S_{i}}
+
+ of size 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, the collection of all valid profiles is a compact subset of 
+
+
+
+[
+0
+,
+
+r
+
+i
+
+
+
+]
+
+n
+
+
+
+
+{\displaystyle [0,r_{i}]^{n}}
+
+. We now define the potential function as 
+
+
+
+
+Φ
+=
+
+∑
+
+e
+∈
+E
+
+
+
+∫
+
+0
+
+
+
+x
+
+e
+
+
+
+
+
+d
+
+e
+
+
+(
+z
+)
+
+d
+z
+
+
+
+{\displaystyle \textstyle \Phi =\sum _{e\in E}\int _{0}^{x_{e}}d_{e}(z)\,dz}
+
+, replacing the discrete integral with the standard one.
+
+As a function of the strategy, 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ is continuous: 
+
+
+
+
+d
+
+e
+
+
+
+
+{\displaystyle d_{e}}
+
+ is continuous by assumption, and 
+
+
+
+
+x
+
+e
+
+
+
+
+{\displaystyle x_{e}}
+
+ is a continuous function of the strategy. Then by the extreme value theorem, 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ attains its global minimum.
+
+The final step is to show that a minimum of 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ is indeed a Nash equilibrium. Assume for contradiction that there exists a collection of 
+
+
+
+
+f
+
+P
+
+
+
+
+{\displaystyle f_{P}}
+
+ that minimize 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ but are not a Nash equilibrium. Then for some type 
+
+
+
+i
+
+
+{\displaystyle i}
+
+, there exists some improvement 
+
+
+
+Q
+∈
+
+S
+
+i
+
+
+
+
+{\displaystyle Q\in S_{i}}
+
+ over the current choice 
+
+
+
+P
+
+
+{\displaystyle P}
+
+. That is, 
+
+
+
+
+
+∑
+
+e
+∈
+Q
+
+
+
+d
+
+e
+
+
+(
+
+x
+
+e
+
+
+)
+<
+
+∑
+
+e
+∈
+P
+
+
+
+d
+
+e
+
+
+(
+
+x
+
+e
+
+
+)
+
+
+
+{\displaystyle \textstyle \sum _{e\in Q}d_{e}(x_{e})<\sum _{e\in P}d_{e}(x_{e})}
+
+. The idea now is to take a small amount 
+
+
+
+δ
+<
+
+f
+
+P
+
+
+
+
+{\displaystyle \delta <f_{P}}
+
+ of players using strategy 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ and move them to strategy 
+
+
+
+Q
+
+
+{\displaystyle Q}
+
+. Now for any 
+
+
+
+
+x
+
+e
+
+
+∈
+Q
+
+
+{\displaystyle x_{e}\in Q}
+
+, we have increased its load by 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+, so its term in 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ is now 
+
+
+
+
+
+∫
+
+0
+
+
+
+x
+
+e
+
+
++
+δ
+
+
+
+d
+
+e
+
+
+(
+z
+)
+d
+z
+
+
+
+{\displaystyle \textstyle \int _{0}^{x_{e}+\delta }d_{e}(z)dz}
+
+. Differentiating the integral, this change is approximately 
+
+
+
+δ
+⋅
+
+d
+
+e
+
+
+(
+
+x
+
+e
+
+
+)
+
+
+{\displaystyle \delta \cdot d_{e}(x_{e})}
+
+, with error 
+
+
+
+
+δ
+
+2
+
+
+
+
+{\displaystyle \delta ^{2}}
+
+. The equivalent analysis of the change holds when we look at edges in 
+
+
+
+P
+
+
+{\displaystyle P}
+
+.
+
+Therefore, the change in potential is approximately 
+
+
+
+
+δ
+(
+
+∑
+
+e
+∈
+Q
+
+
+
+d
+
+e
+
+
+(
+
+x
+
+e
+
+
+)
+−
+
+∑
+
+e
+∈
+P
+
+
+
+d
+
+e
+
+
+(
+
+x
+
+e
+
+
+)
+)
+
+
+
+{\displaystyle \textstyle \delta (\sum _{e\in Q}d_{e}(x_{e})-\sum _{e\in P}d_{e}(x_{e}))}
+
+, which is less than zero. This is a contradiction, as then 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ was not minimized. Therefore, a minimum of 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ must be a Nash equilibrium.
+
+In a splittable CG, as in an atomic CG, there are finitely many players, each of whom has a certain load to transfer. As in nonatomic CGs, each player can split his load into fractional loads going through different paths, like a transportation company choosing a set of paths for mass transportation. In contrast to nonatomic CGs, each player has a non-negligible effect on the congestion.
+
+Splittable CGs were first analyzed by Ariel Orda, Raphael Rom and Nachum Shimkin in 1993, in the context of communication networks.[7][8] They show that, for a simple network with two nodes and multiple parallel links, the Nash equilibrium is unique under reasonable convexity conditions, and has some interesting monotonicity properties. For general network topologies, more complex conditions are required to guarantee the uniqueness of Nash equilibrium.
+
+In a weighted CG, different players may have different effects on the congestion. For example, in a road network, a truck adds congestion much more than a motorcycle. In general, the weight of a player may depend on the resource (resource-specific weights): for every player i and resource e, there is weight 
+
+
+
+
+w
+
+i
+,
+e
+
+
+
+
+{\displaystyle w_{i,e}}
+
+, and the load on the resource e is 
+
+
+
+
+x
+
+e
+
+
+=
+
+∑
+
+i
+:
+e
+∈
+
+P
+
+i
+
+
+
+
+
+w
+
+i
+,
+e
+
+
+
+
+{\displaystyle x_{e}=\sum _{i:e\in P_{i}}w_{i,e}}
+
+. An important special case is when the weight depends only on the player (resource-independent weights), that is, each player i has a weight 
+
+
+
+
+w
+
+i
+
+
+
+
+{\displaystyle w_{i}}
+
+, and 
+
+
+
+
+x
+
+e
+
+
+=
+
+∑
+
+i
+:
+e
+∈
+
+P
+
+i
+
+
+
+
+
+w
+
+i
+
+
+
+
+{\displaystyle x_{e}=\sum _{i:e\in P_{i}}w_{i}}
+
+.
+
+Milchtaich[9] considered the special case of weighted CGs in which each strategy is a single resource ("singleton CG"), the weights are resource-independent, and all players have the same strategy set. The following is proved:
+
+Milchtaich considered the special case of weighted CGs in which each strategy is a path in a given undirected graph ("network CG"). He proved that every finite game can be represented as a weighted network congestion game, with nondecreasing (but not necessarily negative) cost-functions.[10] This implies that not every such game has a PNE. Concrete examples of weighted CGs without PNE are given by Libman and Orda,[11] as well as Goemans Mirrokni and Vetta.[12] This raises the quesiton of what conditions guarantee the existence of PNE.[13]
+
+In particular, we say that a certain graph G guarantees a certain property if every weighted network CG in which the underlying network is G has that property. Milchtaich[14] characterized networks that guarantee the existence of PNE, as well as the finite-improvement property, with the additional condition that a player with a lower weight has weakly more allowed strategies (formally, 
+
+
+
+
+w
+
+i
+
+
+<
+
+w
+
+j
+
+
+
+
+{\displaystyle w_{i}<w_{j}}
+
+ implies 
+
+
+
+
+|
+
+
+S
+
+i
+
+
+
+|
+
+≥
+
+|
+
+
+S
+
+j
+
+
+
+|
+
+
+
+{\displaystyle |S_{i}|\geq |S_{j}|}
+
+). He proved that:
+
+In the special case in which every player is allowed to use any strategy ("public edges"), there are more networks that guarantee the existence of PNE; a complete characterization of such networks is posed as an open problem.[14]
+
+Mlichtaich[15] analyzes the effect of network topology on the efficiency of PNE: 
+
+Milchtaich[16] analyzes the effect of network topology on the uniqueness of the PNE costs:
+
+Holzman and Law-Yone[17] also characterize the networks that guarantee that every atomic CG has a strong PNE, a unique PNE, or a Pareto-efficient PNE.
+
+Richman and Shimkin[18] characterize the networks that guarantee that every splittable CG has a unique PNE.
+
+We say that a class C of functions guarantees a certain property if every weighted CG in which all delay functions are elements of C has that property. 
+
+There are many other papers about weighted congestion games.[23][24][25]
+
+The basic CG model can be extended by allowing the delay function of each resource to depend on the player. So for each resource e and player i, there is a delay function  
+
+
+
+
+d
+
+i
+,
+e
+
+
+
+
+{\displaystyle d_{i,e}}
+
+. Given a strategy 
+
+
+
+
+P
+
+i
+
+
+
+
+{\displaystyle P_{i}}
+
+, player 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ experiences delay 
+
+
+
+
+
+∑
+
+e
+∈
+
+P
+
+i
+
+
+
+
+
+d
+
+i
+,
+e
+
+
+(
+
+x
+
+e
+
+
+)
+
+
+
+{\displaystyle \textstyle \sum _{e\in P_{i}}d_{i,e}(x_{e})}
+
+.
+
+Milchtaich[9] introduced and studied CGs with player-specific costs in the following special case:
+
+This special case of CG is also called a crowding game.[26][27] It represents a setting in which several people simultaneously choose a place to go to (e.g. a room, a settlement, a restaurant), and their payoff is determined both by the place and by the number of other players choosing the same place. 
+
+In a crowding game, given a strategy 
+
+
+
+
+P
+
+i
+
+
+=
+{
+e
+}
+
+
+{\displaystyle P_{i}=\{e\}}
+
+, player 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ experiences delay 
+
+
+
+
+d
+
+i
+,
+e
+
+
+(
+
+x
+
+e
+
+
+)
+
+
+{\displaystyle d_{i,e}(x_{e})}
+
+. If the player switches to a different strategy 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, his delay would be 
+
+
+
+
+d
+
+i
+,
+f
+
+
+(
+
+x
+
+f
+
+
++
+1
+)
+
+
+{\displaystyle d_{i,f}(x_{f}+1)}
+
+; hence, a strategy vector is a PNE iff for every player i, 
+
+
+
+
+d
+
+i
+,
+e
+
+
+(
+
+x
+
+e
+
+
+)
+≤
+
+d
+
+i
+,
+f
+
+
+(
+
+x
+
+f
+
+
++
+1
+)
+
+
+{\displaystyle d_{i,e}(x_{e})\leq d_{i,f}(x_{f}+1)}
+
+ for all e,f.
+
+In general, CGs with player-specific delays might not admit a potential function. For example, suppose there are three resources x,y,z and two players A and B with the following delay functions: 
+
+The following is a cyclic improvement path: 
+
+
+
+(
+z
+,
+y
+)
+→
+(
+y
+,
+y
+)
+→
+(
+y
+,
+z
+)
+→
+(
+x
+,
+z
+)
+→
+(
+x
+,
+x
+)
+→
+(
+z
+,
+x
+)
+→
+(
+z
+,
+y
+)
+
+
+{\displaystyle (z,y)\to (y,y)\to (y,z)\to (x,z)\to (x,x)\to (z,x)\to (z,y)}
+
+. This shows that the finite-improvement property does not hold, so the game cannot have a potential function (not even a generalized-ordinal-potential function). However: 
+
+When there are three or more players, even best-response paths might be cyclic. However, every CG still has a PNE.[9]: Thm.2  The proof is constructive and shows an algorithm that finds a Nash equilibrium in at most 
+
+
+
+
+
+
+(
+
+
+
+n
++
+1
+
+2
+
+
+)
+
+
+
+
+
+{\displaystyle {n+1 \choose 2}}
+
+ steps. Moreover, every CG is weakly acyclic: for any initial strategy-vector, at least one best-response path starting at this vector has a length of at most 
+
+
+
+r
+
+
+
+(
+
+
+
+n
++
+1
+
+2
+
+
+)
+
+
+
+
+
+{\displaystyle r{n+1 \choose 2}}
+
+, which terminates at an equilibrium.[9]: Thm.3 
+
+Every crowding game is sequentially solvable.[26] This means that, for every ordering of the players, the sequential game in which each player in turn picks a strategy has a subgame-perfect equilibrium in which the players' actions are a PNE in the original simultaneous game. Every crowding game has at least one strong PNE;[28] every strong PNE of a crowding game can be attained as a subgame-perfect equilibrium of a sequential version of the game.[26]
+
+In general, a crowding game might have many different PNE. For example, suppose there are n players and n resources, and the negative effect of congestion on the payoff is much higher than the positive value of the resources. Then there are n! different PNEs: every one-to-one matching of players to resources is a PNE, as no player would move to a resource occupied by another player. However, if a crowding game is replicated m times, then the set of PNEs converges to a single point as m goes to infinity. Moreover, in a "large" (nonatomic) crowding game, there is generically a unique PNE. This PNE has an interesting graph-theoretic property. Let G be a bipartite graph with players on one side and resources on the other side, where each player is adjacent to all the resources that his copies choose in the unique PNE. Then G contains no cycles.[27]
+
+A special case of the player-specific delay functions is that the delay functions can be separated into a player-specific factor and a general factor. There are two sub-cases:
+
+When only pure-strategies are considered, these two notions are equivalent, since the logarithm of a product is a sum. Moreover, when players may have resource-specific weights, the setting with resource-specific delay functions can be reduced to the setting with a universal delay function. Games with separable cost functions occur in load-balancing,[30] M/M/1 queueing,[31] and habitat selection.[32] The following is known about weighted singleton CGs with separable costs:[33]
+
+Every weighted singleton CG with separable player-specific preferences is isomorphic to a weighted network CG with player-independent preference.[33][2]
+
+Milchtaich considered the special case of CGs with player-specific costs, in which each strategy is a path in a given graph ("network CG"). He proved that every finite game can be represented as an (unweighted) network congestion game with player-specific costs, with nondecreasing (but not necessarily negative) cost-functions.[10] A complete characterization of networks that guarantee the existence of PNE in such CGs is posed as an open problem.[14]
+
+The proof of existence of PNE is constructive: it shows a finite algorithm (an improvement path) that always finds a PNE. This raises the question of how many steps are required to find this PNE? Fabrikant, Papadimitriou and Talwar[38] proved:
+
+Even-Dar, Kesselman and Mansour[30] analyze the number of steps required for convergence to equilibrium in a load-balancing setting.
+
+Caragiannis, Fanelli, Gravin and Skopalik[39] present an algorithm that computes a constant-factor approximation PNE. In particular:
+
+Their algorithm identifies a short sequence of best-response moves, that leads to an approximate equilibrium. They also show that, for more general CGs, attaining any polynomial approximation of PNE is PLS-complete.
+
+Fotakis, Kontogiannis and Spirakis[19] present an algorithm that, in any weighted network CG with linear delay functions, finds a PNE in pseudo-polynomial time (polynomial in the number of players n and the sum of players' weights W). Their algorithm is a greedy best-response algorithm: players enter the game in descending order of their weight, and choose a best-response to existing players' strategies.
+
+Panagopoulou and Spirakis[20] show empirical evidence that the algorithm of Fotakis, Kontogiannis and Spirakis in fact runs in time polynomial in n and log W. They also propose an initial strategy-vector that dramatically speeds this algorithm.
+
+In general, a weighted network CG may not have a PNE. Milchtaich[14] proves that deciding whether a given weighted network CG has a PNE is NP-hard even in the following cases:
+
+The proof is by reduction from the directed edge-disjoint paths problem.[40]
+
+Caragiannis, Fanelli, Gravin and Skopalik[41] present an algorithm that computes a constant-factor approximation PNE in weighted CGs. In particular:
+
+To prove their results, they show that, although weighted CGs may not have a potential function, every weighted CG can be approximated by a certain potential game. This lets them show that every weighted CG has a (d!)-approximate PNE. Their algorithm identifies a short sequence of best-response moves, that leads to such an approximate PNE.
+
+In summary, CGs can be classified according to various parameters:

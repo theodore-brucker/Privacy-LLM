@@ -1,0 +1,88 @@
+
+
+The ISO 217:2013 standard defines the RA and SRA paper formats.
+
+These paper series are untrimmed raw paper. RA stands for "raw format A" and SRA stands for "supplementary raw format A". The RA and SRA formats are slightly larger than the corresponding A series formats. This allows bleed (ink to the edge) on printed material that will be later cut down to size. These paper sheets will after printing and binding be cut to match the A format.
+
+Paper in the RA and SRA series format is intended to have a 
+
+
+
+1
+:
+
+
+2
+
+
+
+
+{\displaystyle 1:{\sqrt {2}}}
+
+ aspect ratio but the dimensions of the start format have been rounded to whole centimetres.
+
+For example, the RA0 format has been rounded to 860 mm × 1220 mm from the theoretical dimensions 
+
+
+
+
+
+1.05
+
+
+⋅
+
+2
+
+−
+
+
+1
+4
+
+
+
+
+
+m
+
+×
+
+
+1.05
+
+
+⋅
+
+2
+
+
+1
+4
+
+
+
+
+m
+
+≈
+861.7
+
+m
+m
+
+×
+1218.6
+
+m
+m
+
+
+
+{\displaystyle {\sqrt {1.05}}\cdot 2^{-{\frac {1}{4}}}\mathrm {m} \times {\sqrt {1.05}}\cdot 2^{\frac {1}{4}}\mathrm {m} \approx 861.7\mathrm {mm} \times 1218.6\mathrm {mm} }
+
+.
+
+The resulting real ratios are:
+
+The sizes of the RA series are also slightly larger than corresponding inch-based US sizes specified in ANSI/ASME Y14.1, e.g. RA4 is roughly equivalent to 8½ in × 12 in and ANSI A (alias US Letter) is defined as 8½ in × 11 in.

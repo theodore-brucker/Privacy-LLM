@@ -1,0 +1,521 @@
+I tried to use the template on the Sandbox, and it had a bug. It said Code Error. The command "command1" does not work David Dylan (talk) 23:04, 22 January 2017 (UTC)
+
+Hi there. Is there a way to define the names (as in <ref name="blah" />) for the references imported from Wikidata, so that we can avoid having duplicate refs in articles where they have been locally defined and defined on Wikidata? Thanks. Mike Peel (talk) 15:08, 29 January 2017 (UTC)
+
+How would one go about using subst: functionality with {{Wikidata}}?--Pharos (talk) 04:44, 10 April 2017 (UTC)
+
+E.g. at Liverpool Maritime Mercantile City, the references for the criteria in the infobox are duplicated three times, since there are three entries for the property on Wikidata each with the same reference. Can the three be merged together rather than appearing separately, please? Thanks. Mike Peel (talk) 00:18, 1 May 2017 (UTC)
+
+@Thayts: Using the example provided in the documentation, is it possible to return just volt instead of 230 volt or 230 volt? This would be helpful for the template Wikidata revenue I'm working on. Thanks, --eh bien mon prince (talk) 02:11, 27 August 2017 (UTC)
+
+I'm now trying to shorten the very lengthy template Module:Infobox gene by using this Wd template, at my personal space. This is very useful. Thank for your great code! My question is as follows. When I try to include vertical bar "|" in format-defining text, it doesn't work well. Even when I add escape "\", it is simply recognized as a separator (sample diff). If it worked well in that diff, I could get three "RNA expression pattern" graph images just like that in the infobox at the right, but it didn't work. Is there any special way to include vertical bar? --Was a bee (talk) 03:03, 3 September 2017 (UTC)
+
+@Thayts: In cases where the reference is stated in (P248) pointing to a separate Wikidata entry with bibliographic information, would it be possible to fetch the reference info from that separate Q-number? Something like {{Cite Q}} does, e.g., Keith Christiansen; Elizabeth Cropper; Alessandro Zuccari; et al. (2001). "Orazio and Artemisia Gentileschi". New York City. Metropolitan Museum of Art. JSTOR 1358795. Wikidata Q29017598.. Is it possible to detect when only a Q-number is returned, and auto-call Cite Q in those cases? Thanks. Mike Peel (talk) 23:12, 7 July 2017 (UTC)
+
+@Mike Peel and Thayts: Instead of hard-coding the template names for {{Cite web}} and {{Cite Q}} into Module:Wd/i18n, would it not be better to just use Wikidata for this? For example using mw.wikibase.sitelink() on Template:Cite web (Q5637226) and Template:Cite Q (Q22321052). Then there is less to localize. 50.53.1.33 (talk) 17:16, 5 September 2017 (UTC)
+
+Hello again! I’m sorry to bother you, but I would be grateful if you could think about these 2 things.
+
+1. Alias fetch command (d:Help:Aliases). For example, {{wikidata|alias}} and {{wikidata|aliases}} like "property" and "properties" commands.
+
+2. Processing the output from "format" as wikitext. If evaluating "format" text as wikitext just after the replace of %p by value, I suppose it would make possible to use template, magicword or #if-text in "format" text.
+
+I don't even know whether these things are possible or not, whether Lua thing or Mediawiki thing. If I am pointless, please forget about this! Thanks! --Was a bee (talk) 10:35, 17 September 2017 (UTC)
+
+@Was a bee & @Underlying lk: I have reverted the change for request number 2 since there were more problems than I anticipated (e.g. raw value comparison stopped working). I will have to think this over more thoroughly... Thayts ••• 19:27, 29 September 2017 (UTC)
+
+@Thayts: This change seems to cause some issues whenever the same reference is invoked more than once, as in the Transneft#References article.--eh bien mon prince (talk) 21:56, 8 October 2017 (UTC)
+
+@Thayts: Any chance of showing page numbers (P304) in references, please? Thanks. Mike Peel (talk) 21:30, 29 September 2017 (UTC)
+
+@Pppery: A lot of edits to Module:Wd are occurring. I see some also in Module:Wd/sandbox. Shouldn't pretty well all the edits be in the sandbox? The script errors tracking category (articles) is showing hundreds of pages, and I think that is from the recent edit which Thayts fixed (I'm currently purging the category so genuine errors can be found). At any rate, the module has 5811 transclusions so tweaks definitely should happen in the sandbox to avoid unnecessary overhead regardless of whether another glitch might occur. If wanted, I would be happy to remove the many global variables which are currently in the module. Johnuniq (talk) 04:41, 12 October 2017 (UTC)
+
+Not really sure whether this is the right place to ask, but here goes: I'd like a (simple) template that returns Wikidata claims given a Q number and a P number. For instance, the publisher of A Haunted House and Other Short Stories (A Haunted House and Other Short Stories (Q4004168)) is Hogarth Press. The property number of "publisher" is P123. For the sake of this example, let's call the proposed template {{Wikidata/P of Q}} (other names are possible), then:
+
+or
+
+would return:
+
+Then, additionally, if no Q number is given, the template takes the Q number of the page on which it is, thus if the {{Wikidata/P of Q}} template is placed on the A Haunted House and Other Short Stories page, with only the first parameter (the P parameter) added, thus:
+
+or
+
+it gives the same return as mentioned above.
+
+I suppose this could be done with the current {{Wikidata}} template, with the correct parameters — maybe such simplified template already exists, and I just didn't find it. Could someone help out here? Tx. --Francis Schonken (talk) 09:06, 5 November 2017 (UTC)
+
+Oops, just looked above #Substing_.7B.7BWikidata.7D.7D, seems like I can find at least part of the answer there. --Francis Schonken (talk) 09:16, 5 November 2017 (UTC)
+
+Propose to continue talk about this at Template talk:Wikidata/P of Q. --Francis Schonken (talk) 09:26, 5 November 2017 (UTC)
+
+Hi! Can you help slovenian wikipedians with template usage? 
+
+@Thayts: I'm thinking about using unit symbols instead of unit labels (singular form of the label not appropriate for direct use + too long for infoboxes). Could you take a look: [1]? (It could be made optional and further optimized by saving wikidata calls via local array with the most common units.) --Nk (talk) 11:46, 12 January 2018 (UTC)
+
+How can we pipe in badges from wikidata. Capankajsmilyo (talk) 07:57, 13 March 2018 (UTC)
+
+This returns a date in a format that does not accord with MOS:DATE:
+
+Is there a reason that month and day values in raw returns are rendered as single digit when less than 10?  Technically this occurs because parseDate() returns numbers, not strings for year, month, day so leading zeros in the source from the wikidata raw time data are lost.  If leading zeros are not omitted for a specific reason, one might rewrite line 1035:
+
+and line 1038:
+
+—Trappist the monk (talk) 19:06, 23 March 2018 (UTC)
+
+@Thayts: On 9 May 2017 local arg = ... was introduced. Do you have a reason to use that off-wiki? I believe it would never do anything useful in a Scribunto module (arg would always be nil). Is the code used anywhere? That is, does Module:Wd ever get "included by other module" which passes the title in arg?
+
+The background to my question is that a discussion at VPT is questioning the use of red-linked /i18n pages. I haven't looked at whether this module is part of that but it is the earliest form of the code that I have seen, and its procedure was copied to Module:Wikidata in October 2017. In this October 2017 comment I mentioned "two really puzzling aspects of the code"—that is, two things which I believe would never work.
+
+It is irritating to edit an article at enwiki and see a red-linked /i18n page. I was hoping to investigate whether there was some workaround that might disable that for enwiki while leaving it available for other projects. I'll look at that later but first I would like to understand the above. Johnuniq (talk) 03:36, 28 June 2018 (UTC)
+
+It looks like the place where Scribunto sets arg is package.lua (that applies when one module uses require to access a second module). That sets arg[1] to the name of the second module.
+Using local arg = ... puts global arg[1] into local arg which gets the desired result. Using ... is convenient because it will give nil (if global arg is nil) or arg[1].
+@Anomie: Is what I've said correct? Can we rely on arg being nil (if a module is directly called with #invoke) or being a table with arg[1] being the name of the required module? Johnuniq (talk) 07:24, 1 July 2018 (UTC)
+If you want to get technical, note that ... doesn't actually unpack _G.arg. It's just that the two contain the same values.
+I'm also not sure why Scribunto's package library sets _G.arg in require(), it doesn't seem that standard Lua 5.1's package library does that. I guess it's because Scribunto's package library was originally copied from a compat-5.1 library for 5.0 and 5.0 doesn't seem to have any other way to pass the module name parameter in a 5.1-like manner. Anomie⚔ 14:49, 1 July 2018 (UTC)
+I've struck through "{{Property}}, used to add a Wikidata property link in text" because clearly {{Property}} is something else entirely, but I have no idea what it should list here; I assume there is some template for that purpose. - Jmabel | Talk 23:43, 13 June 2018 (UTC)
+
+Hi from Slovenian Wikipedia! Can you help me with a problem?
+
+--Pinky sl (talk) 19:22, 4 January 2019 (UTC)
+
+Hi @Thayts:, I have another question: is there a way to return the claim with the most recent point in time (P585), even when a less recent claim has a higher rank? For instance, using population (P1082) on Basel (Q78) returns the population as of 2021-09-30, even though there are population figures for 2018 stored in the entity page. Is there a way to get the latest figures, without having to change all the ranks? Thank you for your excellent work, as always.--eh bien mon prince (talk) 21:29, 30 January 2019 (UTC)
+
+@Thayts:I'm trying to use this template to fill the subdivision_type fields of {{Infobox settlement}}, but I have trouble
+with it because of the way located in the administrative territorial entity (P131) works up backwards from the lowest level division to the top.
+
+So {{wikidata|property|P131}} is the lowest level division, {{wikidata|property|eid={{wikidata|property|raw|P131}}|P131}} is the second lowest, and so on. But is there a way to reliably retrieve the top-level division for the entity (or second-level, etc.), no matter how many divisions are below it?
+
+For instance, the template would need to find the top level division Ticino (Q12724) on both Brè (Q3646180) and Lugano District (Q660612), without changing the syntax. Can this be achieved?
+--eh bien mon prince (talk) 20:30, 16 January 2019 (UTC)
+
+
+ucfirst don't work : how can I capitalize the first letter in {{ucfirst:<ul>{{wikidata|properties|normal+|current|linked|Q870899|P1885|P1013=Q2577114|format=<br>%p[%r][<ul><li>%q</li></ul>]}}</ul>}} : 
+  ?
+
+In french, the result is :
+
+and I want not cathédrale but Cathédrale (c->C) :
+
+cdt, Speltdecca (talk) 17:55, 8 June 2019 (UTC)
+
+As this module is now edit protected and I can't edit it myself anymore, please copy and implement the current contents of the sandbox to here. This is a small uncontroversial change as the code comparison shows, which replaces a hacky solution to get the global site ID with a call to a recently added dedicated function. I have added 4 testcases with a call to the badges function, which is the only function that relies on the site ID. The testcases show the same results for the current version of the module and the sandbox version. Thayts ••• 08:58, 11 October 2019 (UTC)
+
+(Reposted from Module talk:WikidataIB § Wikidata Bridge.)
+
+I'm guessing that the module maintainers might be unaware of this? The WMDE developers have been working on mw:Wikidata Bridge, which will allow some Wikidata statements to be edited directly through infoboxes and other templates. There's currently a semi-interactive prototype. I think it would be useful for the module maintainers to provide feedback, if there are any issues that haven't already been addressed.
+
+There's an early draft of a documentation page that might help explain how the software's supposed to be enabled inside template code. Jc86035 (talk) 08:32, 3 July 2019 (UTC)
+
+You may be interested to add a date parameter like the one we have implemented in bgwiki [2]. Use cases are flags, countries, etc. at specific past dates. --Nk (talk) 07:10, 17 September 2019 (UTC)
+
+@Thayts: Something in the edit of 11:10, 9 November 2019 broke a few articles. I don't have time to investigate further atm. For example, see Shovana Narayan#External links where {{Scholia}} is generating The ID "{{{ID}}}" is unknown to the system. Please use a valid entity ID. Johnuniq (talk) 03:10, 10 November 2019 (UTC)
+
+Somewhere in the code path for rendering reference there are probably one or more missing verification of existence of some substructure. In short a nil-value is passed where you are assuming a table, most likely because the table is empty in the statement, and it is thus removed. Always check whether the table exist, or fallback to an empty table. Also make sure that the code holds for empty tables, the code isn't totally consistent on empty structures. Or at least it wasn't.
+
+I don't have any example, as all examples have been promptly fixed by changing statements. Jeblad (talk) 01:33, 6 November 2019 (UTC)
+
+Use of undersore (local _ = Config.new()) as a variable name breaks several tools for Lua, as it is assumed to be used for unassigned values. Or breaks, some of them silently fails as statements involving an underscore are simply neglected. (Not sure if complete code paths involving a neglected statement are neglected.) Jeblad (talk) 01:24, 6 November 2019 (UTC)
+
+Note: This resembles the use of "_" in Haskell, Erlang, Ocaml, and Prolog languages, where "_" takes the special meaning of anonymous (ignored) variables in pattern matches. In Lua, "_" is only a convention with no inherent special meaning though. Semantic editors that normally flag unused variables may avoid doing so for variables named "_"(e.g. LuaInspect is such a case) [LuaLint and LuaCheck also comes to mind, but there are several others…].
+I have a requirement on pages such as Wikipedia:WikiProject Women in Red/Missing articles by occupation/Conductors to provide a link for the user to the P360 property for the page's item. Can this template produce a link in the form d:Q76380272#P360? thx --Tagishsimon (talk) 13:19, 24 November 2019 (UTC)
+
+How do I get the page ID for a given page? I'm trying to convert a usage of {{#invoke:Wikidata|pageId}} but can't seem to find in the doc here. The usage is in {{Birth date}} where it seems just to check if the item exists, so if there is a different check that gives the same result, that could also work. --Gonnym (talk) 19:11, 2 January 2020 (UTC)
+
+
+I wanted to add an example for math like this one. However, the documentation on how to add new samples to the module documentation was somehow scary. Can someone help me? I think adding 
+ to 
+
+
+
+
+
+
+
+n
+
+2
+
+
+−
+1
+
+
+
+n
+
+2
+
+
++
+2
+
+
+
+=
+
+
+
+4
+π
+
+3
+
+
+N
+α
+
+
+{\displaystyle {\frac {n^{2}-1}{n^{2}+2}}={\frac {4\pi }{3}}N\alpha }
+
+ would help to better understand the example. 
+
+--Physikerwelt (talk) 15:28, 2 January 2020 (UTC)
+
+I suggest to add the qID attribute to the math tag generated by the wd for properties with data type math. I implemented for a similar datatzype content math on the drmf wiki.
+I suggest to change the current code 
+
+to
+
+The qid attribute will be picked up by the mw:Extension:Math which will generate a hyperlink to specialpage which will show additional information regarding the formula including its source on wikidata.
+--Physikerwelt (talk) 18:19, 13 January 2020 (UTC)
+
+Is there a way to search by page title instead of item id? I know we can get Wikidata information for Q1, but is it possible to get do it for "Universe"?
+
+For example, I want the template to return the Wikidata badge for Suillus luteus, when it has been used on my sandbox. However, I don't want to use the item id for this purpose. Is there any way, other than Wikidata item id, to do this? Thanks. Ahmadtalk  12:07, 23 January 2020 (UTC)
+
+While updating the copy of this module at no:Modul:Wd, I came across a small issue.
+The test for whether a single value or multiple values should be returned, depends on whether the claim command ends with "s", but since the claim commands can be translated at the top of the module, this test generally fails for non-English languages. To make it easier to port the module to other sites, I would therefore suggest this slightly more verbose version of the test. – Danmichaelo (talk) 16:12, 13 April 2020 (UTC)
+
+Hi, I have two question :
+
+First question : 
+
+{{#invoke:wd|properties|normal+|Q55|P1082}} display :"17,590,672, 10,026,773, 16,779,575, 16,829,289, 17,000,000, 17,081,507, 17,181,084, 17,282,163, 17,407,585", 
+
+how can I display just three first number for to have just : "17,181,084, 16,829,289, 16,779,575" ?
+
+I have unsuccessfully tested "maxvals" and "numval" : 
+
+{{#invoke:wd|properties|normal+|Q55|P1082|maxvals=3}}  (display ever :"17,590,672, 10,026,773, 16,779,575, 16,829,289, 17,000,000, 17,081,507, 17,181,084, 17,282,163, 17,407,585")
+
+and
+
+{{#invoke:wd|properties|normal+|Q55|P1082|numval=3}} (display ever :"17,590,672, 10,026,773, 16,779,575, 16,829,289, 17,000,000, 17,081,507, 17,181,084, 17,282,163, 17,407,585")
+
+Second question :
+
+{{#invoke:wd|properties|normal+|Q55|P1082}} display :"17,590,672, 10,026,773, 16,779,575, 16,829,289, 17,000,000, 17,081,507, 17,181,084, 17,282,163, 17,407,585",   
+
+how can I to reverse the chronological order for to display : "17,132,854 17,000,000, 10,026,773, 16,779,575, 16,829,289, 17,181,084" ?
+
+I have unsuccessfully tested "sorttype = inverted" : 
+
+{{#invoke:wd|properties|normal+|Q55|P1082|sorttype = inverted}}  (display ever :"17,590,672, 10,026,773, 16,779,575, 16,829,289, 17,000,000, 17,081,507, 17,181,084, 17,282,163, 17,407,585")
+
+My project is to do this table on page https://fr.wikipedia.org/wiki/Épidémie_de_maladie_à_coronavirus_de_2020_en_France#Localisation_des_cas to https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_France. 
+
+Thanks, --Viruscorona2020 (talk) 05:09, 10 March 2020 (UTC)--Viruscorona2020 (talk) 05:05, 10 March 2020 (UTC)
+
+Hi! First of all let me say this module is awesome, super thanks to the developers! I just ported it to the Spanish Wikipedia and it's going great. The thing that surprised me the most, though, was the separation between Module:Wd/i18n and Module:Wd/aliasesP. It seems unnecessary to me and even counterproductive for easy and effective localization. So I'm thinking about merging them as my first contribution to this module (I'm an experienced developer and have some experience with modules too). However, before I do anything, I'd like to ask more experienced contributors if there's some reason for keeping them separated that maybe I'm not seeing. Thanks! Sophivorus (talk) 11:25, 15 April 2020 (UTC)
+
+gave 2,3, i.e. two values. I want the most recent value, 3, which is from point-in-time 2019, and is the last in the list. I have tried the current, normal, normal+, best and single options but none of them helps. Probably because the older and first value in the list does not have a point-in-time (P585). My only solution is to apply {{last word}}, which gives 3. But that is an ugly solution - the most recently entered value is to my understanding typically but not always the last in the list, and should be the default if there is no timing info. 
+However, your module gives the correct date if I enter 
+
+(I would prefer a y or yyyy option to only get the year. Now I have to apply {{last word}} to get the year.) I need value and date separated from each other, since the value is visualized graphically, and need to be sure that correct date is shown for correct value. [edited afterwards]
+
+Tomastvivlaren (talk) 02:07, 23 November 2019 (UTC)
+
+It looks like the configuration flags currently prioritize future, then current, then past values for values that have a start time/end time qualifier. But I'm trying to fetch the most recent result for a value that instead has a point in time qualifier. Is there any way to do that, and if not, could that functionality be added? {{u|Sdkb}} talk 06:59, 31 July 2020 (UTC)
+
+For Q7227384, I'm trying to fetch the reference for the most recent (preferred rank) value of "employees" with the qualifier "applies to part, aspect, or form" equal to "faculty member" (i.e., I'm trying to fetch the reference for the current number of faculty members, as opposed to administrative staff). I was able to get the number of faculty via {{wikidata|property|normal+|current|P1128|P518=Q5428874|page=Pomona College}}, but trying to use {{wikidata|reference|normal+|current|P1128|P518=Q5428874|page=Pomona College}} returns all the references for the faculty count (although not the ones for administrative staff), not just the most recent, preferred rank one. I think this may be a bug, since the documentation here says that using "reference" rather than "references" should only return a single value. Help, anyone? {{u|Sdkb}} talk 04:37, 14 August 2020 (UTC)
+
+Can anyone head me in the right direction to fix the error on this module when I import it into my own wiki?
+
+Lua error in Module:Wd at line 196: attempt to call field 'getSiteGlobalId' (a nil value).
+
+The line in question has this code:
+
+cfg.siteID = mw.wikibase.getGlobalSiteId()
+
+I have wikibase installed and seemingly working. In my LocalSettings.php I have the following definition for all of my local language wikis:
+
+$wgWBClientSettings['siteGlobalID'] = $wikiId;
+
+Where $wikiId resolves to the language identifier "en", "es", "it", "fr", "de", "pt", etc. My Wikibase is working and I can set interwiki language links just fine.
+
+Why could the LUA script for this module be choking at this point?
+
+I don't have any experience with LUA, I know PHP and Javascript, jQuery, some Java and C++, .NET... But I'm seeing there is a LUA console for debugging purposes when editing the module page. So I tried logging some values on my local wiki:
+
+mw.log(mw.wikibase)
+tells me that mw.wikibase is a table
+
+mw.logObject(mw.wikibase)
+tells me that in fact the function getGlobalSiteID doesn't exist:
+
+
+["getEntityUrl"] = function#12,  
+["getLabel"] = function#13,
+
+
+Whereas if I log the same on the wikipedia module page, I see:
+
+
+["getEntityUrl"] = function#12,  
+["getGlobalSiteId"] = function#13,  
+["getLabel"] = function#14,
+
+
+Doing a little more research, I see that the getGlobalSiteId function should be defined by the Wikibase client Lua module, see [5]https://www.mediawiki.org/wiki/Extension:Wikibase_Client/Lua#mw.wikibase.getGlobalSiteId.
+
+I wonder then why my Wikibase doesn't have this definition?
+
+Lwangaman (talk) 15:00, 2 September 2020 (UTC)
+
+Hi! Are you aware of mw:Multilingual Templates and Modules? As a fellow Wikimedian and module developer, I strongly recommend you take a look. And by the way, thanks for this amazing module! Sophivorus (talk) 22:27, 2 September 2020 (UTC)
+
+ You are invited to join the discussion at wikidata:Wikidata:Project chat § "Last, First" for references rather than "First Last".  {{u|Sdkb}} talk 03:45, 20 September 2020 (UTC)
+
+Hi. Does anyone knows if its possible to use {{Wikidata}} to lower the outcome of the decimals in areal? For example: If you use {{Wikidata|property|P2046}} in Avondale, Arizona you will get the outcome of "117.380821 square kilometre", but thats a lot of decimals. If someone knows how to lower it to two decimals (or without decimals at all), I will be greatful. Thanks. --- Løken (talk) 12:21, 6 November 2020 (UTC)
+
+I wish {{wikidata|references}} produced more normal-looking citations. For example, I just used this template at Wikifonia#Termination, which used d:Q7999853#P576 like this:
+
+[1][2][3][4]
+
+References
+Note especially the "author name string" spelled out. No human would produce a citation like that. I with {{wikidata|references}} would produce this kind of citation:
+
+Lukasiwicz (25 December 2013), What happened to Wikifonia?, retrieved 1 December 2020 Additional parameters here
+
+Daask (talk) 14:55, 2 December 2020 (UTC)
+
+How to get Wikidata entity label in a specific language? Soshial (talk) 16:56, 29 November 2020 (UTC)
+
+Hi, and thanks, I recently changed Google Chrome article at its Infobox part to fetch its "latest release" data by this template from its wikidata item. But it has a serious problem, when we click at the "pen shaped" link to edit its wikidata item, the link is redirected to the page https://www.wikidata.org/wiki/Q777?uselang=en#P348 and scrolls to "software version identifier" and at the top of it, and not scrolled to the correct position, that is at version "88.0.4324.39", for example. And this scenario also occurs for all of the "pen shaped" links in Google Chrome's Infobox, meaning that all of them are scrolled at the top of "software version identifier", and not scrolled correctly at the true "version" position. And this problem is a serious one. 
+
+Would anyone have any idea about this bug, and can it be corrected? Thanks again, Hooman Mallahzadeh (talk) 14:09, 20 December 2020 (UTC)
+
+Is it possible to sort out by a specific unit? Soshial (talk) 13:14, 15 January 2021 (UTC)
+
+I'm attempting to transclude all linked pages under a property, and I'm hoping there's a way to use wd to achieve this.
+
+I'm trying to do something like this:
+
+{{#invoke:wd|properties|linked|Q151973|P26|format=\{\{:%p\}\}<br>}}
+
+To give me this:
+
+{{:Elizabeth Taylor}} {{:Sybil Christopher}} {{:Suzy Miller}} {{:Elizabeth Taylor}} {{:Sally Burton}}
+
+But I want it to actually transclude those pages in this order.
+
+Is something like this possible? El Dubs (talk) 07:49, 18 January 2021 (UTC)
+
+Is references supposed to return all the references, because it seems to be returning just the first one? Example:
+
+{{#invoke:wd|property|references|Q3395654|P2043}} -> 40.1 kilometre[1][2]
+
+— Martin (MSGJ · talk) 21:18, 19 January 2021 (UTC)
+
+References
+When using linked option, the module will not return a link if the article does not exist. Is there any option to create a red link in this case? If not, could this option be considered? Best regards — Martin (MSGJ · talk) 20:51, 7 January 2021 (UTC)
+
+I would like to use described by source (P1343) and format it as an inline reference. Is this possible? — Martin (MSGJ · talk) 22:37, 1 February 2021 (UTC)
+
+Is there any way to use an abbreviated unit? For example:
+
+It would be nice to use nmi instead of "nautical mile". There is unit symbol (P5061) which could be used to obtain the correct symbol from Wikidata — Martin (MSGJ · talk) 21:00, 2 February 2021 (UTC)
+
+References
+I see in the archive that Mike Peel brought up reference naming for this template a while back. I've been encountering a similar issue, so I wanted to raise it again to see if we can figure something out.
+
+Reference reuse is working fine when sourcing the same fact from Wikidata twice (say, in both the infobox and the lead), since we can just use {{wikidata|references|Pxxx}} twice and they'll be merged. However, it isn't working when the same reference is used both from Wikidata to support one fact and in the article to support another. In this case, even if the display is exactly the same, the references remain separate. Moreover, it wouldn't be advisable to replace the article-based reference with the Wikidata-based one, since the Wikidata one could switch to a new reference that doesn't support the second fact. (Let me know if the above is confusing and I can provide an example.)
+
+Would we be able to figure out any way so that the software can identify references that display the same and merge them, even if one comes from Wikidata and the other does not? {{u|Sdkb}} talk 20:59, 10 February 2021 (UTC)
+
+As I suggested on Template talk:Cite Q, if the reference is described by a Wikidata item, for example:
+
+which uses Reeds PBO Small Craft Almanac 2014 (Q25198336), then the most appropriate name for this reference is Q25198336. Then if this reference is used again in the article, the same name can be used to group them together. — Martin (MSGJ · talk) 12:20, 11 February 2021 (UTC)
+
+References
+How can I get the language code for the value of a statement?
+
+--Lectrician1 (talk) 20:32, 12 February 2021 (UTC)
+
+I've noticed that dates retrieved from Wikidata don't respect {{use mdy dates}} tags on articles. Could this be fixed? {{u|Sdkb}} talk 02:45, 21 December 2020 (UTC)
+
+What's the easiest way to capitalise the first letter of a word obtained from Wikidata? I think ucfirst will not work on a link or if references are appended. Thanks — Martin (MSGJ · talk) 19:18, 23 January 2021 (UTC)
+
+@Thayts: I was asked today how to call Module:Wd from other modules, so I made a brief demo at Module:Sandbox/RexxS/Wd and put some comparisons with the corresponding {{Wikidata}} calls on its talk page at Module talk:Sandbox/RexxS/Wd. I don't want to mess with your documentation, but I think those simple examples would prove useful to budding coders. Please feel free to take them and use them any way you want - absolutely no attribution required. Cheers --RexxS (talk) 21:56, 20 February 2021 (UTC)
+
+Good morning. Sorry if I write here, I don't know if it is the best place to ask the following question: How do I get from Wikidata the date of birth of a person expressed in day and month without the year (DD-MM)? 
+Which template is the most suitable for obtaining this type of data? it's possible? Many thanks to anyone who would answer the courtesy and helpfulness. --Fierodelveneto (talk) 10:17, 23 April 2021 (UTC)
+
+@Thayts:, this is my first time looking at this, and I'm a bit overwhelmed. Is there a way I can extract the title of a linked Wikipedia article?  For example: given Q43287 (German Empire) and a lang code 'fr', it should return the string 'Empire allemand', from the linked French article fr:Empire allemand. So, we'd have something like this:
+
+Is there anything like that present?  I can't figure it out, from the doc. And with |linked=, then it would generate [[:es:Imperio alemán|Imperio alemán]], etc. Thanks in advance. (please  mention me on reply; thanks!) Mathglot (talk) 22:09, 18 April 2021 (UTC)
+
+ You are invited to join the discussion at Wikipedia talk:AutoWikiBrowser/Rename template parameters § Wikidata aliases.  {{u|Sdkb}} talk 06:29, 13 August 2021 (UTC)
+
+Hi, could someone explain more about this quote from the documentation?
+
+I assume this means that if I make multiple calls with one command each, then the pieces of information may belong to different statements. Is my understanding correct? If so, when and why does this happen, and can you give a working example?
+On another note, can multiple calls of the same module/template code result in different data being returned on different calls? Winston (talk) 05:23, 5 September 2021 (UTC)
+
+Is there any way to obtain the language of a value of native label (P1705) or official name (P1448)? — Martin (MSGJ · talk) 20:18, 25 October 2021 (UTC)
+
+An example above is how you get a value from a given entity for a different wiki (in this case for Russian Wikipedia) by using WikidataIB module. How do I the same with this one? AXONOV (talk) ⚑ 14:34, 6 November 2021 (UTC)
+
+Input from folks here would be welcome at phab:T297854. Cheers, {{u|Sdkb}} talk 01:40, 16 December 2021 (UTC)
+
+Often, when I'm fetching a date from Wikidata using this module, I'm only interested in the year, not the exact day, which would be too much precision for readers. I can accomplish that by wrapping the result in {{year}}, but that gets clunky (especially when there's references too). Would there be a way to add functionality to this that'd let me set a desired precision within it? {{u|Sdkb}} talk 09:25, 23 November 2021 (UTC)
+
+There are several wishlist items this year that relate to this template. I'd particularly encourage folks to go support Tool to add Wikidata to an article. Cheers, {{u|Sdkb}} talk 22:56, 29 January 2022 (UTC)
+
+At this testcases page, there is an example of a failure to render a retrieved label correctly, because the label has three ' (apostrophe) characters in a row. That string of three ' is rendered as bold markup instead of plain text. Please see this discussion for a similar problem with trusting raw wikidata values to be valid as wikitext output. 
+
+Can someone please wrap the label in nowiki formatting so that this problem does not happen? I suspect that there are subtle instances of this sort of error caused by this module on many article pages, not just this one testcases page. Here's a diff showing one way to handle the raw Wikidata text. – Jonesey95 (talk) 15:32, 17 February 2022 (UTC)
+
+I discovered here that when I use the "linked" flag, it produces this: [1]. I want to use the flag so that NOAA will be linked, but when I do so, it also links to the Wikidata entry the author, who is not notable. This is not desirable, since only notable topics should be wikilinked. Could this behavior be disabled?
+
+References
+{{u|Sdkb}} talk 18:53, 20 February 2022 (UTC)
+
+I'm in the process of converting the sandbox of {{Infobox YouTube personality}} to rely on Wikidata subscriber counts, which are now being updated every time they change by 10% or reach a new factor of 10 milestone. The WikiProject has expressed interest, too. I'm not sure how to get {{Wikidata}} to work correctly with it, though. I'd like to have it so that it returns social media followers (P8687) but only when the qualifier YouTube channel ID (P2397) is present (doesn't matter what it's set to). Help? {{u|Sdkb}} talk 07:40, 19 March 2022 (UTC)
+
+On Telugu wikipedia, we have started using Wikidata based infobox templates extensively.(Example page on Tewiki) When the citations are added, we are facing the problem of  dead links when values of full work available at URL become dead as given below.
+{{wikidata|references|linked|eid=Q48728240|P1082|P585=2011}}
+[1]
+
+References
+Arjunaraoc (talk) 04:03, 1 June 2022 (UTC)
+
+This code below does not show citation differently (only label is shown and the link, wikidata identifier for source is missing) on Telugu Wiki (Example test page) On English wiki, there is no problem. Telugu Wiki uses English wiki templates and Module code as much as possible, without even change of parameter names.
+{{wikidata|references|linked|eid=Q48728240|P1082|P585=2011}}
+[1]
+
+References
+Arjunaraoc (talk) 04:38, 1 June 2022 (UTC)
+
+How would I get the latest population value for Q8003707, which is 19,262 for 2021? {{wikidata |property |normal+ |Q8003707|P1082 }} yields 18,187, which is for 2016. Betterkeks (talk) 17:54, 5 July 2022 (UTC)
+
+Hello. I want to implement this module on Azerbaijani Wikipedia. One thing is missing (it exists on ruwiki version) — properties like d:P6365, d:P1740, d:P3876 would be great to implement while invoking the module with a parameter like |appendcategory=P3876. It can be helpful for categorisation. — Toghrul R (t) 07:20, 16 August 2022 (UTC)
+
+Is there a way to trim the dates (30 April 2013 → 2013)?  Sometimes it would be very handy to have it
+
+{{#invoke:wd|property|qualifier|qualifier|trimdate|normal+|Q55|P35|P580|P582|sep%q=_–_}} → Willem-Alexander of the Netherlands (2013) — Toghrul R (t) 14:47, 28 August 2022 (UTC)
+
+Could somebody who understands this template (and accessing Wikidata generally) have a look at WP:Teahouse#Wikidata problem with diagrams.net article? The problem is that the call of this template in the infobox in diagrams.net was picking up the release dates of all the versions in d:Q59339175, rather than the latest. I tried to fix it by adding |preferred - which got rid of all the dates, but actually doesn't produce any because none of them have been marked as "preferred". I was investigating how d:Help:Ranking worked, and was going to set the latest release to be "preferred", but it occurred to me that this must have arisen before, and there must be a better way to handle it. 
+I wasn't sure whether to ask at Wikidata, or VPT, or here, but I thought I'd try here first. 
+Pinging Stephenamills, who raised the issue. ColinFine (talk) 17:34, 2 September 2022 (UTC)
+
+I'm still interested in a feature that would extract the title of a linked Wikipedia article, perhaps as in this mockup:
+
+See Module talk:Wd/Archive 1#Titles from other wikipedias for previous discussion about this. Thanks, (please  mention me on reply; thanks!) Mathglot (talk) 04:47, 11 September 2022 (UTC)
+
+In the table at Template:Wikidata/doc#Configuration_flags, the last row appears to be displaying incorrectly. I think the "edit@end" is meant to go right under "edit" but it's instead appearing one cell to the left. I tried to fix it myself but couldn't figure out how; does anyone know how to make it display correctly? – numbermaniac 05:43, 7 October 2022 (UTC)
+
+Hi,
+We are currently trying to import referenced data from WD into infoboxes but we have the issue that for some items, lists could get too long. So having a 'maxvals' parameters as in https://en.wikipedia.org/wiki/Module:WikidataIB would be really nice! (as WikidataIB does not allow to retrieve references)
+Has anyone seen this? Could this be doable? AdrianoRutz (talk) 08:42, 7 October 2022 (UTC)
+
+I have made an attempt but it is not working yet. Perhaps Jonesey95 could help get this working? — Martin (MSGJ · talk) 09:47, 16 October 2022 (UTC)
+
+Hello, is there any way to fetch older labels of a subject? For instance, I would like to get Kirovabad (linked) for Ganja via P1448 using a date interval (1935–1989). That would be helpful for getting the correct labels during a person's lifetime. — Toghrul R (t) 07:02, 1 November 2022 (UTC)
+
+I have been using the template to create lists of suburbs in LGA articles (see Shire of Serpentine-Jarrahdale as an example). It was pointed out to me that the statement drawn from Wikidata, "3.5 square kilometre", is actually incorrect and it should be the plural "square kilometres". The way around this is just to use the "raw" parameter and add square kilometres at the end of the template. Apart from this, it would also be handy to be able to convert the value to the US square mile. I achived this with the convert template, resulting in the rather complicated {{convert|{{wikidata|property|raw|Q5004080|P2046}}|km2|sqmi|abbr=unit}}. Is there currently any either way with the template to achieve the following two:
+
+Thanks for any advice. Calistemon (talk) 04:40, 28 November 2022 (UTC)
+
+Why isn't it possible to access specific values by comparing date against P585 point in time not just start and end time?
+Say call for a value that has point-in-time value in January 1st 2022 because not all values can be correctly described as having start and end points, some for example population is specifically point-in-time value as it is changing day by day.
+Is it not implemented because it is not possible or it hasn't yet been deemed useful?
+If it's possible how could it be done? Does someone else add the functionality or do I copy the code and try to add the functionality and then if it is successful it may be added to main Module? Liinisx (talk) 11:48, 5 January 2023 (UTC)
+
+Add functionality to call for a property value if "date=..." matches P585 date-in-time value
+As I understand it is not possible for now and one can call for a value by date only if it has start-time and/or end-time qualifiers Liinisx (talk) 14:21, 5 January 2023 (UTC)
+
+The examples in the main page are kind of difficult:{{wikidata|properties|qualifier|normal+|Q55|P1082|P585}}↓17,282,163 (2019), 16,829,289 (26 August 2014), 16,779,575 (2013), 10,026,773 (1950), 17,000,000 (21 March 2016), 17,132,854 (2017), 17,181,084 (1 January 2018), 17,622,200
+The results aren't in any order - neither by time, nor by size.What I want is eg Santa Fe, Cebu using P150 which can have a number of elements in alphabetic order.  They are each similar eg Q26763388, and from each I want (P1082) the most recent population, and the closest earlier.If I can work it out, that can do the whole job is one line (adding text where needed). - Auntie Kathleen (talk) 06:05, 6 January 2023 (UTC)
+
+Is there an equivalent to this module to retrieve structured data from a file on wikimedia commons? E.g. this file should have P275 = Q20007257. Any ideas? T.Shafee(Evo&Evo)talk 06:30, 10 March 2023 (UTC)
+
+Hello. Thank you for developing this amazing module. I am working in the Ladin language Wikipedia, where I have created this module by copying this code and it works well. I have started using this module a lot on many articles, because the Ladin Wikipedia is very small and there aren't enough people to regularly update information, so I try to automatise everything as much as possible. I have found that when an article contains several instances of "module:wd", like five or more, it can take a while for the page to display the information. I include this module both in infoboxes as well as in the text of the article. When it takes longer to display the information from Wikidata, it may even show only certain information from Wikidata but not other. I don't think it's a syntax issue, because other pages with the same syntax did not have this issue. 
+
+Therefore, I wonder whether there is a recommended guideline against overusing this module, whether using it five times on every single page in the entire Wikipedia would slow everything down considerably. Or is this practice fine?
+Do the long loading times only happen when the Wikidata item or the Wikipedia article are edited, and otherwise it just loads the information once and then it's fine? 
+
+Thanks for helping. Asenoner (talk) 13:01, 19 March 2023 (UTC)
+
+Description of suggested change:
+I would like to update this module with my revision of its sandbox (permalink). I've made the module slightly simpler by simplifying its conditional statements, and fixed two minor errors in pattern matching (attempts to escape w/ backslash instead of %). I've checked my changes in /testcases, and my version appears to fare equally to the current revision.
+
+Diff:
+diff link
+
+{{Lemondoge|Talk|Contributions}} 20:36, 4 April 2023 (UTC)
+
+Not sure why there's the memory errors, but all the articles uses of Module:Wikidata are borked. Galobtter (talk) 22:19, 18 April 2023 (UTC)
+
+When a reference on Wikidata includes the "author name string" qualifier, the resulting citation is formatted improperly. It should be formatted the same way as when the "author" (P50) qualifier is used. See the reference 1 on GNU GRUB for example. This issue was already discussed in 2020, but it seems that it wasn't solved.
+Janhrach (talk) 09:58, 6 January 2023 (UTC)
+
+Please copy the contents of the revision 1142478456 of Module:wd/sandbox/i18n into Module:wd/i18n and the contents of the revision 1142479763 of Module:wd/sandbox into Module:wd. It is the fix for the bug described in the section above. Janhrach (talk) 17:05, 2 March 2023 (UTC)
+
+Please copy the contents of the revision 1142767581 of Module:wd/sandbox/i18n into Module:wd/i18n and the contents of the revision 1142771233 of Module:wd/sandbox into Module:wd.
+
+I've implemented the handling of P50 and P2093. In my implementation, each P50 and P2093 has its authorN parameter, with (template) parameters for P50 having lower N than parameters for P2093. For compatibility reasons, I have retained code that would handle multiple properties other than P50 and P2093. I've also tweaked the fallback display of citations (used when a citation has parameters not supported by Cite web or when it doesn't include title or URL). The authors from P2093 are now displayed properly and the author separator was changed from " & " to "; ". The parts of the citation are now separated by ". ", not by "; ". For output examples, see User:Janhrach/sandbox.
+Janhrach (talk) 09:18, 4 March 2023 (UTC)
+
+Edit: see the comment from March 11.
+
+Deactivating edit request as still pending discussion and not ready to be implemented. * Pppery * it has begun... 22:15, 4 March 2023 (UTC)
+
+I'm reopening this edit request. The discussion above is not directly related to my proposed fix. I made minor changes to the fallback display of citations, which (the changes) are partly unrelated to the rest of the fix. If you dislike them, please replace the main module file with the sandbox revision 1142765292 (instead of 1142771233). The below above discussion is about completely changing the fallback display of citations (as the resulting citations are not formatted consistently with CS1/2), which is neither something  I wanted to address in my fix, nor something I am experiened enough to do. Addressing the inconsistency of fallback mode-generated citations can (and, in my opinion, should) be done later by more experienced editors than me. Janhrach (talk) 14:43, 11 March 2023 (UTC)
+
+@Trappist the monk: In technical sense, the term "[incompatible] combination of parameters" includes the fact that the citation lacks the needed parameters. Since it will be probably unclear what it means, it can be replaced with something like: "Error: Unable to display the reference properly. See the documentation for details." The documentation would include something like this (under the subtitle of the error): "The Wikidata reference doesn't contain the minimal set of parameters (title and reference URL for Cite web, "stated in" for Cite Q) or has a set of parameters incompatible with both Cite web and Cite Q". As for the error that disappeared, the reason for its disappearance is that the new error message is  returned from the getReference function to avoid terminating the whole script, as calling error() did. The "sourced" command counts error-returning references as valid, and I don't think it's a problem – there is no policy that only statements with references renderable with Cite web/Cite Q are considered sourced. Janhrach (talk) 14:19, 30 March 2023 (UTC)
+
+ I have clarified the sentence you have mentioned. In the sentence I originally assumed it is clear that the module attempts to use Cite Q only after using Cite web has failed, but now I agree with you that the original sentence needed to be clarified. As for the tables, I don't think it's a good idea to merge them, because they describe different citation renderings which shouldn't be confused. Janhrach (talk) 17:03, 14 April 2023 (UTC)
+
+Please copy the revision 1150716473 of Module:wd/sandbox to Module:wd and the revision 1150510037 of Module:wd/sandbox/i18n to Module:wd/i18n.
+I've made several changes to processing of citations. For the explanation, see the text under the previous edit request template, but note that I've additionally removed the fallback mode of processing citations, because Trappist the monk convinced me that I shouldn't retain it. (See the above discussion.) I have also listed proposed changes to the module documentation at User:Janhrach/new_wd_documentation. It would be helpful if @Thayts looked at my proposed changes to the module. Janhrach (talk) 17:41, 3 May 2023 (UTC)
+
+One of the most common things I do with information I draw from Wikidata using this template is rounding, since it sounds terrible to say "the museum has approximately 14,747 items" rather than "the museum has approximately 15,000 items," which is easier to read and doesn't imply a false precision. However, the current functionality of the module requires me to fetch the raw value, round it, and then fetch the unit/references separately, which is very clunky. Would it be possible to build in functionality for rounding so that this can be simplified and used more widely? {{u|Sdkb}} talk 21:25, 9 May 2023 (UTC)
+
+This is probably not so important for enwiki, but people are copying the module to other wikis and might find it useful. When the ["numeric"]["delimiter"] in Module:Wd/i18n is set to a non-7bit-ASCII value (for example, to mw.ustring.char(0x202f), narrow no-break space) the :reverse method reverses UTF character bytes in 
+
+A quick solution is to first use some symmetric ascii-7 improbable character combination, such as !@!:
+
+Ponor (talk) 14:33, 26 May 2023 (UTC)
+
+I cannot find the discussion, but I know I've talked a bit previously about how it can be difficult to map the properties used for references on Wikidata to the CS1 parameter fields here on Wikipedia, particularly when it comes to the website/work fields.
+
+The current mapping uses stated in (P248) for |website=. That's generally good, although I often see "stated in" (mis-?)used on Wikidata for things that we'd consider here to be a publisher because they're not italicized (whereas websites/works are italicized). However, there are also other related Wikidata properties.
+
+title of broader work (P6333) is sometimes used when the work/website doesn't have its own item. I think that it should probably map to |website=.
+
+published in (P1433) is also sometimes used. The distinction between it and "stated in" doesn't appear to be as well-defined as it could be.
+
+I'd appreciate some high-level discussion about how we could improve this mapping. {{u|Sdkb}} talk 20:49, 7 June 2023 (UTC)
+
+
+I recently edited Kazan as part of a citation repair project, and one of its references displays the pink text Error: Unable to display the reference properly. See the documentation for details., with "the documentation" linking this module.
+The error is coming from Template:Infobox Russian inhabited locality, in the bit about 2018 population estimates, where it calls {{wikidata|reference|P1082|P585=2018-01-01}}. I thought I'd ask here if anyone has any ideas how to resolve the error, but I'm open to redirection if there's a better place to ask, whether on wp-en or on wikidata. Folly Mox (talk) 18:41, 12 June 2023 (UTC)
+
+Testing on Wikidata Sandbox (Q4115189):
+
+References
+This module should ignore Wikimedia import URL (P4656). I have made a fix to the module sandbox. For a sample output, see my sandbox. Apart from ignoring P4656, my code ignores retrieved (P813) when P4656 is present but reference URL (P854) is not, as it is probable that P813 belongs to P4656. If there are no issues with my suggested changes, I'll file an edit request in several days. Janhrach (talk) 08:18, 18 June 2023 (UTC)
+
+Please copy the contents of the module sandbox to the main module page. The explanation of the changes is above. Janhrach (talk) 17:17, 23 June 2023 (UTC)
+
+I was editing the module on another wiki and the editor warned me of an invalid escape sequence in 
+
+If I'm reading the manual correctly, the escape character is indeed %, not \. So \+ should be replaced with %+ (twice). Ponor (talk) 21:44, 25 May 2023 (UTC)
+
+Please copy the contents of the module sandbox to the main module page. The explanation of the changes is above. For context, read the whole discussion please. Janhrach (talk) 13:58, 30 June 2023 (UTC)
+
+I am getting citation errors on the page Mark Lewis (filmmaker) for the code {{wikidata|references|P800}} Usually, that kind of error is caused because Wikidata doesn't have enough information to produce a valid citation. However, in this case, the citation information on Wikidata at d:Q6768591#P800 is more than adequate. Is this a bug or am I using the template incorrectly? Daask (talk) 06:23, 6 July 2023 (UTC)
+
+Please copy Module:Wd/sandbox to Module:Wd and Module:Wd/sandbox/i18n to Module:Wd/i18n. It is a fix for the bug reported above. Sample output is here. Janhrach (talk) 07:22, 8 July 2023 (UTC)

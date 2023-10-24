@@ -1,0 +1,15 @@
+LDMOS (laterally-diffused metal-oxide semiconductor)[1] is a planar double-diffused MOSFET (metal–oxide–semiconductor field-effect transistor) used in amplifiers, including microwave power amplifiers, RF power amplifiers and audio power amplifiers. These transistors are often fabricated on p/p+ silicon epitaxial layers. The fabrication of LDMOS devices mostly involves various ion-implantation and subsequent annealing cycles.[1] As an example, the drift region of this power MOSFET is fabricated using up to three ion implantation sequences in order to achieve the appropriate doping profile needed to withstand high electric fields.
+
+The silicon-based RF LDMOS (radio-frequency LDMOS) is the most widely used RF power amplifier in mobile networks,[2][3][4] enabling the majority of the world's cellular voice and data traffic.[5] LDMOS devices are widely used in RF power amplifiers for base-stations as the requirement is for high output power with a corresponding drain to source breakdown voltage usually above 60 volts.[6] Compared to other devices such as GaAs FETs they show a lower maximum power gain frequency.
+
+Manufacturers of LDMOS devices and foundries offering LDMOS technologies include TSMC, LFoundry, Tower Semiconductor, SAMSUNG, GLOBALFOUNDRIES, Vanguard International Semiconductor Corporation, STMicroelectronics, Infineon Technologies, RFMD, NXP Semiconductors (including former Freescale Semiconductor), SMIC, MK Semiconductors, Polyfet and Ampleon.
+
+BLF2045 silicon die. RF LDMOS 26 V 180 mA 2 GHz 10 dB 30 W SOT467C. Designed for broadband operation (1800 to 2200 MHz).
+
+BLF861A RF LDMOS transistor. RF LDMOS transistor 860 MHz 150W.
+
+BLF861A silicon die. RF LDMOS transistor 860 MHz 150W.  Designed for UHF operation.
+
+Common applications of LDMOS technology include the following.
+
+Common applications of RF LDMOS technology include the following.

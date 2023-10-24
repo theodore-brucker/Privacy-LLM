@@ -1,0 +1,50 @@
+Ex Libris Group is an Israeli software company that develops integrated library systems and other library software. The company is headquartered in Jerusalem, and has ten other offices around the world.[1] In October 2015, Ex Libris was acquired by ProQuest[2] which in turn was acquired by Clarivate in December 2021.
+
+Ex Libris started as an internal project at the Hebrew University of Jerusalem in 1980 to develop a new library management system, as no system at the time was able to handle both Hebrew and Latin character sets as required by the university. The software was called Automated Library Expandable Program or ALEPH-100 ("Aleph" is also the name of the first letter of many Semitic alphabets).[3] In 1983, Yissum (the technology transfer company of the Hebrew University) founded Aleph-Yissum Ltd., a new company to commercialize the software. Yohanan Spruch, the original developer of ALEPH, became the company's chief technology officer. Between 1983 and 1988, all eight Israeli universities bought the program and linked up in a network.[3]
+
+In 1986 Ex Libris Ltd. was founded by technology entrepreneur Azriel Morag to market the software overseas.  In 1993, ALEPH was deployed by the seventeen libraries of the Vatican[4]
+and 200 libraries in 27 countries had bought it by 1995.[3]
+
+In 1995 Aleph-Yissum merged with Ex Libris Ltd. and reorganized as the Ex Libris Group, headed by Azriel Morag as the group's chief executive officer.[5]
+
+In July 1997, Ex Libris acquired Dabis, a leading vendor of automated library systems in the German speaking countries.[6]
+
+In 1998, venture capital funds Walden Israel and Tamar Ventures invested over $4m in Ex Libris.[7]
+
+In February 2000, Ex Libris acquired the rights to SFX, an OpenURL link server software, from the University of Ghent.[8][9] Ex Libris popularized OpenURL, which later became the ANSI/NISO Z39.88 standard in the information industry.[10]
+
+In July 2000, Ex Libris launched MetaLib, a federated search system that conducts simultaneous searches in multiple information resources such as library catalogs, journal articles, newspapers.[11]
+
+In August 2002, Ex Libris launched DigiTool, a full function, digital asset management system designed for libraries and information centers.[12]
+
+In 2004, Ex Libris launched Verde, an electronic resource management system that manages the acquisition and licensing of electronic resources.[13]
+
+In July 2006, Francisco Partners became the sole owner of Ex Libris Group.[14] In November of that year, Endeavor, the developer of the Voyager integrated library system, was merged into Ex Libris.[15]
+
+In May 2007, Ex Libris launched the Primo library discovery and delivery service.[16]
+
+In August 2008, Leeds Equity Partners acquired Ex Libris Group.[17]
+
+In May 2009, Ex Libris launched the bX recommender service, which provides library users with recommendations for scholarly articles.[18] Also in 2009, Rosetta was introduced as a digital preservation and asset management application.[19]
+
+In January 2011, in collaboration with four development partners, the company released the Ex Libris Alma library management system, the first SaaS cloud-based library services platform, representing the company's shift from an on-premise to a SaaS technology provider.[20]
+
+Golden Gate Capital acquired Ex Libris in 2012.[21]
+
+Ex Libris acquired oMbiel and its product campusM, a mobile campus platform, in April 2015, marking the company's expansion to educational technology outside libraries.[22]
+
+Leganto, the company's reading list management application, built on the Alma cloud platform, was launched in 2015, and was Ex Libris' entry into the teaching and learning domain.[23][24]
+
+In December 2015, ProQuest acquired Ex Libris.[25][19] It was announced at that time that Ex Libris would also manage the products of the Workflow Solutions division of ProQuest,[26] such as Intota, Summon, and 360 Link.[27]
+
+In February 2018, Ex Libris partnered with five universities across the US to collaborate on the development of a new research services platform, Ex Libris Esploro. It was the company's first step into the research services market.[28] The company provides services to thousands of customers in more than 90 countries.[29] As of 2015, Ex Libris served 43 of the 50 top universities in the world.[29] Over 40 national libraries use Ex Libris solutions.[30]
+
+In August 2018, Ex Libris acquired Research Research Limited (known as *Research), which offers coverage of funding opportunities and publishes news and analysis of research politics and funding in the United Kingdom, Europe, Australia, and New Zealand.[31]
+
+In June 2019, Ex Libris acquired RapidILL, which had been developed by Colorado State University.[32] In December 2019, Ex Libris agreed to acquire Innovative Interfaces (III).[33]
+
+Looking at academic libraries in the United States, by 2020 Ex Libris held a 49 percent market share of that domain, with that share consisting of its Alma, Voyager, and Aleph ILS products.[34]
+
+In May 2021, Clarivate acquired ProQuest/Ex Libris.[35]
+
+Matti Shem Tov was the president and CEO of Ex Libris from 2003 to 2017. He was appointed as CEO of ProQuest in November 2017, and Bar Veinstein took over as president of Ex Libris at that time. In late 2021 Oded Scharfstein was appointed President of Ex Libris. In January 2022 Ofer Mosseri replaced Sharfstein as the General Manager of Ex Libris.[19]

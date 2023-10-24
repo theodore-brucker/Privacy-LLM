@@ -1,0 +1,5 @@
+Deepnet Explorer was a web browser created by Deepnet Security for the Microsoft Windows platform, first released in 2005. The most recent version is 1.5.3 (BETA 3) which was released October 19, 2006.
+
+Developed in Britain, Deepnet Explorer gained early recognition both for its use of anti-phishing tools and the inclusion of a peer-to-peer facility for file sharing, based on the Gnutella network.[1] The anti-phishing feature, in combination with other additions, led the developers to claim that it had a higher level of security than either Firefox or Internet Explorer—however, as the underlying rendering engine was still the same as that employed in Internet Explorer, it was suggested that the improved security would fail to address the vulnerabilities found in the rendering engine.[2] The browser has since been discontinued. According to Deepnet Security themselves, it was "the world's first browser with RSS newsreader, P2P client integration and phishing alarm."[3]
+
+This World Wide Web–related article is a stub. You can help Wikipedia by expanding it.
