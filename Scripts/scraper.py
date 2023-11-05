@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 import random
 
 def scrapeWikiArticle(url, breaker):
-    #try:
     #Stop after 5th recursive call
     if(breaker == 500):
         exit()
@@ -41,7 +40,5 @@ def scrapeWikiArticle(url, breaker):
 
     #Recursive call with the new random link
     scrapeWikiArticle("https://en.wikipedia.org" + linkToScrape['href'], breaker+1)
-    # except:
-    #     scrapeWikiArticle("https://en.wikipedia.org/wiki/Web_scraping", breaker+1)
 
 scrapeWikiArticle("https://en.wikipedia.org/wiki/Web_scraping", 0)

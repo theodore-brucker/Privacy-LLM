@@ -1,5 +1,3 @@
-
-
 The International Standard Book Number (ISBN) is a numeric commercial book identifier that is intended to be unique.[a][b] Publishers purchase or receive ISBNs from an affiliate of the International ISBN Agency.[1]
 
 An ISBN is assigned to each separate edition and variation (except reprintings) of a publication. For example, an e-book, a paperback and a hardcover edition of the same book will each have a different ISBN. The ISBN is ten digits long if assigned before 2007, and thirteen digits long if assigned on or after 1 January 2007.[c] The method of assigning an ISBN is nation-specific and varies between countries, often depending on how large the publishing industry is within a country.
